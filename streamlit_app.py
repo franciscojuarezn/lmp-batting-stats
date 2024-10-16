@@ -3,59 +3,75 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 import seaborn as sns
+import glob
 
 # Load data
-players_2023_df = pd.read_csv('players_data_2023.csv')
-players_2024_df = pd.read_csv('players_data_2024.csv')
-standard_stats_df = pd.read_csv('df_standard_stats.csv')
-advanced_stats_df = pd.read_csv('df_advanced_stats.csv')
+# Load players data files
+players_data_files = glob.glob('stats_data/players_data_*.csv')
+players_df_list = [pd.read_csv(file) for file in players_data_files]
+players_df = pd.concat(players_df_list, ignore_index=True)
 
-# Load hit trajectory data
-hit_trajectory_2023 = pd.read_csv('hit_trajectory_lmp_2023.csv')
-hit_trajectory_2024 = pd.read_csv('hit_trajectory_lmp_2024.csv')
+# Load standard stats files
+standard_stats_files = glob.glob('stats_data/df_standard_stats_*.csv')
+standard_stats_df_list = [pd.read_csv(file) for file in standard_stats_files]
+standard_stats_df = pd.concat(standard_stats_df_list, ignore_index=True)
 
-# Combine the hit data
-hit_trajectory_df = pd.concat([hit_trajectory_2023, hit_trajectory_2024], ignore_index=True)
+# Load advanced stats files
+advanced_stats_files = glob.glob('stats_data/df_advanced_stats_*.csv')
+advanced_stats_df_list = [pd.read_csv(file) for file in advanced_stats_files]
+advanced_stats_df = pd.concat(advanced_stats_df_list, ignore_index=True)
 
-# Combine the players data for 2023 and 2024
-players_df = pd.concat([players_2023_df, players_2024_df])
+# Load hit trajectory data files
+hit_trajectory_files = glob.glob('stats_data/hit_trajectory_lmp_*.csv')
+hit_trajectory_df_list = [pd.read_csv(file) for file in hit_trajectory_files]
+hit_trajectory_df = pd.concat(hit_trajectory_df_list, ignore_index=True)
+
+# Load stadium data
+team_data = pd.read_csv('stats_data/stadium.csv')  # Load the stadium data
 
 # Connect to the SQLite database to get the headshot URLs
-conn = sqlite3.connect('player_headshots_lmp.db')
-
-# Load player IDs and headshot URLs from the database
+conn = sqlite3.connect('stats_data/player_headshots_lmp.db')
 headshots_df = pd.read_sql_query("SELECT playerId, headshot_url FROM player_headshots_lmp", conn)
-
-# Close the database connection
 conn.close()
 
 # Ensure 'playerId' and 'id' are of the same type
 headshots_df['playerId'] = headshots_df['playerId'].astype(int)
-
-# Merge headshot URLs with players data
 players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId', how='left')
 
-# **NEW CODE: Convert 'player_id' in stats DataFrames to string**
 # Ensure 'player_id' in stats DataFrames is of type integer
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
-
-
 # Streamlit app setup
 st.set_page_config(page_title="LMP Batting Stats", layout="wide")
+logo_and_title = """
+    <div style="display: flex; align-items: center;">
+        <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
+        <h1 style="margin-left: 10px;">LMP Batting Stats</h1>
+    </div>
+"""
 
-# Title
-st.title("LMP Batting Stats")
+# Display the logo and title using st.markdown
+st.markdown(logo_and_title, unsafe_allow_html=True)
 st.divider()
+# # Title
+# st.title("LMP Batting Stats")
+# st.divider()
+
 # Filter to exclude players whose position is 'P' (Pitcher)
 non_pitchers_df = players_df[players_df['POS'] != 'P']
-# Drop duplicates based on 'id' to ensure each player appears only once
 non_pitchers_df_unique = non_pitchers_df.drop_duplicates(subset=['id'])
-# Dropdown for selecting a batter (non-pitchers only)
-batter = st.selectbox("Select a Batter", non_pitchers_df_unique['fullName'])
+
+default_player = 'Esteban Quiroz'
+default_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player),0)
+
+col1, col2 = st.columns([1, 3])  # col1 will be smaller, and col2 will be wider
+
+# Place the select box inside the smaller column
+with col1:
+    selected_batter = st.selectbox("Select a Batter", non_pitchers_df_unique['fullName'], index=default_index)
 
 # Get player data for the selected batter
-player_data = non_pitchers_df[non_pitchers_df['fullName'] == batter].iloc[0]
+player_data = non_pitchers_df[non_pitchers_df['fullName'] == selected_batter].iloc[0]
 
 # Display player information in three columns
 st.subheader("Player Information")
@@ -77,7 +93,7 @@ with col3:
     else:
         st.write("No headshot available.")
 
-# st.divider()
+# --- Standard Stats ---
 
 # Filter stats for selected player (can have multiple rows if player has stats for multiple seasons/teams)
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
@@ -93,8 +109,6 @@ standard_stats_filtered = standard_stats[standard_columns].copy()
 
 # Convert 'season' to integer for proper sorting
 standard_stats_filtered['season'] = standard_stats_filtered['season'].astype(int)
-
-# Sort by 'season' in descending order
 standard_stats_filtered = standard_stats_filtered.sort_values('season', ascending=False)
 
 # Format numeric columns in standard stats to three decimal places
@@ -105,7 +119,7 @@ standard_stats_formatted = standard_stats_filtered.style.format({
     'OPS': '{:.3f}'
 })
 
-# Standard stats table
+# Display Standard Stats table
 st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
@@ -117,8 +131,6 @@ advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 
 # Convert 'season' to integer for proper sorting
 advanced_stats_filtered['season'] = advanced_stats_filtered['season'].astype(int)
-
-# Sort by 'season' in descending order
 advanced_stats_filtered = advanced_stats_filtered.sort_values('season', ascending=False)
 
 # Format numeric columns in advanced stats
@@ -137,6 +149,97 @@ advanced_stats_formatted = advanced_stats_filtered.style.format({
     'PopUp%': '{:.1f}'
 })
 
-# Advanced stats table
+# Display Advanced Stats table
 st.subheader("Advanced Stats & Batted Ball", divider='gray')
 st.dataframe(advanced_stats_formatted, hide_index=True, use_container_width=True)
+
+# Batted Ball Distribution Section
+st.subheader(f"Batted Ball Distribution for {selected_batter}")
+
+# Create season column from date in hit_trajectory_df
+hit_trajectory_df['date'] = pd.to_datetime(hit_trajectory_df['date'])
+hit_trajectory_df['season'] = hit_trajectory_df['date'].dt.year
+
+# Get available seasons
+available_seasons = sorted(hit_trajectory_df['season'].unique(), reverse=True)
+
+col1, col2 =st.columns([1,3])
+with col1:
+    selected_season = st.selectbox("Select Season", available_seasons)
+
+# Filter the hit trajectory data based on the selected season and batter
+filtered_hit_trajectory = hit_trajectory_df[
+    (hit_trajectory_df['season'] == selected_season) &
+    (hit_trajectory_df['batter_name'] == selected_batter)
+]
+
+# Event types
+event_types = ['single', 'double', 'triple', 'home_run', 'out']
+col1, col2 =st.columns([1,2])
+with col1:
+    selected_events = st.multiselect("Select Event Types", event_types, default=event_types)
+
+# All 'outs'
+out_events = ['field_out', 'double_play', 'force_out', 'sac_bunt', 'grounded_into_double_play', 'sac_fly', 'fielders_choice_out', 'field_error', 'sac_fly_double_play']
+filtered_hit_trajectory['event'] = filtered_hit_trajectory['event'].apply(lambda x: 'out' if x in out_events else x)
+
+# Define splits for LHP and RHP
+vs_LHP = filtered_hit_trajectory[filtered_hit_trajectory['split_batter'] == 'vs_LHP']
+vs_RHP = filtered_hit_trajectory[filtered_hit_trajectory['split_batter'] == 'vs_RHP']
+
+# Filter the data for the selected events
+vs_LHP = vs_LHP[vs_LHP['event'].isin(selected_events)]
+vs_RHP = vs_RHP[vs_RHP['event'].isin(selected_events)]
+
+# Create two columns for side-by-side plots
+col1, col2 = st.columns(2)
+
+# Function to plot the field and hit outcomes
+def plot_field_and_hits(team_data, hit_data, selected_column, palette, plot_title):
+    plt.figure(figsize=(8,8))
+    y_offset = 275
+    excluded_segments = ['outfield_inner']
+    
+    # Plot the field layout
+    for segment_name in team_data['segment'].unique():
+        if segment_name not in excluded_segments:
+            segment_data = team_data[team_data['segment'] == segment_name]
+            plt.plot(segment_data['x'], -segment_data['y'] + y_offset, linewidth=4, zorder=1, color='forestgreen', alpha=0.5)
+
+    # Adjust hit coordinates and plot the hits
+    hit_data['adj_coordY'] = -hit_data['coordY'] + y_offset
+    sns.scatterplot(data=hit_data, x='coordX', y='adj_coordY', hue=selected_column, palette=palette, edgecolor='black', s=100, alpha=0.7)
+
+    plt.text(295, 23, 'Created by: @iamfrankjuarez', fontsize=8, color='grey', alpha=0.3, ha='right')
+
+    plt.title(plot_title, fontsize=15)
+    plt.xlabel("")
+    plt.ylabel("")
+    plt.legend(title=selected_column, title_fontsize='11', fontsize='11', borderpad=1)
+    plt.xticks([])
+    plt.yticks([])
+    plt.xlim(-50, 300)
+    plt.ylim(20, 300)
+    plt.gca().set_aspect('equal', adjustable='box')
+    plt.grid(False)
+    st.pyplot(plt)
+
+# Plot for vs LHP
+with col1:
+    if not vs_LHP.empty:
+        plot_title = f"Batted Ball Outcomes vs LHP for {selected_batter}"
+        plot_field_and_hits(team_data, vs_LHP, 'event', {
+            'single': 'darkorange', 'double': 'purple', 'triple': 'yellow', 'home_run': 'red', 'out': 'grey'
+        }, plot_title)
+    else:
+        st.write("No data available for vs LHP.")
+
+# Plot for vs RHP
+with col2:
+    if not vs_RHP.empty:
+        plot_title = f"Batted Ball Outcomes vs RHP for {selected_batter}"
+        plot_field_and_hits(team_data, vs_RHP, 'event', {
+            'single': 'darkorange', 'double': 'purple', 'triple': 'yellow', 'home_run': 'red', 'out': 'grey'
+        }, plot_title)
+    else:
+        st.write("No data available for vs RHP.")
