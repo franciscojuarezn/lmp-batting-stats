@@ -112,25 +112,23 @@ with col3:
     if pd.notna(player_data['headshot_url']):
         st.image(player_data['headshot_url'], width=150)
     else:
-        st.write("No headshot available.")
+        st.image(os.path.join('stats_data', 'current.jpg'), width=150)
 
 # --- Standard Stats ---
 
+# --- Standard Stats ---
 # Filter stats for selected player (can have multiple rows if player has stats for multiple seasons/teams)
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
-advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
 
-# Convert 'season' column to string in both dataframes
-standard_stats['season'] = standard_stats['season'].astype(str)
-advanced_stats['season'] = advanced_stats['season'].astype(str)
+# Convert 'season' to integer for proper sorting
+standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
 # Select specific columns and order for standard stats
 standard_columns = ['season', 'team', 'Name', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
 standard_stats_filtered = standard_stats[standard_columns].copy()
 
-# Convert 'season' to integer for proper sorting
-standard_stats_filtered['season'] = standard_stats_filtered['season'].astype(int)
-standard_stats_filtered = standard_stats_filtered.sort_values('season', ascending=False)
+# Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
+standard_stats_filtered = standard_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
 
 # Format numeric columns in standard stats to three decimal places
 standard_stats_formatted = standard_stats_filtered.style.format({
@@ -145,16 +143,20 @@ st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
 # --- Advanced Stats ---
+# Filter stats for selected player (can have multiple rows if player has stats for multiple seasons/teams)
+advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
+
+# Convert 'season' to integer for proper sorting
+advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
 # Select specific columns and order for advanced stats
 advanced_columns = ['season', 'team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
 advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 
-# Convert 'season' to integer for proper sorting
-advanced_stats_filtered['season'] = advanced_stats_filtered['season'].astype(int)
-advanced_stats_filtered = advanced_stats_filtered.sort_values('season', ascending=False)
+# Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
+advanced_stats_filtered = advanced_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
 
-# Format numeric columns in advanced stats
+# Format numeric columns in advanced stats to the appropriate decimal places
 advanced_stats_formatted = advanced_stats_filtered.style.format({
     'BABIP': '{:.3f}',
     'K%': '{:.1f}',
@@ -173,7 +175,6 @@ advanced_stats_formatted = advanced_stats_filtered.style.format({
 # Display Advanced Stats table
 st.subheader("Advanced Stats & Batted Ball", divider='gray')
 st.dataframe(advanced_stats_formatted, hide_index=True, use_container_width=True)
-
 # Batted Ball Distribution Section
 st.subheader(f"Batted Ball Distribution for {selected_batter}")
 
@@ -202,7 +203,8 @@ with col1:
 
 # All 'outs'
 out_events = ['field_out', 'double_play', 'force_out', 'sac_bunt', 'grounded_into_double_play', 'sac_fly', 'fielders_choice_out', 'field_error', 'sac_fly_double_play']
-filtered_hit_trajectory['event'] = filtered_hit_trajectory['event'].apply(lambda x: 'out' if x in out_events else x)
+filtered_hit_trajectory.loc[:, 'event'] = filtered_hit_trajectory['event'].apply(lambda x: 'out' if x in out_events else x)
+
 
 # Define splits for LHP and RHP
 vs_LHP = filtered_hit_trajectory[filtered_hit_trajectory['split_batter'] == 'vs_LHP']
