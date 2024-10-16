@@ -73,7 +73,7 @@ jupyterlab==4.2.3
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.2
 kiwisolver==1.4.5
-lxml==4.9.2
+lxml==4.9.3
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.8.4
@@ -131,8 +131,6 @@ pytest==8.1.1
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2023.3
-pywin32==303
-pywin32-ctypes==0.2.2
 pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==26.0.3
