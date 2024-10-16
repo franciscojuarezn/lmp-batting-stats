@@ -5,35 +5,55 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
 
-# # Load data
-# @st.cache_data
-# Load players data files
-players_data_files = glob.glob('stats_data/players_data_*.csv')
-players_df_list = [pd.read_csv(file) for file in players_data_files]
-players_df = pd.concat(players_df_list, ignore_index=True)
+import os
 
-# Load standard stats files
-standard_stats_files = glob.glob('stats_data/df_standard_stats_*.csv')
-standard_stats_df_list = [pd.read_csv(file) for file in standard_stats_files]
-standard_stats_df = pd.concat(standard_stats_df_list, ignore_index=True)
+# Streamlit page config must be the first Streamlit command
+st.set_page_config(page_title="LMP Batting Stats", layout="wide")
 
-# Load advanced stats files
-advanced_stats_files = glob.glob('stats_data/df_advanced_stats_*.csv')
-advanced_stats_df_list = [pd.read_csv(file) for file in advanced_stats_files]
-advanced_stats_df = pd.concat(advanced_stats_df_list, ignore_index=True)
 
-# Load hit trajectory data files
-hit_trajectory_files = glob.glob('stats_data/hit_trajectory_lmp_*.csv')
-hit_trajectory_df_list = [pd.read_csv(file) for file in hit_trajectory_files]
-hit_trajectory_df = pd.concat(hit_trajectory_df_list, ignore_index=True)
+# Load data with caching to improve performance
+@st.cache_data
+def load_players_data():
+    players_data_files = glob.glob(os.path.join('stats_data', 'players_data_*.csv'))
+    players_df_list = [pd.read_csv(file) for file in players_data_files]
+    return pd.concat(players_df_list, ignore_index=True)
 
-# Load stadium data
-team_data = pd.read_csv('stats_data/stadium.csv')  # Load the stadium data
+@st.cache_data
+def load_standard_stats():
+    standard_stats_files = glob.glob(os.path.join('stats_data', 'df_standard_stats_*.csv'))
+    standard_stats_df_list = [pd.read_csv(file) for file in standard_stats_files]
+    return pd.concat(standard_stats_df_list, ignore_index=True)
 
-# Connect to the SQLite database to get the headshot URLs
-conn = sqlite3.connect('stats_data/player_headshots_lmp.db')
-headshots_df = pd.read_sql_query("SELECT playerId, headshot_url FROM player_headshots_lmp", conn)
-conn.close()
+@st.cache_data
+def load_advanced_stats():
+    advanced_stats_files = glob.glob(os.path.join('stats_data', 'df_advanced_stats_*.csv'))
+    advanced_stats_df_list = [pd.read_csv(file) for file in advanced_stats_files]
+    return pd.concat(advanced_stats_df_list, ignore_index=True)
+
+@st.cache_data
+def load_hit_trajectory():
+    hit_trajectory_files = glob.glob(os.path.join('stats_data', 'hit_trajectory_lmp_*.csv'))
+    hit_trajectory_df_list = [pd.read_csv(file) for file in hit_trajectory_files]
+    return pd.concat(hit_trajectory_df_list, ignore_index=True)
+
+@st.cache_data
+def load_stadium_data():
+    return pd.read_csv(os.path.join('stats_data', 'stadium.csv'))
+
+@st.cache_data
+def load_headshots():
+    conn = sqlite3.connect(os.path.join('stats_data', 'player_headshots_lmp.db'))
+    headshots_df = pd.read_sql_query("SELECT playerId, headshot_url FROM player_headshots_lmp", conn)
+    conn.close()
+    return headshots_df
+
+# Load datasets
+players_df = load_players_data()
+standard_stats_df = load_standard_stats()
+advanced_stats_df = load_advanced_stats()
+hit_trajectory_df = load_hit_trajectory()
+team_data = load_stadium_data()
+headshots_df = load_headshots()
 
 # Ensure 'playerId' and 'id' are of the same type
 headshots_df['playerId'] = headshots_df['playerId'].astype(int)
@@ -42,8 +62,8 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 # Ensure 'player_id' in stats DataFrames is of type integer
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
-# Streamlit app setup
-st.set_page_config(page_title="LMP Batting Stats", layout="wide")
+# # Streamlit app setup
+# st.set_page_config(page_title="LMP Batting Stats", layout="wide")
 logo_and_title = """
     <div style="display: flex; align-items: center;">
         <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
