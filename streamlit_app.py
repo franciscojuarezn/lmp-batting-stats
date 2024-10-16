@@ -117,18 +117,22 @@ with col3:
 # --- Standard Stats ---
 
 # --- Standard Stats ---
-# Filter stats for selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
 
 # Convert 'season' to integer for proper sorting
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
 # Select specific columns and order for standard stats
-standard_columns = ['season', 'Name','team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
+standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
 standard_stats_filtered = standard_stats[standard_columns].copy()
 
-# Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
+# Sort by season in descending order and by team
 standard_stats_filtered = standard_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
+
+# Apply formatting to highlight rows where 'team' is '2 Teams'
+def highlight_two_teams(row):
+    return ['background-color: #003153' if row['team'] == '2 Teams' else '' for _ in row]
 
 # Format numeric columns in standard stats to three decimal places
 standard_stats_formatted = standard_stats_filtered.style.format({
@@ -136,25 +140,29 @@ standard_stats_formatted = standard_stats_filtered.style.format({
     'OBP': '{:.3f}',
     'SLG': '{:.3f}',
     'OPS': '{:.3f}'
-})
+}).apply(highlight_two_teams, axis=1)
 
 # Display Standard Stats table
 st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
 # --- Advanced Stats ---
-# Filter stats for selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
 advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
 
 # Convert 'season' to integer for proper sorting
 advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
 # Select specific columns and order for advanced stats
-advanced_columns = ['season', 'Name','team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
+advanced_columns = ['season', 'Name', 'team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
 advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 
-# Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
+# Sort by season in descending order and by team
 advanced_stats_filtered = advanced_stats_filtered.sort_values(by=['season', 'team'], ascending=[False, False])
+
+# Apply formatting to highlight rows where 'team' is '2 Teams'
+def highlight_two_teams(row):
+    return ['background-color: #003153' if row['team'] == '2 Teams' else '' for _ in row]
 
 # Format numeric columns in advanced stats to the appropriate decimal places
 advanced_stats_formatted = advanced_stats_filtered.style.format({
@@ -170,11 +178,12 @@ advanced_stats_formatted = advanced_stats_filtered.style.format({
     'GB%': '{:.1f}',
     'LD%': '{:.1f}',
     'PopUp%': '{:.1f}'
-})
+}).apply(highlight_two_teams, axis=1)
 
 # Display Advanced Stats table
 st.subheader("Advanced Stats & Batted Ball", divider='gray')
 st.dataframe(advanced_stats_formatted, hide_index=True, use_container_width=True)
+
 # Batted Ball Distribution Section
 st.subheader(f"Batted Ball Distribution for {selected_batter}")
 
