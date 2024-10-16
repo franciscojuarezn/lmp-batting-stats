@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
 
-# Load data
+# # Load data
+# @st.cache_data
 # Load players data files
 players_data_files = glob.glob('stats_data/players_data_*.csv')
 players_df_list = [pd.read_csv(file) for file in players_data_files]
