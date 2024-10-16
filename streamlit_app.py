@@ -124,7 +124,7 @@ standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
 # Select specific columns and order for standard stats
-standard_columns = ['season', 'team', 'Name', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
+standard_columns = ['season', 'Name','team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
 standard_stats_filtered = standard_stats[standard_columns].copy()
 
 # Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
@@ -150,7 +150,7 @@ advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data
 advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
 # Select specific columns and order for advanced stats
-advanced_columns = ['season', 'team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
+advanced_columns = ['season', 'Name','team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
 advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 
 # Sort by season in descending order and by team (where "2 Teams" will naturally be placed after individual teams)
