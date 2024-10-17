@@ -124,7 +124,7 @@ standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
 # Select specific columns and order for standard stats
-standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', '2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
+standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', 'SB','2B', '3B', 'HR', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
 standard_stats_filtered = standard_stats[standard_columns].copy()
 
 # Sort by season in descending order and by team
