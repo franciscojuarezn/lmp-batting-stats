@@ -44,7 +44,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 675880,Daniel De La Fuente,18-07-1997,27,"6' 2""",210.0,P,"Ciudad Juarez, Mexico",R/R
 616623,Edwin Fierro,30-08-1993,31,"6' 1""",200.0,P,"Ciudad Obregon, Mexico",R/R
 605218,Carl Edwards Jr.,03-09-1991,33,"6' 3""",165.0,P,"Newberry, USA",R/R
-524648,Alejandro Gonzalez,18-10-1985,38,"5' 11""",155.0,OF,"Navojoa, Mexico",S/R
+524648,Alejandro Gonzalez,18-10-1985,39,"5' 11""",155.0,OF,"Navojoa, Mexico",S/R
 650980,Samuel Zazueta,21-11-1996,27,"5' 11""",170.0,P,"Ciudad Obregon, Mexico",L/L
 693730,Ruben Salinas,13-01-2003,21,"6' 0""",154.0,OF,"Guerrero Negro, Mexico",R/L
 672438,Roberto Valenzuela,03-03-1995,29,"5' 9""",181.0,2B,"Obregon, Mexico",R/R
@@ -59,18 +59,18 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 676761,Irving Lopez,30-06-1995,29,"5' 7""",175.0,2B,"Hermosillo, Mexico",L/R
 676689,Ricky Karcher,18-09-1997,27,"6' 4""",230.0,P,"Saline, USA",R/R
 701033,Jorge Rivera,09-11-2000,23,"5' 6""",147.0,IF,"Los Mochis, Mexico",R/R
+669214,Conner Menez,29-05-1995,29,"6' 2""",206.0,P,"Hollister, USA",L/L
 807581,Randy Delgado,28-04-2002,22,"6' 0""",198.0,OF,,L/L
 703655,Dan Kubiuk,30-09-1995,29,"6' 1""",220.0,P,"Barrington, USA",R/R
 687045,Justin Wylie,26-08-1996,28,"5' 10""",194.0,OF,"Lancaster, USA",R/R
 641962,CD Pelham,21-02-1995,29,"6' 6""",238.0,P,"Lancaster, USA",R/L
 519068,Efren Navarro,14-05-1986,38,"6' 0""",210.0,1B,"Lynwood, USA",L/L
 683124,Fernando Olguin,04-03-2001,23,"5' 9""",155.0,P,"Tijuana, Mexico",R/R
-826183,Ian Medina,07-07-2004,20,"6' 0""",195.0,P,"Nanchital de Lazaro, Mexico",L/L
 676190,Carlos Morales,05-01-1997,27,"6' 1""",200.0,P,"Saltillo, Mexico",R/R
 660840,Jose Lizarraga,27-08-1997,27,"5' 10""",170.0,C,"Mazatlan, Mexico",R/R
+663793,Dakota Chalmers,08-10-1996,28,"6' 3""",175.0,P,"Snellville, USA",R/R
 657675,Rudy Martin,31-01-1996,28,"5' 8""",155.0,OF,"Memphis, USA",L/L
 660436,Yadir Drake,12-04-1990,34,"6' 0""",200.0,OF,"Matanzas, Cuba",R/R
-828443,Diego Castro,03-01-2006,18,"6' 2""",194.0,P,,R/R
 829259,Jose Cervantes,30-01-2002,22,,,OF,"Guasave, Mexico",R/R
 656029,Alexis Wilson,13-08-1996,28,"5' 10""",200.0,C,"Los Mochis, Mexico",R/R
 674810,Victor Castaneda,27-08-1998,26,"6' 1""",185.0,P,"Culiacan, Mexico",R/R
@@ -92,7 +92,9 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 656839,Jorge Perez,10-07-1993,31,"6' 2""",205.0,P,"Tolleson, USA",R/R
 695000,Poncho Ruiz,23-02-2002,22,"6' 1""",210.0,C,"Tijuana, Mexico",R/R
 455378,Ali Solis,29-09-1987,37,"6' 0""",200.0,C,"Mexicali, Mexico",R/R
+682608,Peyton Gray,02-06-1995,29,"6' 4""",235.0,P,"Columbus, USA",R/R
 674706,Alan Lopez,03-01-1996,28,"5' 10""",177.0,1B,"Guasave, Mexico",L/R
+594105,Aldo Montes,02-02-1990,34,"6' 1""",180.0,P,"Tijuana Baja, Mexico",R/R
 518435,Manny Barreda,08-10-1988,36,"5' 11""",195.0,P,"Prescott, USA",R/R
 668665,Stephen Nogosek,11-01-1995,29,"6' 2""",205.0,P,"Roseville, USA",R/R
 660420,Carlos Machorro,20-09-1996,28,"6' 2""",175.0,P,"Monterrey, Mexico",R/R
@@ -100,17 +102,15 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 827653,Luis Aguayo,20-11-2007,16,"6' 1""",177.0,P,"Culiacan, Mexico",R/R
 510548,Jose Heberto Felix,28-06-1988,36,"5' 10""",200.0,C,"Guasave, Mexico",R/R
 678713,Efrain Contreras,02-01-2000,24,"5' 10""",225.0,P,"Ciudad Juarez, Mexico",R/R
-622739,Ariel Gracia,17-09-1994,30,"5' 11""",173.0,P,"Ciudad Obregon, Mexico",L/L
 667050,Grant Gavin,10-07-1995,29,"6' 2""",185.0,P,"Parkville, USA",R/R
 698962,Ricardo Estrada,25-06-2002,22,"6' 0""",170.0,P,"Chihuahua, Mexico",L/L
-806317,Axel Sauceda,19-05-2001,23,"6' 7""",229.0,P,"Culiacan, Mexico",R/R
 655996,Cristian Santana,24-02-1997,27,"6' 2""",175.0,3B,"San Cristobal, Dominican Republic",R/R
 657733,Roberto Ramos,28-12-1994,29,"6' 3""",220.0,1B,"Hermosillo, Mexico",L/R
-700032,Victor Labrada,16-01-2000,24,"5' 8""",195.0,OF,"Havana, Cuba",L/L
+676019,Oscar Rojas,05-05-1999,25,"5' 11""",200.0,P,"Guanajuato, Mexico",R/R
 477399,Jesse Castillo,03-03-1983,41,"6' 1""",205.0,3B,"Mexicali, Mexico",L/R
 677605,Luis Verdugo,12-10-2000,24,"6' 2""",160.0,3B,"La Paz, Mexico",R/R
 695871,Jesus Broca,16-10-2003,21,"5' 9""",183.0,P,"Villahermosa, Mexico",L/L
-687455,Juan Cossio,10-01-1999,25,"6' 0""",194.0,P,"La Paz, Mexico",R/R
+664039,Geno Encina,07-07-1994,30,"6' 4""",220.0,P,"San Antonio, USA",L/R
 687019,Andrés Alvarez,29-03-1997,27,"5' 8""",175.0,SS,"Chula Vista, USA",R/R
 666017,Ruben Reyes,01-10-1995,29,"5' 11""",170.0,OF,,L/L
 572943,Jeff Ibarra,18-08-1987,37,"6' 6""",180.0,P,"Escondido, USA",L/L
@@ -118,10 +118,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 596105,Dwight Smith Jr.,26-10-1992,31,"6' 0""",210.0,OF,"Peachtree City, USA",L/R
 677690,Diosbel Arias,21-07-1996,28,"6' 2""",190.0,1B,"Havana, Cuba",R/R
 642856,Fabian Anguamea,21-12-1993,30,"6' 2""",198.0,P,"Ciudad Obregon, Mexico",R/R
-663793,Dakota Chalmers,08-10-1996,28,"6' 3""",175.0,P,"Snellville, USA",R/R
-594105,Aldo Montes,02-02-1990,34,"6' 1""",180.0,P,"Tijuana Baja, Mexico",R/R
+826183,Ian Medina,07-07-2004,20,"6' 0""",195.0,P,"Nanchital de Lazaro, Mexico",L/L
+828443,Diego Castro,03-01-2006,18,"6' 2""",194.0,P,,R/R
+622739,Ariel Gracia,17-09-1994,30,"5' 11""",173.0,P,"Ciudad Obregon, Mexico",L/L
+806317,Axel Sauceda,19-05-2001,23,"6' 7""",229.0,P,"Culiacan, Mexico",R/R
+700032,Victor Labrada,16-01-2000,24,"5' 8""",195.0,OF,"Havana, Cuba",L/L
+687455,Juan Cossio,10-01-1999,25,"6' 0""",194.0,P,"La Paz, Mexico",R/R
 800099,Edwin Cervantes,06-09-2004,20,"6' 3""",159.0,P,"Guasave, Mexico",L/L
-676019,Oscar Rojas,05-05-1999,25,"5' 11""",200.0,P,"Guanajuato, Mexico",R/R
 829264,Juan Alva,10-03-2006,18,,,IF,,R/L
 641995,Roel Ramírez,26-05-1995,29,"6' 0""",235.0,P,"Laredo, USA",R/R
 703865,Christian Crespo,30-01-2003,21,"6' 2""",190.0,P,"La Paz, MEX",R/R
@@ -314,6 +317,7 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 678540,Brayan Quintero,19-02-1999,25,"5' 9""",176.0,2B,"Mazatlan, Mexico",R/R
 593471,Isaias Tejeda,28-10-1991,32,"6' 0""",195.0,C,"Santo Domingo, Dominican Republic",R/R
 599096,Dilson Herrera,03-03-1994,30,"5' 10""",210.0,2B,"Cartagena, Colombia",R/R
+527054,Julio Teheran,27-01-1991,33,"6' 2""",205.0,P,"Cartagena, Colombia",R/R
 683138,Fernando Lozano,11-01-2000,24,"6' 2""",186.0,P,"Ensenada, Mexico",R/R
 661149,Cristian Castillo,25-09-1994,30,"6' 0""",190.0,P,"Monterrey, Mexico",L/L
 678712,Mario Garcia,27-12-1998,25,"6' 1""",183.0,P,"Los Mochis, Mexico",R/R
@@ -331,7 +335,11 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 592761,Caleb Smith,28-07-1991,33,"6' 0""",207.0,P,"Huntsville, USA",R/L
 661313,Asael Sanchez,04-03-1994,30,"6' 0""",170.0,OF,"CuautItlan, Mexico",R/R
 680653,Denny Roman,30-09-1998,26,"5' 9""",180.0,P,"Zacatecas, Mexico",L/L
+679893,Manuel Urias,08-03-2001,23,"6' 6""",243.0,P,"Ahome, Mexico",R/R
+703590,Frank Moscatiello,27-03-1996,28,"5' 9""",195.0,P,"Rocky Point, United States of America",R/R
 807586,Omar Araujo,07-02-1999,25,"6' 1""",220.0,P,"El Naranjo, Mexico",R/R
 585132,Raul Carrillo,20-11-1991,32,"6' 1""",185.0,P,"Guadalajara, Mexico",R/R
 510554,Andres Ivan Meza,04-08-1986,38,"5' 10""",185.0,P,"Culiacan, Mexico",R/R
 670416,Zach Matson,24-10-1995,28,"6' 3""",225.0,P,"Fayetteville, USA",L/L
+683114,Fernando Burgueno,29-08-1998,26,"5' 10""",183.0,P,"Mazatlan, Mexico",R/R
+650813,Luis Escobar,30-05-1996,28,"6' 1""",205.0,P,"Cartagena, Colombia",R/R

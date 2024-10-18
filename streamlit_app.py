@@ -132,7 +132,7 @@ standard_stats_filtered = standard_stats_filtered.sort_values(by=['season', 'tea
 
 # Apply formatting to highlight rows where 'team' is '2 Teams'
 def highlight_two_teams(row):
-    return ['background-color: #003153' if row['team'] == '2 Teams' else '' for _ in row]
+    return ['background-color: #2E2E2E' if row['team'] == '2 Teams' else '' for _ in row]
 
 # Format numeric columns in standard stats to three decimal places
 standard_stats_formatted = standard_stats_filtered.style.format({
@@ -162,7 +162,7 @@ advanced_stats_filtered = advanced_stats_filtered.sort_values(by=['season', 'tea
 
 # Apply formatting to highlight rows where 'team' is '2 Teams'
 def highlight_two_teams(row):
-    return ['background-color: #003153' if row['team'] == '2 Teams' else '' for _ in row]
+    return ['background-color: #2E2E2E' if row['team'] == '2 Teams' else '' for _ in row]
 
 # Format numeric columns in advanced stats to the appropriate decimal places
 advanced_stats_formatted = advanced_stats_filtered.style.format({
