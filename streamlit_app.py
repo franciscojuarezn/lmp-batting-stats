@@ -82,6 +82,8 @@ st.divider()
 non_pitchers_df = players_df[players_df['POS'] != 'P']
 non_pitchers_df_unique = non_pitchers_df.drop_duplicates(subset=['id'])
 
+non_pitchers_df_unique = non_pitchers_df_unique.sort_values('fullName')
+
 default_player = 'Esteban Quiroz'
 default_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player),0)
 
