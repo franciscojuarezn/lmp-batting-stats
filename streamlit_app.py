@@ -4,12 +4,10 @@ import sqlite3
 import matplotlib.pyplot as plt
 import seaborn as sns
 import glob
-
 import os
 
 # Streamlit page config must be the first Streamlit command
 st.set_page_config(page_title="LMP Batting Stats", layout="wide")
-
 
 # Load data with caching to improve performance
 @st.cache_data
@@ -62,7 +60,7 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 # Ensure 'player_id' in stats DataFrames is of type integer
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
-# # Streamlit app setup
+
 # st.set_page_config(page_title="LMP Batting Stats", layout="wide")
 logo_and_title = """
     <div style="display: flex; align-items: center;">
@@ -74,27 +72,44 @@ logo_and_title = """
 # Display the logo and title using st.markdown
 st.markdown(logo_and_title, unsafe_allow_html=True)
 st.divider()
-# # Title
-# st.title("LMP Batting Stats")
-# st.divider()
+
+batters_with_teams = standard_stats_df[['player_id', 'team_name', 'Name']].drop_duplicates()
+
+players_with_teams = pd.merge(players_df, batters_with_teams, left_on='id', right_on='player_id', how='inner')
 
 # Filter to exclude players whose position is 'P' (Pitcher)
-non_pitchers_df = players_df[players_df['POS'] != 'P']
+non_pitchers_df = players_with_teams[players_with_teams['POS'] != 'P']
 non_pitchers_df_unique = non_pitchers_df.drop_duplicates(subset=['id'])
 
+# Sort players by name
 non_pitchers_df_unique = non_pitchers_df_unique.sort_values('fullName')
 
+# Set Esteban Quiroz as the default player
 default_player = 'Esteban Quiroz'
-default_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player),0)
+default_player_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player), 0)
 
-col1, col2 = st.columns([1, 3])  # col1 will be smaller, and col2 will be wider
+# Add "ALL" to the list of teams for filtering
+teams_unique = ["ALL"] + non_pitchers_df_unique['team_name'].unique().tolist()
 
-# Place the select box inside the smaller column
+# Layout adjustments for pitcher and team selectboxes
+col1, col2, empty_col1, empty_col2 = st.columns([1, 1, 1, 1])  # Adjust the layout for smaller width
+
+# Select a team with the "ALL" option to start with all players
+with col2:
+    selected_team = st.selectbox("Filter by Team", teams_unique, index=0)
+
+# Filter the batters based on the selected team or show all batters if "ALL" is selected
+if selected_team == "ALL":
+    team_batters = non_pitchers_df_unique
+else:
+    team_batters = non_pitchers_df_unique[non_pitchers_df_unique['team_name'] == selected_team]
+
+# Update the batter selectbox to show only batters from the selected team (or all if "ALL" is selected)
 with col1:
-    selected_batter = st.selectbox("Select a Batter", non_pitchers_df_unique['fullName'], index=default_index)
+    selected_batter = st.selectbox("Select a Batter", team_batters['fullName'].tolist(), index=default_player_index if selected_team == "ALL" else 0)
 
 # Get player data for the selected batter
-player_data = non_pitchers_df[non_pitchers_df['fullName'] == selected_batter].iloc[0]
+player_data = team_batters[team_batters['fullName'] == selected_batter].iloc[0]
 
 # Display player information in three columns
 st.subheader("Player Information")
@@ -103,7 +118,6 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"**Full Name:** {player_data['fullName']}")
     st.write(f"**Position:** {player_data['POS']}")
-    st.write(f"**B/T:** {player_data['B/T']}")
 
 with col2:
     st.write(f"**Birthdate:** {player_data['birthDate']}")
@@ -117,12 +131,8 @@ with col3:
         st.image(os.path.join('stats_data', 'current.jpg'), width=150)
 
 # --- Standard Stats ---
-
-# --- Standard Stats ---
-# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player
 standard_stats = standard_stats_df[standard_stats_df['player_id'] == player_data['id']]
-
-# Convert 'season' to integer for proper sorting
 standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
 # Select specific columns and order for standard stats
@@ -149,10 +159,8 @@ st.subheader("Standard Stats", divider='gray')
 st.dataframe(standard_stats_formatted, hide_index=True, use_container_width=True)
 
 # --- Advanced Stats ---
-# Filter stats for the selected player (can have multiple rows if player has stats for multiple seasons/teams)
+# Filter stats for the selected player
 advanced_stats = advanced_stats_df[advanced_stats_df['player_id'] == player_data['id']]
-
-# Convert 'season' to integer for proper sorting
 advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
 # Select specific columns and order for advanced stats
