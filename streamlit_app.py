@@ -9,12 +9,11 @@ import os
 # Streamlit page config must be the first Streamlit command
 st.set_page_config(page_title="LMP Batting Stats", layout="wide")
 
-
 # Load data with caching to improve performance
 @st.cache_data
 def load_players_data():
     players_data_files = glob.glob(os.path.join('stats_data', 'players_data_*.csv'))
-    players_df_list = [pd.read_csv(file) for file in players_data_files]
+    players_df_list = [pd.read_csv(file) for file in players_data_files]  # Corrected variable name
     return pd.concat(players_df_list, ignore_index=True)
 
 @st.cache_data
@@ -53,6 +52,7 @@ advanced_stats_df = load_advanced_stats()
 hit_trajectory_df = load_hit_trajectory()
 team_data = load_stadium_data()
 headshots_df = load_headshots()
+batters_df = pd.read_csv('batters_df.csv')
 
 # Ensure 'playerId' and 'id' are of the same type
 headshots_df['playerId'] = headshots_df['playerId'].astype(int)
@@ -61,30 +61,14 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 # Ensure 'player_id' in stats DataFrames is of type integer
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
-# # Streamlit app setup
-# st.set_page_config(page_title="LMP Batting Stats", layout="wide")
-logo_and_title = """
-    <div style="display: flex; align-items: center;">
-        <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
-        <h1 style="margin-left: 10px;">LMP Batting Stats</h1>
-    </div>
-"""
-
-# Display the logo and title using st.markdown
-st.markdown(logo_and_title, unsafe_allow_html=True)
-st.divider()
-# # Title
-# st.title("LMP Batting Stats")
-# st.divider()
 
 # Filter to exclude players whose position is 'P' (Pitcher)
 non_pitchers_df = players_df[players_df['POS'] != 'P']
 non_pitchers_df_unique = non_pitchers_df.drop_duplicates(subset=['id'])
-
 non_pitchers_df_unique = non_pitchers_df_unique.sort_values('fullName')
 
 default_player = 'Esteban Quiroz'
-default_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player),0)
+default_index = next((i for i, name in enumerate(non_pitchers_df_unique['fullName']) if name == default_player), 0)
 
 col1, col2 = st.columns([1, 3])  # col1 will be smaller, and col2 will be wider
 
@@ -95,9 +79,75 @@ with col1:
 # Get player data for the selected batter
 player_data = non_pitchers_df[non_pitchers_df['fullName'] == selected_batter].iloc[0]
 
+# Filter player stats for the 2024 season
+def filter_2024_season_data(player_name, df):
+    player_ops_data = df[df['FullName'] == player_name]
+    
+    # Filter for the 2024 season
+    player_ops_data['Date'] = pd.to_datetime(player_ops_data['Date'])
+    player_ops_data['season'] = player_ops_data['Date'].dt.year
+    player_2024_ops_data = player_ops_data[player_ops_data['season'] == 2024]
+    
+    return player_2024_ops_data
+
+# Adjusted plotting function to handle missing 2024 season data
+def plot_player_ops_styled_2024(player_name, player_ops_data, league_avg_ops):
+    if player_ops_data.empty:
+        st.write("")
+        return
+    
+    # Convert 'Date' column to datetime for proper sorting and plotting
+    player_ops_data['Date'] = pd.to_datetime(player_ops_data['Date'])
+    
+    # Sort by date for accurate plotting
+    player_ops_data = player_ops_data.sort_values('Date')
+    
+    # Plot the player's OPS over time with custom styles
+    plt.figure(figsize=(8, 4))
+    plt.gca().set_facecolor('beige')   # Set plot background color
+    plt.gcf().set_facecolor('beige')   # Set figure background color
+
+    plt.plot(
+        player_ops_data['Date'], player_ops_data['OPS'], 
+        color='blue',         # Line color
+        linestyle='-',        # Solid line
+        marker='o',           # Circle markers
+        linewidth=2,          # Line width
+        label='_nolegend_'    # Exclude from legend
+    )
+    
+    # Add a horizontal line for the league average OPS with custom style
+    plt.axhline(
+        y=league_avg_ops, 
+        color='red',          # Red color
+        linestyle='--',       # Dashed line
+        linewidth=2,          # Line width
+        label=f'League Avg OPS: {league_avg_ops:.3f}'
+    )
+    
+    # Add titles and labels
+    plt.title(f'Rolling OPS {player_name}')
+    # plt.xlabel('Date')
+    # plt.ylabel('OPS')
+    plt.legend()
+    plt.grid(False)
+    
+    # Format the x-axis to show only the month and day
+    plt.gca().xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter('%m-%d'))
+    
+    # Format the y-axis to display 3 decimal places
+    plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:.3f}'))
+
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45)
+    
+    # Show the plot
+    plt.tight_layout()
+    st.pyplot(plt)
+
 # Display player information in three columns
 st.subheader("Player Information")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns([.5, .5, .5, .8])
 
 with col1:
     st.write(f"**Full Name:** {player_data['fullName']}")
@@ -108,13 +158,18 @@ with col2:
     st.write(f"**Birthdate:** {player_data['birthDate']}")
     st.write(f"**Birthplace:** {player_data['Birthplace']}")
 
+# Filter for 2024 season data
+with col4:
+    player_ops_data_2024 = filter_2024_season_data(selected_batter, batters_df)  # Filter data for the selected player in 2024
+    league_avg_ops = 0.654  # Replace with the actual calculated league average OPS
+    plot_player_ops_styled_2024(selected_batter, player_ops_data_2024, league_avg_ops)
+
 with col3:
     # Check if headshot_url exists and display the image
     if pd.notna(player_data['headshot_url']):
         st.image(player_data['headshot_url'], width=150)
     else:
         st.image(os.path.join('stats_data', 'current.jpg'), width=150)
-
 # --- Standard Stats ---
 
 # --- Standard Stats ---
