@@ -82,13 +82,15 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 694942,Matt McDermott,21-11-1998,25,"5' 9""",180.0,2B,"Little Falls, USA",R/R
 820829,Charlie Hasty,22-03-1997,27,"5' 11""",210.0,P,"Plattsmouth, USA",R/R
 668992,Missael Rivera,03-03-1996,28,"5' 10""",168.0,IF,"Guasave, Mexico",L/R
-670416,Zach Matson,24-10-1995,28,"6' 3""",225.0,P,"Fayetteville, USA",L/L
+670416,Zach Matson,24-10-1995,29,"6' 3""",225.0,P,"Fayetteville, USA",L/L
 680653,Denny Roman,30-09-1998,26,"5' 9""",180.0,P,"Zacatecas, Mexico",L/L
 547375,Sergio Perez,27-10-1989,34,"6' 0""",180.0,OF,"Nuevo Laredo, Mexico",L/R
 662964,Francisco Haro,17-02-1997,27,"6' 0""",168.0,P,"Los Mochis, Mexico",R/R
 593594,Octavio Acosta,03-08-1990,34,"6' 0""",165.0,P,"Guasave, Mexico",R/R
 672361,Agustin Ruiz,23-09-1999,25,"6' 2""",215.0,OF,"Villahermosa, Mexico",L/R
 691823,Esteban Bloch,06-08-1999,25,"6' 3""",187.0,P,"Hermosillo, Mexico",R/R
+677604,Damian Mendoza,25-01-2001,23,"6' 1""",175.0,P,"Navajoa, Mexico",L/R
+666016,Jose Albertos,07-11-1998,25,"6' 1""",185.0,P,"Reynoso, Mexico",R/R
 614182,Jose Carlos Urena,14-01-1995,29,"6' 3""",180.0,OF,"Ciudad Obregon, Mexico",R/R
 678410,Saul Vazquez,25-06-2000,24,"6' 1""",178.0,P,"Merida, Mexico",L/L
 800078,Augusto Mendieta,19-08-2004,20,"5' 11""",190.0,P,"Ciudad Valles, Mexico",R/R
@@ -227,7 +229,6 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 703865,Christian Crespo,30-01-2003,21,"6' 2""",190.0,P,"La Paz, MEX",R/R
 703725,Luis Gastelum,27-09-2001,23,"6' 2""",168.0,P,"Los Mochis, Mexico",R/R
 691714,Kevin Ribon,20-09-2002,22,"6' 0""",157.0,P,"Aguadulce, Mexico",R/R
-677604,Damian Mendoza,25-01-2001,23,"6' 1""",175.0,P,"Navajoa, Mexico",L/R
 692940,Erick Preciado,25-06-1996,28,"6' 0""",180.0,P,,R/R
 604996,Carlos Garzon,14-05-1992,32,"6' 0""",205.0,C,"Oaxaca, Mexico",R/R
 806873,Yael Romero,15-10-2005,19,"5' 11""",175.0,1B,,L/R
@@ -332,13 +333,13 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 642574,Ronald Medrano,17-09-1995,29,"6' 0""",170.0,P,"Managua, Nicaragua",R/R
 570799,Christian Villanueva,19-06-1991,33,"5' 11""",210.0,3B,"Guadalajara, Mexico",R/R
 593495,Daniel Castro,14-11-1992,31,"5' 11""",201.0,SS,"Guaymas, Mexico",R/R
-686317,Edgar Manzo,24-10-2000,23,"5' 11""",181.0,P,"Guadalajara, Mexico",R/R
+686317,Edgar Manzo,24-10-2000,24,"5' 11""",181.0,P,"Guadalajara, Mexico",R/R
 593372,Carlos Martinez,21-09-1991,33,"6' 0""",200.0,P,"Puerto Plata, Dominican Republic",R/R
 680029,Oziel Flores,12-09-1997,27,"5' 6""",160.0,IF,"Guadalajara, Mexico",S/R
 806157,Christian Morales,27-07-2001,23,"6' 0""",187.0,OF,"Saltillo, Mexico",R/R
+680048,Aldo Ramirez,06-05-2001,23,"6' 0""",191.0,P,"Aguascalientes, Mexico",R/R
 672666,Adolfo Ramirez,01-06-1999,25,"6' 0""",165.0,P,"Heroica Mulege, Mexico",R/R
 624221,Carlos Figueroa,10-04-1992,32,"5' 8""",220.0,OF,"Hermosillo, Mexico",S/R
-680048,Aldo Ramirez,06-05-2001,23,"6' 0""",191.0,P,"Aguascalientes, Mexico",R/R
 801726,Santiago Gomez,05-04-2004,20,"5' 11""",160.0,SS,"Ciudad de Mexico, MEX",R/R
 600526,José Torres,24-09-1993,31,"6' 2""",175.0,P,"Caracas, Venezuela",L/L
 692643,Ernesto Borges,17-05-2001,23,"6' 2""",188.0,P,"Campeche, Mexico",R/R
@@ -348,8 +349,12 @@ id,fullName,birthDate,currentAge,height,weight,POS,Birthplace,B/T
 664475,Edgar Torres,09-04-1996,28,"6' 1""",201.0,P,"Puebla, Mexico",L/L
 656252,Bobby Bradley,29-05-1996,28,"6' 1""",225.0,1B,"Chicago, USA",L/R
 670986,Jose Bravo,10-06-1997,27,"6' 3""",213.0,P,"Tijuana, Mexico",R/R
+660610,Carlos De Leon,28-06-1997,27,"6' 1""",180.0,C,"Cadereyeta Jimenez, Mexico",R/R
 692401,Juan Salas,14-02-2003,21,"6' 0""",189.0,P,"Monterrey, Mexico",R/R
-679893,Manuel Urias,08-03-2001,23,"6' 6""",243.0,P,"Ahome, Mexico",R/R
 807586,Omar Araujo,07-02-1999,25,"6' 1""",220.0,P,"El Naranjo, Mexico",R/R
+829274,Damian Mora,14-01-2003,21,"5' 10""",171.0,IF,"Los Mochis, Mexico",R/R
+691678,Vidal Sotelo,11-08-2002,22,"5' 9""",211.0,P,"Guasave, Mexico",L/L
+679893,Manuel Urias,08-03-2001,23,"6' 6""",243.0,P,"Ahome, Mexico",R/R
 683114,Fernando Burgueno,29-08-1998,26,"5' 10""",183.0,P,"Mazatlan, Mexico",R/R
 700071,Alexandro Tovalin,25-11-1997,26,"6' 0""",187.0,P,"San Diego, USA",R/R
+543875,Niko Vasquez,26-02-1989,35,"6' 0""",170.0,3B,"Oxnard, USA",R/R

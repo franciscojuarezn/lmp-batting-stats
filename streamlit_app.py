@@ -62,6 +62,18 @@ players_df = pd.merge(players_df, headshots_df, left_on='id', right_on='playerId
 standard_stats_df['player_id'] = standard_stats_df['player_id'].astype(int)
 advanced_stats_df['player_id'] = advanced_stats_df['player_id'].astype(int)
 
+# st.set_page_config(page_title="LMP Batting Stats", layout="wide")
+logo_and_title = """
+    <div style="display: flex; align-items: center;">
+        <img src="https://www.lmp.mx/assets/img/header/logo_80_aniversary.webp" alt="LMP Logo" width="50" height="50">
+        <h1 style="margin-left: 10px;">LMP Batting Stats</h1>
+    </div>
+"""
+
+# Display the logo and title using st.markdown
+st.markdown(logo_and_title, unsafe_allow_html=True)
+st.divider()
+
 # Filter to exclude players whose position is 'P' (Pitcher)
 non_pitchers_df = players_df[players_df['POS'] != 'P']
 non_pitchers_df_unique = non_pitchers_df.drop_duplicates(subset=['id'])
@@ -161,7 +173,7 @@ with col2:
 # Filter for 2024 season data
 with col4:
     player_ops_data_2024 = filter_2024_season_data(selected_batter, batters_df)  # Filter data for the selected player in 2024
-    league_avg_ops = 0.659  # Replace with the actual calculated league average OPS
+    league_avg_ops = 0.667  # Replace with the actual calculated league average OPS
     plot_player_ops_styled_2024(selected_batter, player_ops_data_2024, league_avg_ops)
 
 with col3:

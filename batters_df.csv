@@ -1,1197 +1,1341 @@
-PlayerID,FullName,Team,Home,OPS,Date
-689161,Carlos Arellano,Venados de Mazatlan,False,0.0,2024-10-20
-622603,Carlos Castro,Venados de Mazatlan,False,0.765,2024-10-20
-668165,Jose Gaitan,Venados de Mazatlan,False,0.79,2024-10-20
-499926,Alex Liddi,Venados de Mazatlan,False,0.602,2024-10-20
-503429,Walter Ibarra,Venados de Mazatlan,False,0.0,2024-10-20
-675202,Juan Kirk,Venados de Mazatlan,False,0.0,2024-10-20
-608608,Carlos Munoz,Venados de Mazatlan,False,0.661,2024-10-20
-678499,Randy Romero,Venados de Mazatlan,False,0.55,2024-10-20
-671246,Fabricio Macias,Venados de Mazatlan,False,0.495,2024-10-20
-634496,Leo German,Venados de Mazatlan,False,0.523,2024-10-20
-455369,Ramiro Pena,Venados de Mazatlan,False,0.414,2024-10-20
-678540,Brayan Quintero,Venados de Mazatlan,False,0.569,2024-10-20
-599096,Dilson Herrera,Venados de Mazatlan,False,0.833,2024-10-20
-473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.633,2024-10-20
-678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.0,2024-10-20
-657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.81,2024-10-20
-662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.838,2024-10-20
-571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.833,2024-10-20
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.663,2024-10-20
-807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,2024-10-20
-672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.592,2024-10-20
-641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.56,2024-10-20
-815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,2024-10-20
-680023,Daniel Mercado,Naranjeros de Hermosillo,True,0.0,2024-10-20
-546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.276,2024-10-20
-803376,Angel Camacho,Naranjeros de Hermosillo,True,0.714,2024-10-20
-676761,Irving Lopez,Naranjeros de Hermosillo,True,0.511,2024-10-20
-664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2024-10-22
-458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.819,2024-10-22
-661313,Asael Sanchez,Mayos de Navojoa,False,0.872,2024-10-22
-617918,Marco Chicuate,Mayos de Navojoa,False,1.867,2024-10-22
-550492,Luis Juarez,Mayos de Navojoa,False,0.513,2024-10-22
-694942,Matt McDermott,Mayos de Navojoa,False,0.977,2024-10-22
-668992,Missael Rivera,Mayos de Navojoa,False,0.634,2024-10-22
-680636,Ramon Mendoza,Mayos de Navojoa,False,0.65,2024-10-22
-634739,Miguel Guzman,Mayos de Navojoa,False,0.39,2024-10-22
-686659,Julian Escobedo,Mayos de Navojoa,False,0.722,2024-10-22
-547375,Sergio Perez,Mayos de Navojoa,False,1.4,2024-10-22
-660842,Juan Uriarte,Mayos de Navojoa,False,0.634,2024-10-22
-664009,Brantley Bell,Mayos de Navojoa,False,0.683,2024-10-22
-678966,Mike Hart,Mayos de Navojoa,False,0.336,2024-10-22
-672361,Agustin Ruiz,Mayos de Navojoa,False,0.418,2024-10-22
-473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.861,2024-10-22
-678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.222,2024-10-22
-657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.797,2024-10-22
-662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.964,2024-10-22
-571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.875,2024-10-22
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.796,2024-10-22
-807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.111,2024-10-22
-672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.639,2024-10-22
-641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.522,2024-10-22
-815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,2024-10-22
-680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2024-10-22
-546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.292,2024-10-22
-803376,Angel Camacho,Naranjeros de Hermosillo,True,0.774,2024-10-22
-676761,Irving Lopez,Naranjeros de Hermosillo,True,0.563,2024-10-22
-622700,Santiago Chávez,Yaquis de Obregon,False,1.0,2024-10-11
-660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,2024-10-11
-546990,Anthony Alford,Yaquis de Obregon,False,0.833,2024-10-11
-642707,Allen Córdoba,Yaquis de Obregon,False,0.0,2024-10-11
-616404,Edson Garcia,Yaquis de Obregon,False,0.5,2024-10-11
-692944,Kevin Villavicencio,Yaquis de Obregon,False,0.0,2024-10-11
-679589,Fernando Villegas,Yaquis de Obregon,False,0.25,2024-10-11
-672438,Roberto Valenzuela,Yaquis de Obregon,False,0.5,2024-10-11
-603877,Fernando Flores,Yaquis de Obregon,False,0.0,2024-10-11
-628013,Victor Mendoza,Yaquis de Obregon,False,0.5,2024-10-11
-802888,Victor Marquez,Yaquis de Obregon,False,0.0,2024-10-11
-571685,Anthony García,Yaquis de Obregon,False,0.5,2024-10-11
-473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.75,2024-10-11
-657051,Nicholas Torres,Naranjeros de Hermosillo,True,1.25,2024-10-11
-606580,Jose Cardona,Naranjeros de Hermosillo,True,0.75,2024-10-11
-662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.666,2024-10-11
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.75,2024-10-11
-672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.5,2024-10-11
-641432,Willie Calhoun,Naranjeros de Hermosillo,True,1.5,2024-10-11
-815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,2024-10-11
-803376,Angel Camacho,Naranjeros de Hermosillo,True,0.666,2024-10-11
-676761,Irving Lopez,Naranjeros de Hermosillo,True,0.5,2024-10-11
-689161,Carlos Arellano,Venados de Mazatlan,False,0.0,2024-10-20
-622603,Carlos Castro,Venados de Mazatlan,False,0.765,2024-10-20
-668165,Jose Gaitan,Venados de Mazatlan,False,0.777,2024-10-20
-499926,Alex Liddi,Venados de Mazatlan,False,0.513,2024-10-20
-685736,Cristian Mejia,Venados de Mazatlan,False,0.0,2024-10-20
-503429,Walter Ibarra,Venados de Mazatlan,False,0.733,2024-10-20
-675202,Juan Kirk,Venados de Mazatlan,False,0.644,2024-10-20
-608608,Carlos Munoz,Venados de Mazatlan,False,0.661,2024-10-20
-678499,Randy Romero,Venados de Mazatlan,False,0.582,2024-10-20
-671246,Fabricio Macias,Venados de Mazatlan,False,0.498,2024-10-20
-634496,Leo German,Venados de Mazatlan,False,0.523,2024-10-20
-455369,Ramiro Pena,Venados de Mazatlan,False,0.4,2024-10-20
-678540,Brayan Quintero,Venados de Mazatlan,False,0.569,2024-10-20
-599096,Dilson Herrera,Venados de Mazatlan,False,0.723,2024-10-20
-473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.636,2024-10-20
-678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.286,2024-10-20
-657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.845,2024-10-20
-662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.864,2024-10-20
-571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.875,2024-10-20
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.626,2024-10-20
-807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,2024-10-20
-672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.766,2024-10-20
-641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.555,2024-10-20
-815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,2024-10-20
-680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2024-10-20
-546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.258,2024-10-20
-803376,Angel Camacho,Naranjeros de Hermosillo,True,0.764,2024-10-20
-676761,Irving Lopez,Naranjeros de Hermosillo,True,0.576,2024-10-20
-540204,Ramon Rios,Tomateros de Culiacan,False,0.333,2024-10-17
-652999,Jesus Fabela,Tomateros de Culiacan,False,0.495,2024-10-17
-695000,Poncho Ruiz,Tomateros de Culiacan,False,1.167,2024-10-17
-455378,Ali Solis,Tomateros de Culiacan,False,0.417,2024-10-17
-519068,Efren Navarro,Tomateros de Culiacan,False,0.607,2024-10-17
-657675,Rudy Martin,Tomateros de Culiacan,False,0.753,2024-10-17
-829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,2024-10-17
-655996,Cristian Santana,Tomateros de Culiacan,False,1.167,2024-10-17
-677605,Luis Verdugo,Tomateros de Culiacan,False,0.8,2024-10-17
-687019,Andrés Alvarez,Tomateros de Culiacan,False,0.673,2024-10-17
-596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.371,2024-10-17
-677690,Diosbel Arias,Tomateros de Culiacan,False,0.85,2024-10-17
-606019,Esteban Quiroz,Tomateros de Culiacan,False,1.009,2024-10-17
-802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,2024-10-17
-701033,Jorge Rivera,Algodoneros de Guasave,True,2.0,2024-10-17
-807581,Randy Delgado,Algodoneros de Guasave,True,0.666,2024-10-17
-674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,2024-10-17
-687045,Justin Wylie,Algodoneros de Guasave,True,0.301,2024-10-17
-674706,Alan Lopez,Algodoneros de Guasave,True,2.0,2024-10-17
-660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,2024-10-17
-660436,Yadir Drake,Algodoneros de Guasave,True,0.578,2024-10-17
-510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.65,2024-10-17
-656029,Alexis Wilson,Algodoneros de Guasave,True,0.542,2024-10-17
-657733,Roberto Ramos,Algodoneros de Guasave,True,0.596,2024-10-17
-477399,Jesse Castillo,Algodoneros de Guasave,True,0.9,2024-10-17
-652669,Angel Erro,Algodoneros de Guasave,True,1.292,2024-10-17
-592312,Jorge Flores,Algodoneros de Guasave,True,0.753,2024-10-17
-685694,Keven Lamas,Algodoneros de Guasave,True,0.182,2024-10-17
-682183,Drew Avans,Algodoneros de Guasave,True,0.61,2024-10-17
-814656,Elias Verdugo,Caneros de los Mochis,False,2.0,2024-10-20
-664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,2024-10-20
-694034,Mario Gomez,Caneros de los Mochis,False,0.0,2024-10-20
-661270,Roel Santos,Caneros de los Mochis,False,0.574,2024-10-20
-587275,Alan Espinoza,Caneros de los Mochis,False,0.527,2024-10-20
-596107,Eric Filia,Caneros de los Mochis,False,0.633,2024-10-20
-665455,Isaac Rodriguez,Caneros de los Mochis,False,1.086,2024-10-20
-630111,Yasmany Tomás,Caneros de los Mochis,False,0.392,2024-10-20
-681909,Justin Dean,Caneros de los Mochis,False,0.619,2024-10-20
-668616,Marco Jaime,Caneros de los Mochis,False,0.614,2024-10-20
-685474,Felix Stevens,Caneros de los Mochis,False,0.523,2024-10-20
-616613,Rodolfo Amador,Caneros de los Mochis,False,0.606,2024-10-20
-654118,Eric Meza,Caneros de los Mochis,False,1.0,2024-10-20
-677977,Edgar Robles,Caneros de los Mochis,False,0.0,2024-10-20
-703060,Alejandro Urias,Caneros de los Mochis,False,0.8,2024-10-20
-540204,Ramon Rios,Tomateros de Culiacan,True,0.554,2024-10-20
-652999,Jesus Fabela,Tomateros de Culiacan,True,0.413,2024-10-20
-695000,Poncho Ruiz,Tomateros de Culiacan,True,0.762,2024-10-20
-455378,Ali Solis,Tomateros de Culiacan,True,0.457,2024-10-20
-519068,Efren Navarro,Tomateros de Culiacan,True,0.821,2024-10-20
-657675,Rudy Martin,Tomateros de Culiacan,True,0.711,2024-10-20
-608841,Joey Meneses,Tomateros de Culiacan,True,0.148,2024-10-20
-655996,Cristian Santana,Tomateros de Culiacan,True,1.272,2024-10-20
-677605,Luis Verdugo,Tomateros de Culiacan,True,0.536,2024-10-20
-687019,Andrés Alvarez,Tomateros de Culiacan,True,0.878,2024-10-20
-596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.207,2024-10-20
-677690,Diosbel Arias,Tomateros de Culiacan,True,0.655,2024-10-20
-606019,Esteban Quiroz,Tomateros de Culiacan,True,1.197,2024-10-20
-540204,Ramon Rios,Tomateros de Culiacan,False,0.182,2024-10-15
-652999,Jesus Fabela,Tomateros de Culiacan,False,0.422,2024-10-15
-695000,Poncho Ruiz,Tomateros de Culiacan,False,0.0,2024-10-15
-455378,Ali Solis,Tomateros de Culiacan,False,0.25,2024-10-15
-519068,Efren Navarro,Tomateros de Culiacan,False,0.5,2024-10-15
-657675,Rudy Martin,Tomateros de Culiacan,False,0.885,2024-10-15
-829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,2024-10-15
-655996,Cristian Santana,Tomateros de Culiacan,False,1.338,2024-10-15
-677605,Luis Verdugo,Tomateros de Culiacan,False,0.0,2024-10-15
-687019,Andrés Alvarez,Tomateros de Culiacan,False,0.385,2024-10-15
-596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.75,2024-10-15
-677690,Diosbel Arias,Tomateros de Culiacan,False,1.182,2024-10-15
-606019,Esteban Quiroz,Tomateros de Culiacan,False,0.639,2024-10-15
-802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,2024-10-15
-807581,Randy Delgado,Algodoneros de Guasave,True,1.0,2024-10-15
-674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,2024-10-15
-687045,Justin Wylie,Algodoneros de Guasave,True,0.267,2024-10-15
-674706,Alan Lopez,Algodoneros de Guasave,True,0.0,2024-10-15
-660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,2024-10-15
-660436,Yadir Drake,Algodoneros de Guasave,True,1.0,2024-10-15
-510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2024-10-15
-656029,Alexis Wilson,Algodoneros de Guasave,True,0.4,2024-10-15
-657733,Roberto Ramos,Algodoneros de Guasave,True,0.349,2024-10-15
-477399,Jesse Castillo,Algodoneros de Guasave,True,1.292,2024-10-15
-700032,Victor Labrada,Algodoneros de Guasave,True,0.6,2024-10-15
-652669,Angel Erro,Algodoneros de Guasave,True,1.55,2024-10-15
-592312,Jorge Flores,Algodoneros de Guasave,True,0.697,2024-10-15
-685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2024-10-15
-682183,Drew Avans,Algodoneros de Guasave,True,0.536,2024-10-15
-689161,Carlos Arellano,Venados de Mazatlan,False,0.0,2024-10-19
-622603,Carlos Castro,Venados de Mazatlan,False,0.86,2024-10-19
-668165,Jose Gaitan,Venados de Mazatlan,False,0.777,2024-10-19
-499926,Alex Liddi,Venados de Mazatlan,False,0.693,2024-10-19
-503429,Walter Ibarra,Venados de Mazatlan,False,0.0,2024-10-19
-675202,Juan Kirk,Venados de Mazatlan,False,0.0,2024-10-19
-608608,Carlos Munoz,Venados de Mazatlan,False,0.4,2024-10-19
-678499,Randy Romero,Venados de Mazatlan,False,0.536,2024-10-19
-671246,Fabricio Macias,Venados de Mazatlan,False,0.495,2024-10-19
-634496,Leo German,Venados de Mazatlan,False,0.422,2024-10-19
-455369,Ramiro Pena,Venados de Mazatlan,False,0.462,2024-10-19
-678540,Brayan Quintero,Venados de Mazatlan,False,0.554,2024-10-19
-599096,Dilson Herrera,Venados de Mazatlan,False,0.94,2024-10-19
-473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.588,2024-10-19
-678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.0,2024-10-19
-657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.699,2024-10-19
-662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.821,2024-10-19
-571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.833,2024-10-19
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.746,2024-10-19
-807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,2024-10-19
-672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.64,2024-10-19
-641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.611,2024-10-19
-815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,2024-10-19
-680023,Daniel Mercado,Naranjeros de Hermosillo,True,0.0,2024-10-19
-546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.321,2024-10-19
-803376,Angel Camacho,Naranjeros de Hermosillo,True,0.789,2024-10-19
-676761,Irving Lopez,Naranjeros de Hermosillo,True,0.511,2024-10-19
-540204,Ramon Rios,Tomateros de Culiacan,False,0.333,2024-10-16
-652999,Jesus Fabela,Tomateros de Culiacan,False,0.495,2024-10-16
-695000,Poncho Ruiz,Tomateros de Culiacan,False,0.0,2024-10-16
-455378,Ali Solis,Tomateros de Culiacan,False,0.417,2024-10-16
-519068,Efren Navarro,Tomateros de Culiacan,False,0.641,2024-10-16
-657675,Rudy Martin,Tomateros de Culiacan,False,0.782,2024-10-16
-829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,2024-10-16
-655996,Cristian Santana,Tomateros de Culiacan,False,1.163,2024-10-16
-677605,Luis Verdugo,Tomateros de Culiacan,False,0.0,2024-10-16
-687019,Andrés Alvarez,Tomateros de Culiacan,False,0.647,2024-10-16
-596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.786,2024-10-16
-677690,Diosbel Arias,Tomateros de Culiacan,False,0.866,2024-10-16
-606019,Esteban Quiroz,Tomateros de Culiacan,False,0.837,2024-10-16
-802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,2024-10-16
-807581,Randy Delgado,Algodoneros de Guasave,True,0.8,2024-10-16
-674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,2024-10-16
-687045,Justin Wylie,Algodoneros de Guasave,True,0.196,2024-10-16
-674706,Alan Lopez,Algodoneros de Guasave,True,0.0,2024-10-16
-660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,2024-10-16
-660436,Yadir Drake,Algodoneros de Guasave,True,0.732,2024-10-16
-510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2024-10-16
-656029,Alexis Wilson,Algodoneros de Guasave,True,0.542,2024-10-16
-657733,Roberto Ramos,Algodoneros de Guasave,True,0.713,2024-10-16
-477399,Jesse Castillo,Algodoneros de Guasave,True,1.063,2024-10-16
-652669,Angel Erro,Algodoneros de Guasave,True,1.238,2024-10-16
-592312,Jorge Flores,Algodoneros de Guasave,True,0.561,2024-10-16
-685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2024-10-16
-682183,Drew Avans,Algodoneros de Guasave,True,0.61,2024-10-16
-540204,Ramon Rios,Tomateros de Culiacan,False,0.286,2024-10-13
-652999,Jesus Fabela,Tomateros de Culiacan,False,0.619,2024-10-13
-455378,Ali Solis,Tomateros de Culiacan,False,0.334,2024-10-13
-519068,Efren Navarro,Tomateros de Culiacan,False,0.555,2024-10-13
-657675,Rudy Martin,Tomateros de Culiacan,False,0.958,2024-10-13
-829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,2024-10-13
-655996,Cristian Santana,Tomateros de Culiacan,False,1.301,2024-10-13
-687019,Andrés Alvarez,Tomateros de Culiacan,False,0.555,2024-10-13
-677690,Diosbel Arias,Tomateros de Culiacan,False,1.143,2024-10-13
-606019,Esteban Quiroz,Tomateros de Culiacan,False,0.7,2024-10-13
-807581,Randy Delgado,Algodoneros de Guasave,True,1.0,2024-10-13
-674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,2024-10-13
-687045,Justin Wylie,Algodoneros de Guasave,True,0.393,2024-10-13
-674706,Alan Lopez,Algodoneros de Guasave,True,0.0,2024-10-13
-660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,2024-10-13
-660436,Yadir Drake,Algodoneros de Guasave,True,1.0,2024-10-13
-510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2024-10-13
-656029,Alexis Wilson,Algodoneros de Guasave,True,0.0,2024-10-13
-657733,Roberto Ramos,Algodoneros de Guasave,True,0.0,2024-10-13
-477399,Jesse Castillo,Algodoneros de Guasave,True,1.55,2024-10-13
-700032,Victor Labrada,Algodoneros de Guasave,True,0.5,2024-10-13
-652669,Angel Erro,Algodoneros de Guasave,True,0.0,2024-10-13
-592312,Jorge Flores,Algodoneros de Guasave,True,0.661,2024-10-13
-685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2024-10-13
-682183,Drew Avans,Algodoneros de Guasave,True,0.55,2024-10-13
-664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,2024-10-19
-661270,Roel Santos,Caneros de los Mochis,False,0.648,2024-10-19
-587275,Alan Espinoza,Caneros de los Mochis,False,0.527,2024-10-19
-596107,Eric Filia,Caneros de los Mochis,False,0.629,2024-10-19
-665455,Isaac Rodriguez,Caneros de los Mochis,False,1.078,2024-10-19
-630111,Yasmany Tomás,Caneros de los Mochis,False,0.392,2024-10-19
-681909,Justin Dean,Caneros de los Mochis,False,0.444,2024-10-19
-668616,Marco Jaime,Caneros de los Mochis,False,0.689,2024-10-19
-685474,Felix Stevens,Caneros de los Mochis,False,0.526,2024-10-19
-616613,Rodolfo Amador,Caneros de los Mochis,False,0.695,2024-10-19
-654118,Eric Meza,Caneros de los Mochis,False,5.0,2024-10-19
-677977,Edgar Robles,Caneros de los Mochis,False,0.0,2024-10-19
-703060,Alejandro Urias,Caneros de los Mochis,False,0.666,2024-10-19
-540204,Ramon Rios,Tomateros de Culiacan,True,0.554,2024-10-19
-652999,Jesus Fabela,Tomateros de Culiacan,True,0.45,2024-10-19
-695000,Poncho Ruiz,Tomateros de Culiacan,True,0.73,2024-10-19
-455378,Ali Solis,Tomateros de Culiacan,True,0.457,2024-10-19
-519068,Efren Navarro,Tomateros de Culiacan,True,0.607,2024-10-19
-657675,Rudy Martin,Tomateros de Culiacan,True,0.567,2024-10-19
-608841,Joey Meneses,Tomateros de Culiacan,True,0.222,2024-10-19
-655996,Cristian Santana,Tomateros de Culiacan,True,1.33,2024-10-19
-677605,Luis Verdugo,Tomateros de Culiacan,True,0.8,2024-10-19
-687019,Andrés Alvarez,Tomateros de Culiacan,True,0.727,2024-10-19
-596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.213,2024-10-19
-677690,Diosbel Arias,Tomateros de Culiacan,True,0.655,2024-10-19
-606019,Esteban Quiroz,Tomateros de Culiacan,True,1.186,2024-10-19
-802560,Ichiro Cano,Tomateros de Culiacan,True,0.0,2024-10-19
-807581,Randy Delgado,Algodoneros de Guasave,False,0.0,2024-10-12
-674504,Francisco Hernandez,Algodoneros de Guasave,False,0.0,2024-10-12
-687045,Justin Wylie,Algodoneros de Guasave,False,0.0,2024-10-12
-674706,Alan Lopez,Algodoneros de Guasave,False,0.0,2024-10-12
-660436,Yadir Drake,Algodoneros de Guasave,False,1.167,2024-10-12
-510548,Jose Heberto Felix,Algodoneros de Guasave,False,2.0,2024-10-12
-656029,Alexis Wilson,Algodoneros de Guasave,False,0.0,2024-10-12
-657733,Roberto Ramos,Algodoneros de Guasave,False,0.0,2024-10-12
-477399,Jesse Castillo,Algodoneros de Guasave,False,1.75,2024-10-12
-700032,Victor Labrada,Algodoneros de Guasave,False,0.5,2024-10-12
-592312,Jorge Flores,Algodoneros de Guasave,False,0.833,2024-10-12
-685694,Keven Lamas,Algodoneros de Guasave,False,0.0,2024-10-12
-682183,Drew Avans,Algodoneros de Guasave,False,0.2,2024-10-12
-540204,Ramon Rios,Tomateros de Culiacan,True,0.0,2024-10-12
-652999,Jesus Fabela,Tomateros de Culiacan,True,0.0,2024-10-12
-455378,Ali Solis,Tomateros de Culiacan,True,0.0,2024-10-12
-519068,Efren Navarro,Tomateros de Culiacan,True,1.25,2024-10-12
-657675,Rudy Martin,Tomateros de Culiacan,True,0.0,2024-10-12
-655996,Cristian Santana,Tomateros de Culiacan,True,0.25,2024-10-12
-687019,Andrés Alvarez,Tomateros de Culiacan,True,0.75,2024-10-12
-677690,Diosbel Arias,Tomateros de Culiacan,True,1.667,2024-10-12
-606019,Esteban Quiroz,Tomateros de Culiacan,True,0.5,2024-10-12
-664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,2024-10-18
-661270,Roel Santos,Caneros de los Mochis,False,0.696,2024-10-18
-587275,Alan Espinoza,Caneros de los Mochis,False,0.653,2024-10-18
-596107,Eric Filia,Caneros de los Mochis,False,0.541,2024-10-18
-665455,Isaac Rodriguez,Caneros de los Mochis,False,1.1,2024-10-18
-630111,Yasmany Tomás,Caneros de los Mochis,False,0.39,2024-10-18
-681909,Justin Dean,Caneros de los Mochis,False,0.316,2024-10-18
-668616,Marco Jaime,Caneros de los Mochis,False,0.596,2024-10-18
-685474,Felix Stevens,Caneros de los Mochis,False,0.555,2024-10-18
-616613,Rodolfo Amador,Caneros de los Mochis,False,0.788,2024-10-18
-677977,Edgar Robles,Caneros de los Mochis,False,0.0,2024-10-18
-703060,Alejandro Urias,Caneros de los Mochis,False,0.666,2024-10-18
-540204,Ramon Rios,Tomateros de Culiacan,True,0.474,2024-10-18
-652999,Jesus Fabela,Tomateros de Culiacan,True,0.495,2024-10-18
-695000,Poncho Ruiz,Tomateros de Culiacan,True,1.167,2024-10-18
-455378,Ali Solis,Tomateros de Culiacan,True,0.517,2024-10-18
-519068,Efren Navarro,Tomateros de Culiacan,True,0.607,2024-10-18
-657675,Rudy Martin,Tomateros de Culiacan,True,0.681,2024-10-18
-608841,Joey Meneses,Tomateros de Culiacan,True,0.0,2024-10-18
-655996,Cristian Santana,Tomateros de Culiacan,True,1.098,2024-10-18
-677605,Luis Verdugo,Tomateros de Culiacan,True,0.8,2024-10-18
-687019,Andrés Alvarez,Tomateros de Culiacan,True,0.696,2024-10-18
-596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.271,2024-10-18
-677690,Diosbel Arias,Tomateros de Culiacan,True,0.709,2024-10-18
-606019,Esteban Quiroz,Tomateros de Culiacan,True,1.185,2024-10-18
-802560,Ichiro Cano,Tomateros de Culiacan,True,0.0,2024-10-18
-701033,Jorge Rivera,Algodoneros de Guasave,False,2.0,2024-10-20
-807581,Randy Delgado,Algodoneros de Guasave,False,0.666,2024-10-20
-674504,Francisco Hernandez,Algodoneros de Guasave,False,0.455,2024-10-20
-687045,Justin Wylie,Algodoneros de Guasave,False,0.459,2024-10-20
-674706,Alan Lopez,Algodoneros de Guasave,False,2.0,2024-10-20
-660840,Jose Lizarraga,Algodoneros de Guasave,False,0.0,2024-10-20
-660436,Yadir Drake,Algodoneros de Guasave,False,0.776,2024-10-20
-656029,Alexis Wilson,Algodoneros de Guasave,False,0.823,2024-10-20
-657733,Roberto Ramos,Algodoneros de Guasave,False,0.632,2024-10-20
-477399,Jesse Castillo,Algodoneros de Guasave,False,0.962,2024-10-20
-652669,Angel Erro,Algodoneros de Guasave,False,1.12,2024-10-20
-592312,Jorge Flores,Algodoneros de Guasave,False,0.753,2024-10-20
-685694,Keven Lamas,Algodoneros de Guasave,False,0.297,2024-10-20
-682183,Drew Avans,Algodoneros de Guasave,False,0.654,2024-10-20
-664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,2024-10-20
-458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.819,2024-10-20
-661313,Asael Sanchez,Mayos de Navojoa,True,0.734,2024-10-20
-617918,Marco Chicuate,Mayos de Navojoa,True,0.0,2024-10-20
-550492,Luis Juarez,Mayos de Navojoa,True,0.533,2024-10-20
-694942,Matt McDermott,Mayos de Navojoa,True,0.947,2024-10-20
-668992,Missael Rivera,Mayos de Navojoa,True,0.421,2024-10-20
-680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,2024-10-20
-634739,Miguel Guzman,Mayos de Navojoa,True,0.457,2024-10-20
-686659,Julian Escobedo,Mayos de Navojoa,True,0.831,2024-10-20
-547375,Sergio Perez,Mayos de Navojoa,True,1.75,2024-10-20
-660842,Juan Uriarte,Mayos de Navojoa,True,0.634,2024-10-20
-664009,Brantley Bell,Mayos de Navojoa,True,0.716,2024-10-20
-678966,Mike Hart,Mayos de Navojoa,True,0.349,2024-10-20
-672361,Agustin Ruiz,Mayos de Navojoa,True,0.488,2024-10-20
-701033,Jorge Rivera,Algodoneros de Guasave,False,0.666,2024-10-20
-807581,Randy Delgado,Algodoneros de Guasave,False,0.666,2024-10-20
-674504,Francisco Hernandez,Algodoneros de Guasave,False,0.417,2024-10-20
-687045,Justin Wylie,Algodoneros de Guasave,False,0.514,2024-10-20
-674706,Alan Lopez,Algodoneros de Guasave,False,2.0,2024-10-20
-660840,Jose Lizarraga,Algodoneros de Guasave,False,0.333,2024-10-20
-660436,Yadir Drake,Algodoneros de Guasave,False,0.764,2024-10-20
-806873,Yael Romero,Algodoneros de Guasave,False,0.0,2024-10-20
-656029,Alexis Wilson,Algodoneros de Guasave,False,0.823,2024-10-20
-657733,Roberto Ramos,Algodoneros de Guasave,False,0.611,2024-10-20
-477399,Jesse Castillo,Algodoneros de Guasave,False,0.962,2024-10-20
-652669,Angel Erro,Algodoneros de Guasave,False,1.034,2024-10-20
-592312,Jorge Flores,Algodoneros de Guasave,False,0.676,2024-10-20
-685694,Keven Lamas,Algodoneros de Guasave,False,0.306,2024-10-20
-682183,Drew Avans,Algodoneros de Guasave,False,0.761,2024-10-20
-664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,2024-10-20
-458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.819,2024-10-20
-661313,Asael Sanchez,Mayos de Navojoa,True,0.687,2024-10-20
-617918,Marco Chicuate,Mayos de Navojoa,True,2.0,2024-10-20
-550492,Luis Juarez,Mayos de Navojoa,True,0.545,2024-10-20
-694942,Matt McDermott,Mayos de Navojoa,True,0.974,2024-10-20
-668992,Missael Rivera,Mayos de Navojoa,True,0.561,2024-10-20
-680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,2024-10-20
-634739,Miguel Guzman,Mayos de Navojoa,True,0.39,2024-10-20
-686659,Julian Escobedo,Mayos de Navojoa,True,0.797,2024-10-20
-547375,Sergio Perez,Mayos de Navojoa,True,1.75,2024-10-20
-660842,Juan Uriarte,Mayos de Navojoa,True,0.634,2024-10-20
-664009,Brantley Bell,Mayos de Navojoa,True,0.71,2024-10-20
-678966,Mike Hart,Mayos de Navojoa,True,0.349,2024-10-20
-672361,Agustin Ruiz,Mayos de Navojoa,True,0.425,2024-10-20
-661270,Roel Santos,Caneros de los Mochis,False,0.65,2024-10-12
-587275,Alan Espinoza,Caneros de los Mochis,False,0.25,2024-10-12
-596107,Eric Filia,Caneros de los Mochis,False,0.9,2024-10-12
-665455,Isaac Rodriguez,Caneros de los Mochis,False,1.55,2024-10-12
-630111,Yasmany Tomás,Caneros de los Mochis,False,0.2,2024-10-12
-681909,Justin Dean,Caneros de los Mochis,False,0.8,2024-10-12
-668616,Marco Jaime,Caneros de los Mochis,False,0.2,2024-10-12
-685474,Felix Stevens,Caneros de los Mochis,False,0.0,2024-10-12
-616613,Rodolfo Amador,Caneros de los Mochis,False,0.8,2024-10-12
-664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,2024-10-12
-458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.0,2024-10-12
-814812,Edgar Lugo,Mayos de Navojoa,True,0.0,2024-10-12
-550492,Luis Juarez,Mayos de Navojoa,True,0.5,2024-10-12
-674496,Daniel Cornejo,Mayos de Navojoa,True,0.0,2024-10-12
-694942,Matt McDermott,Mayos de Navojoa,True,0.333,2024-10-12
-668992,Missael Rivera,Mayos de Navojoa,True,0.0,2024-10-12
-680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,2024-10-12
-634739,Miguel Guzman,Mayos de Navojoa,True,0.0,2024-10-12
-686659,Julian Escobedo,Mayos de Navojoa,True,1.417,2024-10-12
-547375,Sergio Perez,Mayos de Navojoa,True,0.0,2024-10-12
-660842,Juan Uriarte,Mayos de Navojoa,True,0.0,2024-10-12
-664009,Brantley Bell,Mayos de Navojoa,True,0.5,2024-10-12
-678966,Mike Hart,Mayos de Navojoa,True,0.5,2024-10-12
-672361,Agustin Ruiz,Mayos de Navojoa,True,0.666,2024-10-12
-701033,Jorge Rivera,Algodoneros de Guasave,False,2.0,2024-10-19
-807581,Randy Delgado,Algodoneros de Guasave,False,0.666,2024-10-19
-674504,Francisco Hernandez,Algodoneros de Guasave,False,0.286,2024-10-19
-687045,Justin Wylie,Algodoneros de Guasave,False,0.535,2024-10-19
-674706,Alan Lopez,Algodoneros de Guasave,False,2.0,2024-10-19
-660840,Jose Lizarraga,Algodoneros de Guasave,False,0.0,2024-10-19
-660436,Yadir Drake,Algodoneros de Guasave,False,0.671,2024-10-19
-656029,Alexis Wilson,Algodoneros de Guasave,False,0.75,2024-10-19
-657733,Roberto Ramos,Algodoneros de Guasave,False,0.598,2024-10-19
-477399,Jesse Castillo,Algodoneros de Guasave,False,1.006,2024-10-19
-652669,Angel Erro,Algodoneros de Guasave,False,1.073,2024-10-19
-592312,Jorge Flores,Algodoneros de Guasave,False,0.798,2024-10-19
-685694,Keven Lamas,Algodoneros de Guasave,False,0.182,2024-10-19
-682183,Drew Avans,Algodoneros de Guasave,False,0.545,2024-10-19
-664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,2024-10-19
-458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.875,2024-10-19
-661313,Asael Sanchez,Mayos de Navojoa,True,0.746,2024-10-19
-617918,Marco Chicuate,Mayos de Navojoa,True,0.0,2024-10-19
-550492,Luis Juarez,Mayos de Navojoa,True,0.538,2024-10-19
-694942,Matt McDermott,Mayos de Navojoa,True,0.917,2024-10-19
-668992,Missael Rivera,Mayos de Navojoa,True,0.421,2024-10-19
-680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,2024-10-19
-634739,Miguel Guzman,Mayos de Navojoa,True,0.343,2024-10-19
-686659,Julian Escobedo,Mayos de Navojoa,True,0.721,2024-10-19
-547375,Sergio Perez,Mayos de Navojoa,True,2.334,2024-10-19
-660842,Juan Uriarte,Mayos de Navojoa,True,0.633,2024-10-19
-664009,Brantley Bell,Mayos de Navojoa,True,0.558,2024-10-19
-678966,Mike Hart,Mayos de Navojoa,True,0.41,2024-10-19
-672361,Agustin Ruiz,Mayos de Navojoa,True,0.488,2024-10-19
-554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.0,2024-10-11
-811361,Joel Flores,Sultanes de Monterrey,False,0.0,2024-10-11
-500869,Emmanuel Avila,Sultanes de Monterrey,False,2.5,2024-10-11
-661311,Brandon Villarreal,Sultanes de Monterrey,False,0.8,2024-10-11
-640460,Dustin Peterson,Sultanes de Monterrey,False,0.4,2024-10-11
-666177,Carter Aldrete,Sultanes de Monterrey,False,1.75,2024-10-11
-661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.4,2024-10-11
-594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.0,2024-10-11
-606213,Yermín Mercedes,Sultanes de Monterrey,False,0.0,2024-10-11
-673374,Cesar Mendoza,Sultanes de Monterrey,False,0.5,2024-10-11
-624645,Julian Leon,Aguilas de Mexicali,True,1.0,2024-10-11
-668843,Conner Capel,Aguilas de Mexicali,True,0.0,2024-10-11
-687867,Clay Dungan,Aguilas de Mexicali,True,1.25,2024-10-11
-642299,Alejandro Flores,Aguilas de Mexicali,True,1.0,2024-10-11
-606143,Alejandro Mejia,Aguilas de Mexicali,True,0.0,2024-10-11
-605011,Moises Gutierrez,Aguilas de Mexicali,True,1.417,2024-10-11
-655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,2024-10-11
-622270,Alex D. Mejia,Aguilas de Mexicali,True,0.5,2024-10-11
-665745,Javier Salazar,Aguilas de Mexicali,True,0.0,2024-10-11
-592144,Wynton Bernard,Aguilas de Mexicali,True,0.0,2024-10-11
-650995,Norberto Obeso,Aguilas de Mexicali,True,0.0,2024-10-11
-453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.414,2024-10-18
-516679,Sebastian Valle,Charros de Jalisco,False,0.334,2024-10-18
-641104,Carlos Mendivil,Charros de Jalisco,False,2.0,2024-10-18
-681933,Michael Wielansky,Charros de Jalisco,False,0.872,2024-10-18
-515189,Japhet Amador,Charros de Jalisco,False,0.497,2024-10-18
-608686,Jack Mayfield,Charros de Jalisco,False,0.708,2024-10-18
-828390,Carlos Baez,Charros de Jalisco,False,0.0,2024-10-18
-829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,2024-10-18
-685771,Alfredo Hurtado,Charros de Jalisco,False,1.457,2024-10-18
-676140,Julian Ornelas,Charros de Jalisco,False,0.766,2024-10-18
-571740,Billy Hamilton,Charros de Jalisco,False,1.003,2024-10-18
-591572,Jose Aguilar,Charros de Jalisco,False,0.733,2024-10-18
-471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.837,2024-10-18
-624645,Julian Leon,Aguilas de Mexicali,True,1.17,2024-10-18
-668843,Conner Capel,Aguilas de Mexicali,True,0.515,2024-10-18
-687867,Clay Dungan,Aguilas de Mexicali,True,0.718,2024-10-18
-642299,Alejandro Flores,Aguilas de Mexicali,True,0.25,2024-10-18
-606143,Alejandro Mejia,Aguilas de Mexicali,True,0.36,2024-10-18
-605011,Moises Gutierrez,Aguilas de Mexicali,True,0.808,2024-10-18
-616569,Diego Madero,Aguilas de Mexicali,True,0.0,2024-10-18
-655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,2024-10-18
-622270,Alex D. Mejia,Aguilas de Mexicali,True,0.673,2024-10-18
-665745,Javier Salazar,Aguilas de Mexicali,True,0.059,2024-10-18
-676021,Luis Santos,Aguilas de Mexicali,True,0.666,2024-10-18
-592144,Wynton Bernard,Aguilas de Mexicali,True,0.481,2024-10-18
-511428,Leo Heras,Aguilas de Mexicali,True,0.834,2024-10-18
-650995,Norberto Obeso,Aguilas de Mexicali,True,0.619,2024-10-18
-453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.364,2024-10-19
-516679,Sebastian Valle,Charros de Jalisco,False,0.313,2024-10-19
-641104,Carlos Mendivil,Charros de Jalisco,False,2.0,2024-10-19
-681933,Michael Wielansky,Charros de Jalisco,False,0.742,2024-10-19
-515189,Japhet Amador,Charros de Jalisco,False,0.426,2024-10-19
-608686,Jack Mayfield,Charros de Jalisco,False,0.725,2024-10-19
-828390,Carlos Baez,Charros de Jalisco,False,0.0,2024-10-19
-829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,2024-10-19
-685771,Alfredo Hurtado,Charros de Jalisco,False,1.136,2024-10-19
-676140,Julian Ornelas,Charros de Jalisco,False,0.764,2024-10-19
-571740,Billy Hamilton,Charros de Jalisco,False,1.003,2024-10-19
-591572,Jose Aguilar,Charros de Jalisco,False,0.795,2024-10-19
-471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.786,2024-10-19
-624645,Julian Leon,Aguilas de Mexicali,True,0.955,2024-10-19
-668843,Conner Capel,Aguilas de Mexicali,True,0.643,2024-10-19
-687867,Clay Dungan,Aguilas de Mexicali,True,0.783,2024-10-19
-642299,Alejandro Flores,Aguilas de Mexicali,True,0.25,2024-10-19
-606143,Alejandro Mejia,Aguilas de Mexicali,True,0.466,2024-10-19
-605011,Moises Gutierrez,Aguilas de Mexicali,True,0.794,2024-10-19
-616569,Diego Madero,Aguilas de Mexicali,True,0.0,2024-10-19
-655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,2024-10-19
-622270,Alex D. Mejia,Aguilas de Mexicali,True,0.617,2024-10-19
-665745,Javier Salazar,Aguilas de Mexicali,True,0.05,2024-10-19
-676021,Luis Santos,Aguilas de Mexicali,True,0.666,2024-10-19
-592144,Wynton Bernard,Aguilas de Mexicali,True,0.554,2024-10-19
-511428,Leo Heras,Aguilas de Mexicali,True,0.834,2024-10-19
-650995,Norberto Obeso,Aguilas de Mexicali,True,0.708,2024-10-19
-453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.343,2024-10-20
-516679,Sebastian Valle,Charros de Jalisco,False,0.313,2024-10-20
-641104,Carlos Mendivil,Charros de Jalisco,False,1.25,2024-10-20
-681933,Michael Wielansky,Charros de Jalisco,False,0.754,2024-10-20
-515189,Japhet Amador,Charros de Jalisco,False,0.362,2024-10-20
-608686,Jack Mayfield,Charros de Jalisco,False,0.737,2024-10-20
-828390,Carlos Baez,Charros de Jalisco,False,0.0,2024-10-20
-829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,2024-10-20
-685771,Alfredo Hurtado,Charros de Jalisco,False,1.071,2024-10-20
-676140,Julian Ornelas,Charros de Jalisco,False,0.71,2024-10-20
-571740,Billy Hamilton,Charros de Jalisco,False,0.944,2024-10-20
-591572,Jose Aguilar,Charros de Jalisco,False,0.728,2024-10-20
-471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.975,2024-10-20
-624645,Julian Leon,Aguilas de Mexicali,True,0.851,2024-10-20
-668843,Conner Capel,Aguilas de Mexicali,True,0.595,2024-10-20
-687867,Clay Dungan,Aguilas de Mexicali,True,0.902,2024-10-20
-642299,Alejandro Flores,Aguilas de Mexicali,True,0.2,2024-10-20
-606143,Alejandro Mejia,Aguilas de Mexicali,True,0.408,2024-10-20
-605011,Moises Gutierrez,Aguilas de Mexicali,True,0.786,2024-10-20
-510548,Jose Heberto Felix,Aguilas de Mexicali,True,0.65,2024-10-20
-616569,Diego Madero,Aguilas de Mexicali,True,0.0,2024-10-20
-655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,2024-10-20
-622270,Alex D. Mejia,Aguilas de Mexicali,True,0.6,2024-10-20
-665745,Javier Salazar,Aguilas de Mexicali,True,0.091,2024-10-20
-676021,Luis Santos,Aguilas de Mexicali,True,0.546,2024-10-20
-592144,Wynton Bernard,Aguilas de Mexicali,True,0.548,2024-10-20
-511428,Leo Heras,Aguilas de Mexicali,True,0.953,2024-10-20
-650995,Norberto Obeso,Aguilas de Mexicali,True,0.619,2024-10-20
-473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.588,2024-10-16
-678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2024-10-16
-657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.639,2024-10-16
-606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2024-10-16
-662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.606,2024-10-16
-571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,2024-10-16
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.962,2024-10-16
-807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,2024-10-16
-672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.529,2024-10-16
-641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.779,2024-10-16
-815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2024-10-16
-680023,Daniel Mercado,Naranjeros de Hermosillo,False,0.0,2024-10-16
-546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.236,2024-10-16
-803376,Angel Camacho,Naranjeros de Hermosillo,False,0.5,2024-10-16
-676761,Irving Lopez,Naranjeros de Hermosillo,False,0.646,2024-10-16
-453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.375,2024-10-16
-516679,Sebastian Valle,Charros de Jalisco,True,0.416,2024-10-16
-570799,Christian Villanueva,Charros de Jalisco,True,0.53,2024-10-16
-641104,Carlos Mendivil,Charros de Jalisco,True,2.0,2024-10-16
-681933,Michael Wielansky,Charros de Jalisco,True,1.062,2024-10-16
-515189,Japhet Amador,Charros de Jalisco,True,0.368,2024-10-16
-608686,Jack Mayfield,Charros de Jalisco,True,0.85,2024-10-16
-828390,Carlos Baez,Charros de Jalisco,True,0.0,2024-10-16
-829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,2024-10-16
-685771,Alfredo Hurtado,Charros de Jalisco,True,1.917,2024-10-16
-676140,Julian Ornelas,Charros de Jalisco,True,0.686,2024-10-16
-571740,Billy Hamilton,Charros de Jalisco,True,1.151,2024-10-16
-593495,Daniel Castro,Charros de Jalisco,True,0.25,2024-10-16
-591572,Jose Aguilar,Charros de Jalisco,True,0.2,2024-10-16
-471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.953,2024-10-16
-614182,Jose Carlos Urena,Yaquis de Obregon,False,0.375,2024-10-22
-622700,Santiago Chávez,Yaquis de Obregon,False,0.425,2024-10-22
-680029,Oziel Flores,Yaquis de Obregon,False,0.0,2024-10-22
-660620,Jonathan Araúz,Yaquis de Obregon,False,0.383,2024-10-22
-546990,Anthony Alford,Yaquis de Obregon,False,0.481,2024-10-22
-642707,Allen Córdoba,Yaquis de Obregon,False,0.78,2024-10-22
-616404,Edson Garcia,Yaquis de Obregon,False,0.444,2024-10-22
-692944,Kevin Villavicencio,Yaquis de Obregon,False,0.349,2024-10-22
-679589,Fernando Villegas,Yaquis de Obregon,False,0.782,2024-10-22
-672438,Roberto Valenzuela,Yaquis de Obregon,False,0.52,2024-10-22
-603877,Fernando Flores,Yaquis de Obregon,False,0.237,2024-10-22
-628013,Victor Mendoza,Yaquis de Obregon,False,0.609,2024-10-22
-802888,Victor Marquez,Yaquis de Obregon,False,0.0,2024-10-22
-571685,Anthony García,Yaquis de Obregon,False,1.263,2024-10-22
-468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.25,2024-10-22
-453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.401,2024-10-22
-641104,Carlos Mendivil,Charros de Jalisco,True,1.0,2024-10-22
-681933,Michael Wielansky,Charros de Jalisco,True,0.79,2024-10-22
-515189,Japhet Amador,Charros de Jalisco,True,0.362,2024-10-22
-608686,Jack Mayfield,Charros de Jalisco,True,0.799,2024-10-22
-828390,Carlos Baez,Charros de Jalisco,True,0.0,2024-10-22
-829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,2024-10-22
-685771,Alfredo Hurtado,Charros de Jalisco,True,1.029,2024-10-22
-676140,Julian Ornelas,Charros de Jalisco,True,0.742,2024-10-22
-571740,Billy Hamilton,Charros de Jalisco,True,0.859,2024-10-22
-591572,Jose Aguilar,Charros de Jalisco,True,0.685,2024-10-22
-471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.91,2024-10-22
-473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.75,2024-10-12
-678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2024-10-12
-657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.542,2024-10-12
-606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2024-10-12
-662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.9,2024-10-12
-571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,2024-10-12
-524648,Alejandro Gonzalez,Naranjeros de Hermosillo,False,0.5,2024-10-12
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.75,2024-10-12
-672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.5,2024-10-12
-641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.929,2024-10-12
-815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2024-10-12
-546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.0,2024-10-12
-803376,Angel Camacho,Naranjeros de Hermosillo,False,0.5,2024-10-12
-676761,Irving Lopez,Naranjeros de Hermosillo,False,0.25,2024-10-12
-622700,Santiago Chávez,Yaquis de Obregon,True,1.167,2024-10-12
-660620,Jonathan Araúz,Yaquis de Obregon,True,0.375,2024-10-12
-546990,Anthony Alford,Yaquis de Obregon,True,0.393,2024-10-12
-642707,Allen Córdoba,Yaquis de Obregon,True,0.476,2024-10-12
-616404,Edson Garcia,Yaquis de Obregon,True,0.5,2024-10-12
-692944,Kevin Villavicencio,Yaquis de Obregon,True,0.0,2024-10-12
-679589,Fernando Villegas,Yaquis de Obregon,True,0.804,2024-10-12
-672438,Roberto Valenzuela,Yaquis de Obregon,True,0.875,2024-10-12
-603877,Fernando Flores,Yaquis de Obregon,True,0.0,2024-10-12
-628013,Victor Mendoza,Yaquis de Obregon,True,0.25,2024-10-12
-802888,Victor Marquez,Yaquis de Obregon,True,0.0,2024-10-12
-571685,Anthony García,Yaquis de Obregon,True,1.125,2024-10-12
-689161,Carlos Arellano,Venados de Mazatlan,False,0.0,2024-10-12
-622603,Carlos Castro,Venados de Mazatlan,False,1.4,2024-10-12
-668165,Jose Gaitan,Venados de Mazatlan,False,1.35,2024-10-12
-499926,Alex Liddi,Venados de Mazatlan,False,0.9,2024-10-12
-675202,Juan Kirk,Venados de Mazatlan,False,0.0,2024-10-12
-678499,Randy Romero,Venados de Mazatlan,False,0.8,2024-10-12
-671246,Fabricio Macias,Venados de Mazatlan,False,0.2,2024-10-12
-455369,Ramiro Pena,Venados de Mazatlan,False,0.8,2024-10-12
-678540,Brayan Quintero,Venados de Mazatlan,False,1.467,2024-10-12
-593471,Isaias Tejeda,Venados de Mazatlan,False,0.65,2024-10-12
-599096,Dilson Herrera,Venados de Mazatlan,False,0.4,2024-10-12
-453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.0,2024-10-12
-516679,Sebastian Valle,Charros de Jalisco,True,1.25,2024-10-12
-570799,Christian Villanueva,Charros de Jalisco,True,0.5,2024-10-12
-681933,Michael Wielansky,Charros de Jalisco,True,0.0,2024-10-12
-515189,Japhet Amador,Charros de Jalisco,True,0.0,2024-10-12
-608686,Jack Mayfield,Charros de Jalisco,True,0.5,2024-10-12
-828390,Carlos Baez,Charros de Jalisco,True,0.0,2024-10-12
-676140,Julian Ornelas,Charros de Jalisco,True,1.0,2024-10-12
-571740,Billy Hamilton,Charros de Jalisco,True,0.933,2024-10-12
-593495,Daniel Castro,Charros de Jalisco,True,0.0,2024-10-12
-471906,Reynaldo Rodriguez,Charros de Jalisco,True,1.25,2024-10-12
-473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.616,2024-10-15
-678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2024-10-15
-657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.322,2024-10-15
-606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2024-10-15
-662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.733,2024-10-15
-571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,2024-10-15
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.708,2024-10-15
-807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,2024-10-15
-672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.693,2024-10-15
-641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.9,2024-10-15
-815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2024-10-15
-546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.45,2024-10-15
-803376,Angel Camacho,Naranjeros de Hermosillo,False,0.75,2024-10-15
-676761,Irving Lopez,Naranjeros de Hermosillo,False,0.334,2024-10-15
-453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.0,2024-10-15
-516679,Sebastian Valle,Charros de Jalisco,True,0.416,2024-10-15
-570799,Christian Villanueva,Charros de Jalisco,True,0.53,2024-10-15
-681933,Michael Wielansky,Charros de Jalisco,True,1.045,2024-10-15
-515189,Japhet Amador,Charros de Jalisco,True,0.154,2024-10-15
-608686,Jack Mayfield,Charros de Jalisco,True,0.693,2024-10-15
-828390,Carlos Baez,Charros de Jalisco,True,0.0,2024-10-15
-685771,Alfredo Hurtado,Charros de Jalisco,True,0.0,2024-10-15
-676140,Julian Ornelas,Charros de Jalisco,True,0.693,2024-10-15
-571740,Billy Hamilton,Charros de Jalisco,True,0.8,2024-10-15
-593495,Daniel Castro,Charros de Jalisco,True,0.25,2024-10-15
-591572,Jose Aguilar,Charros de Jalisco,True,0.0,2024-10-15
-471906,Reynaldo Rodriguez,Charros de Jalisco,True,1.053,2024-10-15
-473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.455,2024-10-17
-678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2024-10-17
-657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.777,2024-10-17
-606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2024-10-17
-662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.775,2024-10-17
-571531,Sergio Burruel,Naranjeros de Hermosillo,False,0.833,2024-10-17
-678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.884,2024-10-17
-807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,2024-10-17
-672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.524,2024-10-17
-641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.679,2024-10-17
-815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2024-10-17
-680023,Daniel Mercado,Naranjeros de Hermosillo,False,0.0,2024-10-17
-546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.236,2024-10-17
-803376,Angel Camacho,Naranjeros de Hermosillo,False,0.661,2024-10-17
-676761,Irving Lopez,Naranjeros de Hermosillo,False,0.616,2024-10-17
-453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.523,2024-10-17
-516679,Sebastian Valle,Charros de Jalisco,True,0.416,2024-10-17
-570799,Christian Villanueva,Charros de Jalisco,True,0.53,2024-10-17
-641104,Carlos Mendivil,Charros de Jalisco,True,2.0,2024-10-17
-681933,Michael Wielansky,Charros de Jalisco,True,0.85,2024-10-17
-515189,Japhet Amador,Charros de Jalisco,True,0.396,2024-10-17
-608686,Jack Mayfield,Charros de Jalisco,True,0.781,2024-10-17
-829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,2024-10-17
-685771,Alfredo Hurtado,Charros de Jalisco,True,1.457,2024-10-17
-676140,Julian Ornelas,Charros de Jalisco,True,0.914,2024-10-17
-571740,Billy Hamilton,Charros de Jalisco,True,1.101,2024-10-17
-593495,Daniel Castro,Charros de Jalisco,True,0.25,2024-10-17
-591572,Jose Aguilar,Charros de Jalisco,True,1.015,2024-10-17
-471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.965,2024-10-17
-554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.167,2024-10-18
-811361,Joel Flores,Sultanes de Monterrey,False,0.0,2024-10-18
-500869,Emmanuel Avila,Sultanes de Monterrey,False,0.944,2024-10-18
-680643,Juan Mora,Sultanes de Monterrey,False,0.0,2024-10-18
-661311,Brandon Villarreal,Sultanes de Monterrey,False,0.634,2024-10-18
-697779,Jose Robledo,Sultanes de Monterrey,False,0.0,2024-10-18
-640460,Dustin Peterson,Sultanes de Monterrey,False,0.511,2024-10-18
-666177,Carter Aldrete,Sultanes de Monterrey,False,0.642,2024-10-18
-661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.57,2024-10-18
-594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.578,2024-10-18
-606213,Yermín Mercedes,Sultanes de Monterrey,False,0.417,2024-10-18
-656252,Bobby Bradley,Sultanes de Monterrey,False,0.929,2024-10-18
-673374,Cesar Mendoza,Sultanes de Monterrey,False,0.54,2024-10-18
-614182,Jose Carlos Urena,Yaquis de Obregon,True,0.0,2024-10-18
-622700,Santiago Chávez,Yaquis de Obregon,True,0.594,2024-10-18
-660620,Jonathan Araúz,Yaquis de Obregon,True,0.306,2024-10-18
-546990,Anthony Alford,Yaquis de Obregon,True,0.277,2024-10-18
-642707,Allen Córdoba,Yaquis de Obregon,True,0.594,2024-10-18
-616404,Edson Garcia,Yaquis de Obregon,True,0.543,2024-10-18
-692944,Kevin Villavicencio,Yaquis de Obregon,True,0.258,2024-10-18
-679589,Fernando Villegas,Yaquis de Obregon,True,0.733,2024-10-18
-672438,Roberto Valenzuela,Yaquis de Obregon,True,0.565,2024-10-18
-603877,Fernando Flores,Yaquis de Obregon,True,0.258,2024-10-18
-628013,Victor Mendoza,Yaquis de Obregon,True,0.733,2024-10-18
-802888,Victor Marquez,Yaquis de Obregon,True,0.0,2024-10-18
-571685,Anthony García,Yaquis de Obregon,True,1.071,2024-10-18
-468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,2024-10-18
-554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.1,2024-10-19
-811361,Joel Flores,Sultanes de Monterrey,False,0.0,2024-10-19
-500869,Emmanuel Avila,Sultanes de Monterrey,False,0.802,2024-10-19
-680643,Juan Mora,Sultanes de Monterrey,False,0.0,2024-10-19
-661311,Brandon Villarreal,Sultanes de Monterrey,False,0.606,2024-10-19
-697779,Jose Robledo,Sultanes de Monterrey,False,0.0,2024-10-19
-640460,Dustin Peterson,Sultanes de Monterrey,False,0.671,2024-10-19
-616570,Daniel Sanchez,Sultanes de Monterrey,False,0.0,2024-10-19
-666177,Carter Aldrete,Sultanes de Monterrey,False,0.555,2024-10-19
-661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.56,2024-10-19
-594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.578,2024-10-19
-606213,Yermín Mercedes,Sultanes de Monterrey,False,0.471,2024-10-19
-656252,Bobby Bradley,Sultanes de Monterrey,False,0.708,2024-10-19
-673374,Cesar Mendoza,Sultanes de Monterrey,False,0.54,2024-10-19
-614182,Jose Carlos Urena,Yaquis de Obregon,True,0.375,2024-10-19
-622700,Santiago Chávez,Yaquis de Obregon,True,0.485,2024-10-19
-680029,Oziel Flores,Yaquis de Obregon,True,0.0,2024-10-19
-660620,Jonathan Araúz,Yaquis de Obregon,True,0.328,2024-10-19
-546990,Anthony Alford,Yaquis de Obregon,True,0.259,2024-10-19
-642707,Allen Córdoba,Yaquis de Obregon,True,0.603,2024-10-19
-616404,Edson Garcia,Yaquis de Obregon,True,0.444,2024-10-19
-692944,Kevin Villavicencio,Yaquis de Obregon,True,0.22,2024-10-19
-679589,Fernando Villegas,Yaquis de Obregon,True,0.747,2024-10-19
-672438,Roberto Valenzuela,Yaquis de Obregon,True,0.579,2024-10-19
-603877,Fernando Flores,Yaquis de Obregon,True,0.237,2024-10-19
-628013,Victor Mendoza,Yaquis de Obregon,True,0.602,2024-10-19
-802888,Victor Marquez,Yaquis de Obregon,True,0.0,2024-10-19
-571685,Anthony García,Yaquis de Obregon,True,1.14,2024-10-19
-468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,2024-10-19
-554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.1,2024-10-20
-811361,Joel Flores,Sultanes de Monterrey,False,0.0,2024-10-20
-500869,Emmanuel Avila,Sultanes de Monterrey,False,0.809,2024-10-20
-680643,Juan Mora,Sultanes de Monterrey,False,0.0,2024-10-20
-661311,Brandon Villarreal,Sultanes de Monterrey,False,0.665,2024-10-20
-697779,Jose Robledo,Sultanes de Monterrey,False,0.0,2024-10-20
-640460,Dustin Peterson,Sultanes de Monterrey,False,0.602,2024-10-20
-616570,Daniel Sanchez,Sultanes de Monterrey,False,0.0,2024-10-20
-666177,Carter Aldrete,Sultanes de Monterrey,False,0.629,2024-10-20
-661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.703,2024-10-20
-594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.53,2024-10-20
-606213,Yermín Mercedes,Sultanes de Monterrey,False,0.407,2024-10-20
-656252,Bobby Bradley,Sultanes de Monterrey,False,0.547,2024-10-20
-673374,Cesar Mendoza,Sultanes de Monterrey,False,0.787,2024-10-20
-614182,Jose Carlos Urena,Yaquis de Obregon,True,0.375,2024-10-20
-622700,Santiago Chávez,Yaquis de Obregon,True,0.411,2024-10-20
-680029,Oziel Flores,Yaquis de Obregon,True,0.0,2024-10-20
-660620,Jonathan Araúz,Yaquis de Obregon,True,0.296,2024-10-20
-546990,Anthony Alford,Yaquis de Obregon,True,0.583,2024-10-20
-642707,Allen Córdoba,Yaquis de Obregon,True,0.667,2024-10-20
-616404,Edson Garcia,Yaquis de Obregon,True,0.444,2024-10-20
-692944,Kevin Villavicencio,Yaquis de Obregon,True,0.243,2024-10-20
-679589,Fernando Villegas,Yaquis de Obregon,True,0.868,2024-10-20
-672438,Roberto Valenzuela,Yaquis de Obregon,True,0.506,2024-10-20
-603877,Fernando Flores,Yaquis de Obregon,True,0.237,2024-10-20
-628013,Victor Mendoza,Yaquis de Obregon,True,0.565,2024-10-20
-802888,Victor Marquez,Yaquis de Obregon,True,0.0,2024-10-20
-571685,Anthony García,Yaquis de Obregon,True,1.259,2024-10-20
-468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,2024-10-20
-624645,Julian Leon,Aguilas de Mexicali,False,1.0,2024-10-13
-668843,Conner Capel,Aguilas de Mexicali,False,0.661,2024-10-13
-687867,Clay Dungan,Aguilas de Mexicali,False,0.611,2024-10-13
-642299,Alejandro Flores,Aguilas de Mexicali,False,1.0,2024-10-13
-606143,Alejandro Mejia,Aguilas de Mexicali,False,0.0,2024-10-13
-605011,Moises Gutierrez,Aguilas de Mexicali,False,1.357,2024-10-13
-655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,2024-10-13
-622270,Alex D. Mejia,Aguilas de Mexicali,False,1.0,2024-10-13
-665745,Javier Salazar,Aguilas de Mexicali,False,0.125,2024-10-13
-592144,Wynton Bernard,Aguilas de Mexicali,False,0.333,2024-10-13
-650995,Norberto Obeso,Aguilas de Mexicali,False,0.25,2024-10-13
-554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.2,2024-10-13
-811361,Joel Flores,Sultanes de Monterrey,True,0.0,2024-10-13
-500869,Emmanuel Avila,Sultanes de Monterrey,True,1.417,2024-10-13
-661311,Brandon Villarreal,Sultanes de Monterrey,True,0.666,2024-10-13
-640460,Dustin Peterson,Sultanes de Monterrey,True,0.222,2024-10-13
-666177,Carter Aldrete,Sultanes de Monterrey,True,1.25,2024-10-13
-661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.619,2024-10-13
-594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.0,2024-10-13
-606213,Yermín Mercedes,Sultanes de Monterrey,True,0.25,2024-10-13
-673374,Cesar Mendoza,Sultanes de Monterrey,True,0.393,2024-10-13
-624645,Julian Leon,Aguilas de Mexicali,False,1.1,2024-10-15
-668843,Conner Capel,Aguilas de Mexicali,False,0.467,2024-10-15
-687867,Clay Dungan,Aguilas de Mexicali,False,0.579,2024-10-15
-642299,Alejandro Flores,Aguilas de Mexicali,False,0.25,2024-10-15
-606143,Alejandro Mejia,Aguilas de Mexicali,False,0.118,2024-10-15
-605011,Moises Gutierrez,Aguilas de Mexicali,False,0.878,2024-10-15
-655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,2024-10-15
-622270,Alex D. Mejia,Aguilas de Mexicali,False,0.813,2024-10-15
-665745,Javier Salazar,Aguilas de Mexicali,False,0.091,2024-10-15
-676021,Luis Santos,Aguilas de Mexicali,False,0.666,2024-10-15
-592144,Wynton Bernard,Aguilas de Mexicali,False,0.343,2024-10-15
-511428,Leo Heras,Aguilas de Mexicali,False,1.666,2024-10-15
-650995,Norberto Obeso,Aguilas de Mexicali,False,0.308,2024-10-15
-554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,2024-10-15
-811361,Joel Flores,Sultanes de Monterrey,True,0.0,2024-10-15
-500869,Emmanuel Avila,Sultanes de Monterrey,True,1.083,2024-10-15
-661311,Brandon Villarreal,Sultanes de Monterrey,True,0.67,2024-10-15
-697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2024-10-15
-640460,Dustin Peterson,Sultanes de Monterrey,True,0.627,2024-10-15
-666177,Carter Aldrete,Sultanes de Monterrey,True,0.761,2024-10-15
-661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.557,2024-10-15
-594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.69,2024-10-15
-606213,Yermín Mercedes,Sultanes de Monterrey,True,0.5,2024-10-15
-656252,Bobby Bradley,Sultanes de Monterrey,True,0.536,2024-10-15
-673374,Cesar Mendoza,Sultanes de Monterrey,True,0.48,2024-10-15
-540204,Ramon Rios,Tomateros de Culiacan,False,0.491,2024-10-22
-652999,Jesus Fabela,Tomateros de Culiacan,False,0.413,2024-10-22
-695000,Poncho Ruiz,Tomateros de Culiacan,False,0.8,2024-10-22
-455378,Ali Solis,Tomateros de Culiacan,False,0.411,2024-10-22
-519068,Efren Navarro,Tomateros de Culiacan,False,0.879,2024-10-22
-657675,Rudy Martin,Tomateros de Culiacan,False,0.774,2024-10-22
-608841,Joey Meneses,Tomateros de Culiacan,False,0.229,2024-10-22
-655996,Cristian Santana,Tomateros de Culiacan,False,1.229,2024-10-22
-677605,Luis Verdugo,Tomateros de Culiacan,False,0.536,2024-10-22
-687019,Andrés Alvarez,Tomateros de Culiacan,False,0.84,2024-10-22
-596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.029,2024-10-22
-677690,Diosbel Arias,Tomateros de Culiacan,False,0.67,2024-10-22
-606019,Esteban Quiroz,Tomateros de Culiacan,False,1.073,2024-10-22
-802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,2024-10-22
-554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.1,2024-10-22
-811361,Joel Flores,Sultanes de Monterrey,True,0.0,2024-10-22
-500869,Emmanuel Avila,Sultanes de Monterrey,True,0.837,2024-10-22
-680643,Juan Mora,Sultanes de Monterrey,True,0.0,2024-10-22
-661311,Brandon Villarreal,Sultanes de Monterrey,True,0.619,2024-10-22
-697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2024-10-22
-640460,Dustin Peterson,Sultanes de Monterrey,True,0.668,2024-10-22
-616570,Daniel Sanchez,Sultanes de Monterrey,True,0.0,2024-10-22
-666177,Carter Aldrete,Sultanes de Monterrey,True,0.652,2024-10-22
-661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.727,2024-10-22
-594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.637,2024-10-22
-606213,Yermín Mercedes,Sultanes de Monterrey,True,0.477,2024-10-22
-656252,Bobby Bradley,Sultanes de Monterrey,True,0.566,2024-10-22
-673374,Cesar Mendoza,Sultanes de Monterrey,True,0.933,2024-10-22
-624645,Julian Leon,Aguilas de Mexicali,False,1.215,2024-10-16
-668843,Conner Capel,Aguilas de Mexicali,False,0.6,2024-10-16
-687867,Clay Dungan,Aguilas de Mexicali,False,0.696,2024-10-16
-642299,Alejandro Flores,Aguilas de Mexicali,False,0.25,2024-10-16
-606143,Alejandro Mejia,Aguilas de Mexicali,False,0.428,2024-10-16
-605011,Moises Gutierrez,Aguilas de Mexicali,False,0.808,2024-10-16
-616569,Diego Madero,Aguilas de Mexicali,False,0.0,2024-10-16
-655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,2024-10-16
-622270,Alex D. Mejia,Aguilas de Mexicali,False,0.787,2024-10-16
-665745,Javier Salazar,Aguilas de Mexicali,False,0.071,2024-10-16
-676021,Luis Santos,Aguilas de Mexicali,False,0.666,2024-10-16
-592144,Wynton Bernard,Aguilas de Mexicali,False,0.573,2024-10-16
-511428,Leo Heras,Aguilas de Mexicali,False,1.666,2024-10-16
-650995,Norberto Obeso,Aguilas de Mexicali,False,0.352,2024-10-16
-554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,2024-10-16
-811361,Joel Flores,Sultanes de Monterrey,True,0.0,2024-10-16
-500869,Emmanuel Avila,Sultanes de Monterrey,True,1.083,2024-10-16
-680643,Juan Mora,Sultanes de Monterrey,True,0.0,2024-10-16
-661311,Brandon Villarreal,Sultanes de Monterrey,True,0.591,2024-10-16
-697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2024-10-16
-640460,Dustin Peterson,Sultanes de Monterrey,True,0.557,2024-10-16
-666177,Carter Aldrete,Sultanes de Monterrey,True,0.675,2024-10-16
-661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.564,2024-10-16
-594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.732,2024-10-16
-606213,Yermín Mercedes,Sultanes de Monterrey,True,0.444,2024-10-16
-656252,Bobby Bradley,Sultanes de Monterrey,True,0.633,2024-10-16
-673374,Cesar Mendoza,Sultanes de Monterrey,True,0.547,2024-10-16
-624645,Julian Leon,Aguilas de Mexicali,False,1.1,2024-10-14
-668843,Conner Capel,Aguilas de Mexicali,False,0.533,2024-10-14
-687867,Clay Dungan,Aguilas de Mexicali,False,0.684,2024-10-14
-642299,Alejandro Flores,Aguilas de Mexicali,False,1.0,2024-10-14
-606143,Alejandro Mejia,Aguilas de Mexicali,False,0.154,2024-10-14
-605011,Moises Gutierrez,Aguilas de Mexicali,False,0.878,2024-10-14
-655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,2024-10-14
-622270,Alex D. Mejia,Aguilas de Mexicali,False,0.833,2024-10-14
-665745,Javier Salazar,Aguilas de Mexicali,False,0.125,2024-10-14
-676021,Luis Santos,Aguilas de Mexicali,False,0.8,2024-10-14
-592144,Wynton Bernard,Aguilas de Mexicali,False,0.357,2024-10-14
-650995,Norberto Obeso,Aguilas de Mexicali,False,0.308,2024-10-14
-554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,2024-10-14
-811361,Joel Flores,Sultanes de Monterrey,True,0.0,2024-10-14
-500869,Emmanuel Avila,Sultanes de Monterrey,True,1.225,2024-10-14
-661311,Brandon Villarreal,Sultanes de Monterrey,True,0.5,2024-10-14
-697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2024-10-14
-640460,Dustin Peterson,Sultanes de Monterrey,True,0.413,2024-10-14
-666177,Carter Aldrete,Sultanes de Monterrey,True,0.891,2024-10-14
-661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.774,2024-10-14
-594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.311,2024-10-14
-606213,Yermín Mercedes,Sultanes de Monterrey,True,0.334,2024-10-14
-656252,Bobby Bradley,Sultanes de Monterrey,True,0.25,2024-10-14
-673374,Cesar Mendoza,Sultanes de Monterrey,True,0.432,2024-10-14
-614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,2024-10-15
-622700,Santiago Chávez,Yaquis de Obregon,False,0.944,2024-10-15
-660620,Jonathan Araúz,Yaquis de Obregon,False,0.333,2024-10-15
-546990,Anthony Alford,Yaquis de Obregon,False,0.282,2024-10-15
-642707,Allen Córdoba,Yaquis de Obregon,False,0.408,2024-10-15
-616404,Edson Garcia,Yaquis de Obregon,False,0.5,2024-10-15
-692944,Kevin Villavicencio,Yaquis de Obregon,False,0.347,2024-10-15
-679589,Fernando Villegas,Yaquis de Obregon,False,0.944,2024-10-15
-672438,Roberto Valenzuela,Yaquis de Obregon,False,0.697,2024-10-15
-603877,Fernando Flores,Yaquis de Obregon,False,0.0,2024-10-15
-628013,Victor Mendoza,Yaquis de Obregon,False,0.583,2024-10-15
-802888,Victor Marquez,Yaquis de Obregon,False,0.0,2024-10-15
-571685,Anthony García,Yaquis de Obregon,False,0.872,2024-10-15
-661270,Roel Santos,Caneros de los Mochis,True,0.972,2024-10-15
-587275,Alan Espinoza,Caneros de los Mochis,True,0.473,2024-10-15
-596107,Eric Filia,Caneros de los Mochis,True,0.917,2024-10-15
-665455,Isaac Rodriguez,Caneros de los Mochis,True,0.993,2024-10-15
-630111,Yasmany Tomás,Caneros de los Mochis,True,0.487,2024-10-15
-681909,Justin Dean,Caneros de los Mochis,True,0.417,2024-10-15
-668616,Marco Jaime,Caneros de los Mochis,True,0.35,2024-10-15
-685474,Felix Stevens,Caneros de los Mochis,True,0.267,2024-10-15
-616613,Rodolfo Amador,Caneros de los Mochis,True,0.697,2024-10-15
-677977,Edgar Robles,Caneros de los Mochis,True,0.0,2024-10-15
-664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2024-10-15
-458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2024-10-15
-661313,Asael Sanchez,Mayos de Navojoa,False,0.0,2024-10-15
-550492,Luis Juarez,Mayos de Navojoa,False,0.539,2024-10-15
-694942,Matt McDermott,Mayos de Navojoa,False,1.205,2024-10-15
-668992,Missael Rivera,Mayos de Navojoa,False,0.282,2024-10-15
-680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,2024-10-15
-634739,Miguel Guzman,Mayos de Navojoa,False,0.473,2024-10-15
-686659,Julian Escobedo,Mayos de Navojoa,False,0.802,2024-10-15
-547375,Sergio Perez,Mayos de Navojoa,False,1.0,2024-10-15
-660842,Juan Uriarte,Mayos de Navojoa,False,1.011,2024-10-15
-664009,Brantley Bell,Mayos de Navojoa,False,1.117,2024-10-15
-678966,Mike Hart,Mayos de Navojoa,False,0.333,2024-10-15
-672361,Agustin Ruiz,Mayos de Navojoa,False,0.2,2024-10-15
-689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2024-10-15
-622603,Carlos Castro,Venados de Mazatlan,True,0.968,2024-10-15
-668165,Jose Gaitan,Venados de Mazatlan,True,0.955,2024-10-15
-499926,Alex Liddi,Venados de Mazatlan,True,0.773,2024-10-15
-675202,Juan Kirk,Venados de Mazatlan,True,0.0,2024-10-15
-678499,Randy Romero,Venados de Mazatlan,True,0.308,2024-10-15
-671246,Fabricio Macias,Venados de Mazatlan,True,0.472,2024-10-15
-634496,Leo German,Venados de Mazatlan,True,0.0,2024-10-15
-455369,Ramiro Pena,Venados de Mazatlan,True,0.462,2024-10-15
-678540,Brayan Quintero,Venados de Mazatlan,True,0.899,2024-10-15
-593471,Isaias Tejeda,Venados de Mazatlan,True,0.282,2024-10-15
-599096,Dilson Herrera,Venados de Mazatlan,True,1.007,2024-10-15
-614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,2024-10-17
-622700,Santiago Chávez,Yaquis de Obregon,False,0.697,2024-10-17
-660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,2024-10-17
-546990,Anthony Alford,Yaquis de Obregon,False,0.277,2024-10-17
-642707,Allen Córdoba,Yaquis de Obregon,False,0.589,2024-10-17
-616404,Edson Garcia,Yaquis de Obregon,False,0.629,2024-10-17
-692944,Kevin Villavicencio,Yaquis de Obregon,False,0.258,2024-10-17
-679589,Fernando Villegas,Yaquis de Obregon,False,0.782,2024-10-17
-672438,Roberto Valenzuela,Yaquis de Obregon,False,0.683,2024-10-17
-603877,Fernando Flores,Yaquis de Obregon,False,0.393,2024-10-17
-628013,Victor Mendoza,Yaquis de Obregon,False,0.675,2024-10-17
-802888,Victor Marquez,Yaquis de Obregon,False,0.0,2024-10-17
-571685,Anthony García,Yaquis de Obregon,False,1.087,2024-10-17
-468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.25,2024-10-17
-661270,Roel Santos,Caneros de los Mochis,True,0.702,2024-10-17
-587275,Alan Espinoza,Caneros de los Mochis,True,0.368,2024-10-17
-596107,Eric Filia,Caneros de los Mochis,True,0.649,2024-10-17
-665455,Isaac Rodriguez,Caneros de los Mochis,True,1.148,2024-10-17
-630111,Yasmany Tomás,Caneros de los Mochis,True,0.473,2024-10-17
-681909,Justin Dean,Caneros de los Mochis,True,0.316,2024-10-17
-668616,Marco Jaime,Caneros de los Mochis,True,0.494,2024-10-17
-685474,Felix Stevens,Caneros de los Mochis,True,0.613,2024-10-17
-616613,Rodolfo Amador,Caneros de los Mochis,True,0.578,2024-10-17
-677977,Edgar Robles,Caneros de los Mochis,True,0.0,2024-10-17
-703060,Alejandro Urias,Caneros de los Mochis,True,0.666,2024-10-17
-614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,2024-10-16
-622700,Santiago Chávez,Yaquis de Obregon,False,0.697,2024-10-16
-660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,2024-10-16
-546990,Anthony Alford,Yaquis de Obregon,False,0.277,2024-10-16
-642707,Allen Córdoba,Yaquis de Obregon,False,0.782,2024-10-16
-616404,Edson Garcia,Yaquis de Obregon,False,0.333,2024-10-16
-692944,Kevin Villavicencio,Yaquis de Obregon,False,0.258,2024-10-16
-679589,Fernando Villegas,Yaquis de Obregon,False,0.771,2024-10-16
-672438,Roberto Valenzuela,Yaquis de Obregon,False,0.785,2024-10-16
-603877,Fernando Flores,Yaquis de Obregon,False,0.0,2024-10-16
-628013,Victor Mendoza,Yaquis de Obregon,False,0.646,2024-10-16
-802888,Victor Marquez,Yaquis de Obregon,False,0.0,2024-10-16
-571685,Anthony García,Yaquis de Obregon,False,0.732,2024-10-16
-661270,Roel Santos,Caneros de los Mochis,True,0.749,2024-10-16
-587275,Alan Espinoza,Caneros de los Mochis,True,0.473,2024-10-16
-596107,Eric Filia,Caneros de los Mochis,True,0.686,2024-10-16
-665455,Isaac Rodriguez,Caneros de los Mochis,True,0.996,2024-10-16
-630111,Yasmany Tomás,Caneros de los Mochis,True,0.521,2024-10-16
-681909,Justin Dean,Caneros de los Mochis,True,0.333,2024-10-16
-668616,Marco Jaime,Caneros de los Mochis,True,0.453,2024-10-16
-685474,Felix Stevens,Caneros de los Mochis,True,0.792,2024-10-16
-616613,Rodolfo Amador,Caneros de los Mochis,True,0.732,2024-10-16
-677977,Edgar Robles,Caneros de los Mochis,True,0.0,2024-10-16
-703060,Alejandro Urias,Caneros de los Mochis,True,0.666,2024-10-16
-664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2024-10-13
-458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2024-10-13
-661313,Asael Sanchez,Mayos de Navojoa,False,0.0,2024-10-13
-814812,Edgar Lugo,Mayos de Navojoa,False,0.0,2024-10-13
-550492,Luis Juarez,Mayos de Navojoa,False,0.222,2024-10-13
-694942,Matt McDermott,Mayos de Navojoa,False,1.482,2024-10-13
-668992,Missael Rivera,Mayos de Navojoa,False,0.286,2024-10-13
-680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,2024-10-13
-634739,Miguel Guzman,Mayos de Navojoa,False,0.572,2024-10-13
-686659,Julian Escobedo,Mayos de Navojoa,False,0.944,2024-10-13
-547375,Sergio Perez,Mayos de Navojoa,False,1.0,2024-10-13
-660842,Juan Uriarte,Mayos de Navojoa,False,1.371,2024-10-13
-664009,Brantley Bell,Mayos de Navojoa,False,0.555,2024-10-13
-678966,Mike Hart,Mayos de Navojoa,False,0.375,2024-10-13
-672361,Agustin Ruiz,Mayos de Navojoa,False,0.334,2024-10-13
-661270,Roel Santos,Caneros de los Mochis,True,1.389,2024-10-13
-587275,Alan Espinoza,Caneros de los Mochis,True,0.393,2024-10-13
-596107,Eric Filia,Caneros de los Mochis,True,0.873,2024-10-13
-665455,Isaac Rodriguez,Caneros de los Mochis,True,1.238,2024-10-13
-630111,Yasmany Tomás,Caneros de los Mochis,True,0.722,2024-10-13
-681909,Justin Dean,Caneros de los Mochis,True,0.444,2024-10-13
-668616,Marco Jaime,Caneros de los Mochis,True,0.476,2024-10-13
-685474,Felix Stevens,Caneros de los Mochis,True,0.111,2024-10-13
-616613,Rodolfo Amador,Caneros de los Mochis,True,0.777,2024-10-13
-677977,Edgar Robles,Caneros de los Mochis,True,0.0,2024-10-13
-453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.0,2024-10-13
-516679,Sebastian Valle,Charros de Jalisco,False,0.625,2024-10-13
-570799,Christian Villanueva,Charros de Jalisco,False,0.9,2024-10-13
-681933,Michael Wielansky,Charros de Jalisco,False,0.393,2024-10-13
-515189,Japhet Amador,Charros de Jalisco,False,0.125,2024-10-13
-608686,Jack Mayfield,Charros de Jalisco,False,0.5,2024-10-13
-828390,Carlos Baez,Charros de Jalisco,False,0.0,2024-10-13
-685771,Alfredo Hurtado,Charros de Jalisco,False,0.0,2024-10-13
-676140,Julian Ornelas,Charros de Jalisco,False,0.75,2024-10-13
-571740,Billy Hamilton,Charros de Jalisco,False,0.543,2024-10-13
-593495,Daniel Castro,Charros de Jalisco,False,0.334,2024-10-13
-471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.875,2024-10-13
-689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2024-10-13
-622603,Carlos Castro,Venados de Mazatlan,True,1.334,2024-10-13
-668165,Jose Gaitan,Venados de Mazatlan,True,1.071,2024-10-13
-499926,Alex Liddi,Venados de Mazatlan,True,1.042,2024-10-13
-675202,Juan Kirk,Venados de Mazatlan,True,0.0,2024-10-13
-678499,Randy Romero,Venados de Mazatlan,True,0.444,2024-10-13
-671246,Fabricio Macias,Venados de Mazatlan,True,0.2,2024-10-13
-634496,Leo German,Venados de Mazatlan,True,0.0,2024-10-13
-455369,Ramiro Pena,Venados de Mazatlan,True,0.444,2024-10-13
-678540,Brayan Quintero,Venados de Mazatlan,True,1.292,2024-10-13
-593471,Isaias Tejeda,Venados de Mazatlan,True,0.393,2024-10-13
-599096,Dilson Herrera,Venados de Mazatlan,True,0.873,2024-10-13
-664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2024-10-16
-458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2024-10-16
-661313,Asael Sanchez,Mayos de Navojoa,False,0.971,2024-10-16
-617918,Marco Chicuate,Mayos de Navojoa,False,0.0,2024-10-16
-550492,Luis Juarez,Mayos de Navojoa,False,0.529,2024-10-16
-694942,Matt McDermott,Mayos de Navojoa,False,0.912,2024-10-16
-668992,Missael Rivera,Mayos de Navojoa,False,0.368,2024-10-16
-680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,2024-10-16
-634739,Miguel Guzman,Mayos de Navojoa,False,0.343,2024-10-16
-686659,Julian Escobedo,Mayos de Navojoa,False,0.728,2024-10-16
-547375,Sergio Perez,Mayos de Navojoa,False,2.334,2024-10-16
-660842,Juan Uriarte,Mayos de Navojoa,False,0.774,2024-10-16
-664009,Brantley Bell,Mayos de Navojoa,False,0.913,2024-10-16
-678966,Mike Hart,Mayos de Navojoa,False,0.4,2024-10-16
-672361,Agustin Ruiz,Mayos de Navojoa,False,0.286,2024-10-16
-689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2024-10-16
-622603,Carlos Castro,Venados de Mazatlan,True,0.975,2024-10-16
-668165,Jose Gaitan,Venados de Mazatlan,True,1.0,2024-10-16
-499926,Alex Liddi,Venados de Mazatlan,True,0.767,2024-10-16
-675202,Juan Kirk,Venados de Mazatlan,True,0.0,2024-10-16
-608608,Carlos Munoz,Venados de Mazatlan,True,0.0,2024-10-16
-678499,Randy Romero,Venados de Mazatlan,True,0.466,2024-10-16
-671246,Fabricio Macias,Venados de Mazatlan,True,0.495,2024-10-16
-634496,Leo German,Venados de Mazatlan,True,0.0,2024-10-16
-455369,Ramiro Pena,Venados de Mazatlan,True,0.444,2024-10-16
-678540,Brayan Quintero,Venados de Mazatlan,True,0.733,2024-10-16
-593471,Isaias Tejeda,Venados de Mazatlan,True,0.282,2024-10-16
-599096,Dilson Herrera,Venados de Mazatlan,True,0.879,2024-10-16
-701033,Jorge Rivera,Algodoneros de Guasave,False,0.666,2024-10-22
-807581,Randy Delgado,Algodoneros de Guasave,False,0.666,2024-10-22
-674504,Francisco Hernandez,Algodoneros de Guasave,False,0.417,2024-10-22
-687045,Justin Wylie,Algodoneros de Guasave,False,0.469,2024-10-22
-674706,Alan Lopez,Algodoneros de Guasave,False,2.0,2024-10-22
-660840,Jose Lizarraga,Algodoneros de Guasave,False,0.333,2024-10-22
-660436,Yadir Drake,Algodoneros de Guasave,False,0.674,2024-10-22
-806873,Yael Romero,Algodoneros de Guasave,False,0.0,2024-10-22
-656029,Alexis Wilson,Algodoneros de Guasave,False,0.754,2024-10-22
-657733,Roberto Ramos,Algodoneros de Guasave,False,0.538,2024-10-22
-477399,Jesse Castillo,Algodoneros de Guasave,False,0.903,2024-10-22
-700032,Victor Labrada,Algodoneros de Guasave,False,0.718,2024-10-22
-652669,Angel Erro,Algodoneros de Guasave,False,0.874,2024-10-22
-592312,Jorge Flores,Algodoneros de Guasave,False,0.653,2024-10-22
-685694,Keven Lamas,Algodoneros de Guasave,False,0.306,2024-10-22
-682183,Drew Avans,Algodoneros de Guasave,False,0.678,2024-10-22
-814656,Elias Verdugo,Caneros de los Mochis,True,2.0,2024-10-22
-664583,Beder Gutierrez,Caneros de los Mochis,True,0.0,2024-10-22
-694034,Mario Gomez,Caneros de los Mochis,True,0.0,2024-10-22
-661270,Roel Santos,Caneros de los Mochis,True,0.633,2024-10-22
-587275,Alan Espinoza,Caneros de los Mochis,True,0.461,2024-10-22
-596107,Eric Filia,Caneros de los Mochis,True,0.684,2024-10-22
-665455,Isaac Rodriguez,Caneros de los Mochis,True,1.084,2024-10-22
-630111,Yasmany Tomás,Caneros de los Mochis,True,0.343,2024-10-22
-681909,Justin Dean,Caneros de los Mochis,True,0.55,2024-10-22
-668616,Marco Jaime,Caneros de los Mochis,True,0.554,2024-10-22
-685474,Felix Stevens,Caneros de los Mochis,True,0.483,2024-10-22
-616613,Rodolfo Amador,Caneros de los Mochis,True,0.611,2024-10-22
-654118,Eric Meza,Caneros de los Mochis,True,1.0,2024-10-22
-677977,Edgar Robles,Caneros de los Mochis,True,0.0,2024-10-22
-703060,Alejandro Urias,Caneros de los Mochis,True,0.8,2024-10-22
-664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2024-10-17
-458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.833,2024-10-17
-661313,Asael Sanchez,Mayos de Navojoa,False,0.833,2024-10-17
-617918,Marco Chicuate,Mayos de Navojoa,False,0.0,2024-10-17
-550492,Luis Juarez,Mayos de Navojoa,False,0.5,2024-10-17
-694942,Matt McDermott,Mayos de Navojoa,False,0.929,2024-10-17
-668992,Missael Rivera,Mayos de Navojoa,False,0.368,2024-10-17
-680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,2024-10-17
-634739,Miguel Guzman,Mayos de Navojoa,False,0.343,2024-10-17
-686659,Julian Escobedo,Mayos de Navojoa,False,0.859,2024-10-17
-547375,Sergio Perez,Mayos de Navojoa,False,2.334,2024-10-17
-660842,Juan Uriarte,Mayos de Navojoa,False,0.708,2024-10-17
-664009,Brantley Bell,Mayos de Navojoa,False,0.675,2024-10-17
-678966,Mike Hart,Mayos de Navojoa,False,0.357,2024-10-17
-672361,Agustin Ruiz,Mayos de Navojoa,False,0.5,2024-10-17
-689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2024-10-17
-622603,Carlos Castro,Venados de Mazatlan,True,0.783,2024-10-17
-668165,Jose Gaitan,Venados de Mazatlan,True,0.764,2024-10-17
-499926,Alex Liddi,Venados de Mazatlan,True,0.745,2024-10-17
-503429,Walter Ibarra,Venados de Mazatlan,True,0.0,2024-10-17
-675202,Juan Kirk,Venados de Mazatlan,True,0.0,2024-10-17
-608608,Carlos Munoz,Venados de Mazatlan,True,0.0,2024-10-17
-678499,Randy Romero,Venados de Mazatlan,True,0.568,2024-10-17
-671246,Fabricio Macias,Venados de Mazatlan,True,0.495,2024-10-17
-634496,Leo German,Venados de Mazatlan,True,0.619,2024-10-17
-455369,Ramiro Pena,Venados de Mazatlan,True,0.364,2024-10-17
-678540,Brayan Quintero,Venados de Mazatlan,True,0.681,2024-10-17
-599096,Dilson Herrera,Venados de Mazatlan,True,1.032,2024-10-17
-624645,Julian Leon,Aguilas de Mexicali,False,0.851,2024-10-22
-668843,Conner Capel,Aguilas de Mexicali,False,0.665,2024-10-22
-687867,Clay Dungan,Aguilas de Mexicali,False,0.789,2024-10-22
-642299,Alejandro Flores,Aguilas de Mexicali,False,0.222,2024-10-22
-606143,Alejandro Mejia,Aguilas de Mexicali,False,0.395,2024-10-22
-605011,Moises Gutierrez,Aguilas de Mexicali,False,0.738,2024-10-22
-510548,Jose Heberto Felix,Aguilas de Mexicali,False,0.65,2024-10-22
-616569,Diego Madero,Aguilas de Mexicali,False,0.0,2024-10-22
-655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,2024-10-22
-622270,Alex D. Mejia,Aguilas de Mexicali,False,0.51,2024-10-22
-665745,Javier Salazar,Aguilas de Mexicali,False,0.322,2024-10-22
-676021,Luis Santos,Aguilas de Mexicali,False,0.5,2024-10-22
-592144,Wynton Bernard,Aguilas de Mexicali,False,0.548,2024-10-22
-511428,Leo Heras,Aguilas de Mexicali,False,1.599,2024-10-22
-650995,Norberto Obeso,Aguilas de Mexicali,False,0.739,2024-10-22
-689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2024-10-22
-622603,Carlos Castro,Venados de Mazatlan,True,0.668,2024-10-22
-668165,Jose Gaitan,Venados de Mazatlan,True,0.765,2024-10-22
-499926,Alex Liddi,Venados de Mazatlan,True,0.447,2024-10-22
-685736,Cristian Mejia,Venados de Mazatlan,True,0.0,2024-10-22
-503429,Walter Ibarra,Venados de Mazatlan,True,0.55,2024-10-22
-675202,Juan Kirk,Venados de Mazatlan,True,0.644,2024-10-22
-608608,Carlos Munoz,Venados de Mazatlan,True,0.65,2024-10-22
-678499,Randy Romero,Venados de Mazatlan,True,0.602,2024-10-22
-671246,Fabricio Macias,Venados de Mazatlan,True,0.41,2024-10-22
-634496,Leo German,Venados de Mazatlan,True,0.523,2024-10-22
-455369,Ramiro Pena,Venados de Mazatlan,True,0.465,2024-10-22
-678540,Brayan Quintero,Venados de Mazatlan,True,0.569,2024-10-22
-599096,Dilson Herrera,Venados de Mazatlan,True,0.639,2024-10-22
+PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
+689161,Carlos Arellano,Venados de Mazatlan,False,0.0,4,2024-10-20
+622603,Carlos Castro,Venados de Mazatlan,False,0.765,7,2024-10-20
+668165,Jose Gaitan,Venados de Mazatlan,False,0.79,7,2024-10-20
+499926,Alex Liddi,Venados de Mazatlan,False,0.602,7,2024-10-20
+503429,Walter Ibarra,Venados de Mazatlan,False,0.0,2,2024-10-20
+675202,Juan Kirk,Venados de Mazatlan,False,0.0,3,2024-10-20
+608608,Carlos Munoz,Venados de Mazatlan,False,0.661,3,2024-10-20
+678499,Randy Romero,Venados de Mazatlan,False,0.55,7,2024-10-20
+671246,Fabricio Macias,Venados de Mazatlan,False,0.495,4,2024-10-20
+634496,Leo German,Venados de Mazatlan,False,0.523,4,2024-10-20
+455369,Ramiro Pena,Venados de Mazatlan,False,0.414,7,2024-10-20
+678540,Brayan Quintero,Venados de Mazatlan,False,0.569,7,2024-10-20
+599096,Dilson Herrera,Venados de Mazatlan,False,0.833,7,2024-10-20
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.633,7,2024-10-20
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.0,3,2024-10-20
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.81,7,2024-10-20
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.838,7,2024-10-20
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.833,2,2024-10-20
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.663,6,2024-10-20
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,4,2024-10-20
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.592,7,2024-10-20
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.56,7,2024-10-20
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,3,2024-10-20
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,0.0,1,2024-10-20
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.276,5,2024-10-20
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.714,7,2024-10-20
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.511,6,2024-10-20
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,4,2024-10-22
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.819,6,2024-10-22
+661313,Asael Sanchez,Mayos de Navojoa,False,0.872,8,2024-10-22
+617918,Marco Chicuate,Mayos de Navojoa,False,1.867,4,2024-10-22
+550492,Luis Juarez,Mayos de Navojoa,False,0.513,9,2024-10-22
+694942,Matt McDermott,Mayos de Navojoa,False,0.977,9,2024-10-22
+668992,Missael Rivera,Mayos de Navojoa,False,0.634,7,2024-10-22
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.65,2,2024-10-22
+634739,Miguel Guzman,Mayos de Navojoa,False,0.39,6,2024-10-22
+686659,Julian Escobedo,Mayos de Navojoa,False,0.722,9,2024-10-22
+547375,Sergio Perez,Mayos de Navojoa,False,1.4,5,2024-10-22
+660842,Juan Uriarte,Mayos de Navojoa,False,0.634,7,2024-10-22
+664009,Brantley Bell,Mayos de Navojoa,False,0.683,9,2024-10-22
+678966,Mike Hart,Mayos de Navojoa,False,0.336,8,2024-10-22
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.418,8,2024-10-22
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.861,9,2024-10-22
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.222,5,2024-10-22
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.797,9,2024-10-22
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.964,9,2024-10-22
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.875,4,2024-10-22
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.796,8,2024-10-22
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.111,6,2024-10-22
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.639,9,2024-10-22
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.522,9,2024-10-22
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,3,2024-10-22
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2,2024-10-22
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.292,7,2024-10-22
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.774,9,2024-10-22
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.563,8,2024-10-22
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,5,2024-10-23
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.75,7,2024-10-23
+661313,Asael Sanchez,Mayos de Navojoa,False,0.822,9,2024-10-23
+617918,Marco Chicuate,Mayos de Navojoa,False,1.357,5,2024-10-23
+550492,Luis Juarez,Mayos de Navojoa,False,0.511,10,2024-10-23
+694942,Matt McDermott,Mayos de Navojoa,False,0.878,10,2024-10-23
+668992,Missael Rivera,Mayos de Navojoa,False,0.553,8,2024-10-23
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.393,3,2024-10-23
+634739,Miguel Guzman,Mayos de Navojoa,False,0.39,7,2024-10-23
+686659,Julian Escobedo,Mayos de Navojoa,False,0.652,10,2024-10-23
+547375,Sergio Perez,Mayos de Navojoa,False,1.5,6,2024-10-23
+660842,Juan Uriarte,Mayos de Navojoa,False,0.634,8,2024-10-23
+664009,Brantley Bell,Mayos de Navojoa,False,0.742,10,2024-10-23
+678966,Mike Hart,Mayos de Navojoa,False,0.336,8,2024-10-23
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.565,9,2024-10-23
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.826,10,2024-10-23
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.222,5,2024-10-23
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.749,10,2024-10-23
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,1.067,10,2024-10-23
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.938,5,2024-10-23
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.88,9,2024-10-23
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.111,7,2024-10-23
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.575,10,2024-10-23
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.494,10,2024-10-23
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,3,2024-10-23
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2,2024-10-23
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.261,8,2024-10-23
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.739,10,2024-10-23
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.591,9,2024-10-23
+622700,Santiago Chávez,Yaquis de Obregon,False,1.0,1,2024-10-11
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,1,2024-10-11
+546990,Anthony Alford,Yaquis de Obregon,False,0.833,1,2024-10-11
+642707,Allen Córdoba,Yaquis de Obregon,False,0.0,1,2024-10-11
+616404,Edson Garcia,Yaquis de Obregon,False,0.5,1,2024-10-11
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.0,1,2024-10-11
+679589,Fernando Villegas,Yaquis de Obregon,False,0.25,1,2024-10-11
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.5,1,2024-10-11
+603877,Fernando Flores,Yaquis de Obregon,False,0.0,1,2024-10-11
+628013,Victor Mendoza,Yaquis de Obregon,False,0.5,1,2024-10-11
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,1,2024-10-11
+571685,Anthony García,Yaquis de Obregon,False,0.5,1,2024-10-11
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.75,1,2024-10-11
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,1.25,1,2024-10-11
+606580,Jose Cardona,Naranjeros de Hermosillo,True,0.75,1,2024-10-11
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.666,1,2024-10-11
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.75,1,2024-10-11
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.5,1,2024-10-11
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,1.5,1,2024-10-11
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,1,2024-10-11
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.666,1,2024-10-11
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.5,1,2024-10-11
+689161,Carlos Arellano,Venados de Mazatlan,False,0.0,5,2024-10-20
+622603,Carlos Castro,Venados de Mazatlan,False,0.765,7,2024-10-20
+668165,Jose Gaitan,Venados de Mazatlan,False,0.777,8,2024-10-20
+499926,Alex Liddi,Venados de Mazatlan,False,0.513,8,2024-10-20
+685736,Cristian Mejia,Venados de Mazatlan,False,0.0,1,2024-10-20
+503429,Walter Ibarra,Venados de Mazatlan,False,0.733,3,2024-10-20
+675202,Juan Kirk,Venados de Mazatlan,False,0.644,4,2024-10-20
+608608,Carlos Munoz,Venados de Mazatlan,False,0.661,3,2024-10-20
+678499,Randy Romero,Venados de Mazatlan,False,0.582,8,2024-10-20
+671246,Fabricio Macias,Venados de Mazatlan,False,0.498,5,2024-10-20
+634496,Leo German,Venados de Mazatlan,False,0.523,5,2024-10-20
+455369,Ramiro Pena,Venados de Mazatlan,False,0.4,8,2024-10-20
+678540,Brayan Quintero,Venados de Mazatlan,False,0.569,8,2024-10-20
+599096,Dilson Herrera,Venados de Mazatlan,False,0.723,8,2024-10-20
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.636,8,2024-10-20
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.286,4,2024-10-20
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.845,8,2024-10-20
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.864,8,2024-10-20
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.875,3,2024-10-20
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.626,7,2024-10-20
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,5,2024-10-20
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.766,8,2024-10-20
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.555,8,2024-10-20
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,3,2024-10-20
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2,2024-10-20
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.258,6,2024-10-20
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.764,8,2024-10-20
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.576,7,2024-10-20
+540204,Ramon Rios,Tomateros de Culiacan,False,0.333,4,2024-10-17
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.495,4,2024-10-17
+695000,Poncho Ruiz,Tomateros de Culiacan,False,1.167,2,2024-10-17
+455378,Ali Solis,Tomateros de Culiacan,False,0.417,4,2024-10-17
+519068,Efren Navarro,Tomateros de Culiacan,False,0.607,5,2024-10-17
+657675,Rudy Martin,Tomateros de Culiacan,False,0.753,5,2024-10-17
+829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,2,2024-10-17
+655996,Cristian Santana,Tomateros de Culiacan,False,1.167,5,2024-10-17
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.8,2,2024-10-17
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.673,5,2024-10-17
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.371,3,2024-10-17
+677690,Diosbel Arias,Tomateros de Culiacan,False,0.85,5,2024-10-17
+606019,Esteban Quiroz,Tomateros de Culiacan,False,1.009,5,2024-10-17
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,2,2024-10-17
+701033,Jorge Rivera,Algodoneros de Guasave,True,2.0,1,2024-10-17
+807581,Randy Delgado,Algodoneros de Guasave,True,0.666,5,2024-10-17
+674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,3,2024-10-17
+687045,Justin Wylie,Algodoneros de Guasave,True,0.301,5,2024-10-17
+674706,Alan Lopez,Algodoneros de Guasave,True,2.0,3,2024-10-17
+660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,2,2024-10-17
+660436,Yadir Drake,Algodoneros de Guasave,True,0.578,5,2024-10-17
+510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.65,3,2024-10-17
+656029,Alexis Wilson,Algodoneros de Guasave,True,0.542,3,2024-10-17
+657733,Roberto Ramos,Algodoneros de Guasave,True,0.596,5,2024-10-17
+477399,Jesse Castillo,Algodoneros de Guasave,True,0.9,5,2024-10-17
+652669,Angel Erro,Algodoneros de Guasave,True,1.292,4,2024-10-17
+592312,Jorge Flores,Algodoneros de Guasave,True,0.753,5,2024-10-17
+685694,Keven Lamas,Algodoneros de Guasave,True,0.182,3,2024-10-17
+682183,Drew Avans,Algodoneros de Guasave,True,0.61,5,2024-10-17
+814656,Elias Verdugo,Caneros de los Mochis,False,2.0,1,2024-10-20
+664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,2,2024-10-20
+694034,Mario Gomez,Caneros de los Mochis,False,0.0,1,2024-10-20
+661270,Roel Santos,Caneros de los Mochis,False,0.574,8,2024-10-20
+587275,Alan Espinoza,Caneros de los Mochis,False,0.527,6,2024-10-20
+596107,Eric Filia,Caneros de los Mochis,False,0.633,8,2024-10-20
+665455,Isaac Rodriguez,Caneros de los Mochis,False,1.086,8,2024-10-20
+630111,Yasmany Tomás,Caneros de los Mochis,False,0.392,7,2024-10-20
+681909,Justin Dean,Caneros de los Mochis,False,0.619,8,2024-10-20
+668616,Marco Jaime,Caneros de los Mochis,False,0.614,8,2024-10-20
+685474,Felix Stevens,Caneros de los Mochis,False,0.523,8,2024-10-20
+616613,Rodolfo Amador,Caneros de los Mochis,False,0.606,8,2024-10-20
+654118,Eric Meza,Caneros de los Mochis,False,1.0,2,2024-10-20
+677977,Edgar Robles,Caneros de los Mochis,False,0.0,6,2024-10-20
+703060,Alejandro Urias,Caneros de los Mochis,False,0.8,3,2024-10-20
+540204,Ramon Rios,Tomateros de Culiacan,True,0.554,6,2024-10-20
+652999,Jesus Fabela,Tomateros de Culiacan,True,0.413,6,2024-10-20
+695000,Poncho Ruiz,Tomateros de Culiacan,True,0.762,4,2024-10-20
+455378,Ali Solis,Tomateros de Culiacan,True,0.457,6,2024-10-20
+519068,Efren Navarro,Tomateros de Culiacan,True,0.821,7,2024-10-20
+657675,Rudy Martin,Tomateros de Culiacan,True,0.711,8,2024-10-20
+608841,Joey Meneses,Tomateros de Culiacan,True,0.148,3,2024-10-20
+655996,Cristian Santana,Tomateros de Culiacan,True,1.272,8,2024-10-20
+677605,Luis Verdugo,Tomateros de Culiacan,True,0.536,3,2024-10-20
+687019,Andrés Alvarez,Tomateros de Culiacan,True,0.878,8,2024-10-20
+596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.207,6,2024-10-20
+677690,Diosbel Arias,Tomateros de Culiacan,True,0.655,7,2024-10-20
+606019,Esteban Quiroz,Tomateros de Culiacan,True,1.197,8,2024-10-20
+540204,Ramon Rios,Tomateros de Culiacan,False,0.182,3,2024-10-15
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.422,3,2024-10-15
+695000,Poncho Ruiz,Tomateros de Culiacan,False,0.0,1,2024-10-15
+455378,Ali Solis,Tomateros de Culiacan,False,0.25,3,2024-10-15
+519068,Efren Navarro,Tomateros de Culiacan,False,0.5,3,2024-10-15
+657675,Rudy Martin,Tomateros de Culiacan,False,0.885,3,2024-10-15
+829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,1,2024-10-15
+655996,Cristian Santana,Tomateros de Culiacan,False,1.338,3,2024-10-15
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.0,1,2024-10-15
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.385,3,2024-10-15
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.75,1,2024-10-15
+677690,Diosbel Arias,Tomateros de Culiacan,False,1.182,3,2024-10-15
+606019,Esteban Quiroz,Tomateros de Culiacan,False,0.639,3,2024-10-15
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,1,2024-10-15
+807581,Randy Delgado,Algodoneros de Guasave,True,1.0,3,2024-10-15
+674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,2,2024-10-15
+687045,Justin Wylie,Algodoneros de Guasave,True,0.267,3,2024-10-15
+674706,Alan Lopez,Algodoneros de Guasave,True,0.0,2,2024-10-15
+660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,1,2024-10-15
+660436,Yadir Drake,Algodoneros de Guasave,True,1.0,3,2024-10-15
+510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2,2024-10-15
+656029,Alexis Wilson,Algodoneros de Guasave,True,0.4,2,2024-10-15
+657733,Roberto Ramos,Algodoneros de Guasave,True,0.349,3,2024-10-15
+477399,Jesse Castillo,Algodoneros de Guasave,True,1.292,3,2024-10-15
+700032,Victor Labrada,Algodoneros de Guasave,True,0.6,3,2024-10-15
+652669,Angel Erro,Algodoneros de Guasave,True,1.55,2,2024-10-15
+592312,Jorge Flores,Algodoneros de Guasave,True,0.697,3,2024-10-15
+685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2,2024-10-15
+682183,Drew Avans,Algodoneros de Guasave,True,0.536,3,2024-10-15
+689161,Carlos Arellano,Venados de Mazatlan,False,0.0,3,2024-10-19
+622603,Carlos Castro,Venados de Mazatlan,False,0.86,6,2024-10-19
+668165,Jose Gaitan,Venados de Mazatlan,False,0.777,6,2024-10-19
+499926,Alex Liddi,Venados de Mazatlan,False,0.693,6,2024-10-19
+503429,Walter Ibarra,Venados de Mazatlan,False,0.0,1,2024-10-19
+675202,Juan Kirk,Venados de Mazatlan,False,0.0,3,2024-10-19
+608608,Carlos Munoz,Venados de Mazatlan,False,0.4,2,2024-10-19
+678499,Randy Romero,Venados de Mazatlan,False,0.536,6,2024-10-19
+671246,Fabricio Macias,Venados de Mazatlan,False,0.495,4,2024-10-19
+634496,Leo German,Venados de Mazatlan,False,0.422,3,2024-10-19
+455369,Ramiro Pena,Venados de Mazatlan,False,0.462,6,2024-10-19
+678540,Brayan Quintero,Venados de Mazatlan,False,0.554,6,2024-10-19
+599096,Dilson Herrera,Venados de Mazatlan,False,0.94,6,2024-10-19
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.588,6,2024-10-19
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.0,2,2024-10-19
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.699,6,2024-10-19
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,0.821,6,2024-10-19
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.833,2,2024-10-19
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,True,0.746,5,2024-10-19
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.0,3,2024-10-19
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.64,6,2024-10-19
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.611,6,2024-10-19
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.0,3,2024-10-19
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,0.0,1,2024-10-19
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.321,4,2024-10-19
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.789,6,2024-10-19
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.511,6,2024-10-19
+540204,Ramon Rios,Tomateros de Culiacan,False,0.333,4,2024-10-16
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.495,4,2024-10-16
+695000,Poncho Ruiz,Tomateros de Culiacan,False,0.0,1,2024-10-16
+455378,Ali Solis,Tomateros de Culiacan,False,0.417,4,2024-10-16
+519068,Efren Navarro,Tomateros de Culiacan,False,0.641,4,2024-10-16
+657675,Rudy Martin,Tomateros de Culiacan,False,0.782,4,2024-10-16
+829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,1,2024-10-16
+655996,Cristian Santana,Tomateros de Culiacan,False,1.163,4,2024-10-16
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.0,1,2024-10-16
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.647,4,2024-10-16
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.786,2,2024-10-16
+677690,Diosbel Arias,Tomateros de Culiacan,False,0.866,4,2024-10-16
+606019,Esteban Quiroz,Tomateros de Culiacan,False,0.837,4,2024-10-16
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,1,2024-10-16
+807581,Randy Delgado,Algodoneros de Guasave,True,0.8,4,2024-10-16
+674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,3,2024-10-16
+687045,Justin Wylie,Algodoneros de Guasave,True,0.196,4,2024-10-16
+674706,Alan Lopez,Algodoneros de Guasave,True,0.0,2,2024-10-16
+660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,1,2024-10-16
+660436,Yadir Drake,Algodoneros de Guasave,True,0.732,4,2024-10-16
+510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2,2024-10-16
+656029,Alexis Wilson,Algodoneros de Guasave,True,0.542,3,2024-10-16
+657733,Roberto Ramos,Algodoneros de Guasave,True,0.713,4,2024-10-16
+477399,Jesse Castillo,Algodoneros de Guasave,True,1.063,4,2024-10-16
+652669,Angel Erro,Algodoneros de Guasave,True,1.238,3,2024-10-16
+592312,Jorge Flores,Algodoneros de Guasave,True,0.561,4,2024-10-16
+685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2,2024-10-16
+682183,Drew Avans,Algodoneros de Guasave,True,0.61,4,2024-10-16
+540204,Ramon Rios,Tomateros de Culiacan,False,0.286,2,2024-10-13
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.619,2,2024-10-13
+455378,Ali Solis,Tomateros de Culiacan,False,0.334,2,2024-10-13
+519068,Efren Navarro,Tomateros de Culiacan,False,0.555,2,2024-10-13
+657675,Rudy Martin,Tomateros de Culiacan,False,0.958,2,2024-10-13
+829259,Jose Cervantes,Tomateros de Culiacan,False,0.0,1,2024-10-13
+655996,Cristian Santana,Tomateros de Culiacan,False,1.301,2,2024-10-13
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.555,2,2024-10-13
+677690,Diosbel Arias,Tomateros de Culiacan,False,1.143,2,2024-10-13
+606019,Esteban Quiroz,Tomateros de Culiacan,False,0.7,2,2024-10-13
+807581,Randy Delgado,Algodoneros de Guasave,True,1.0,2,2024-10-13
+674504,Francisco Hernandez,Algodoneros de Guasave,True,0.0,1,2024-10-13
+687045,Justin Wylie,Algodoneros de Guasave,True,0.393,2,2024-10-13
+674706,Alan Lopez,Algodoneros de Guasave,True,0.0,1,2024-10-13
+660840,Jose Lizarraga,Algodoneros de Guasave,True,0.0,1,2024-10-13
+660436,Yadir Drake,Algodoneros de Guasave,True,1.0,2,2024-10-13
+510548,Jose Heberto Felix,Algodoneros de Guasave,True,0.666,2,2024-10-13
+656029,Alexis Wilson,Algodoneros de Guasave,True,0.0,1,2024-10-13
+657733,Roberto Ramos,Algodoneros de Guasave,True,0.0,2,2024-10-13
+477399,Jesse Castillo,Algodoneros de Guasave,True,1.55,2,2024-10-13
+700032,Victor Labrada,Algodoneros de Guasave,True,0.5,2,2024-10-13
+652669,Angel Erro,Algodoneros de Guasave,True,0.0,1,2024-10-13
+592312,Jorge Flores,Algodoneros de Guasave,True,0.661,2,2024-10-13
+685694,Keven Lamas,Algodoneros de Guasave,True,0.0,2,2024-10-13
+682183,Drew Avans,Algodoneros de Guasave,True,0.55,2,2024-10-13
+664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,1,2024-10-19
+661270,Roel Santos,Caneros de los Mochis,False,0.648,7,2024-10-19
+587275,Alan Espinoza,Caneros de los Mochis,False,0.527,6,2024-10-19
+596107,Eric Filia,Caneros de los Mochis,False,0.629,7,2024-10-19
+665455,Isaac Rodriguez,Caneros de los Mochis,False,1.078,7,2024-10-19
+630111,Yasmany Tomás,Caneros de los Mochis,False,0.392,7,2024-10-19
+681909,Justin Dean,Caneros de los Mochis,False,0.444,7,2024-10-19
+668616,Marco Jaime,Caneros de los Mochis,False,0.689,7,2024-10-19
+685474,Felix Stevens,Caneros de los Mochis,False,0.526,7,2024-10-19
+616613,Rodolfo Amador,Caneros de los Mochis,False,0.695,7,2024-10-19
+654118,Eric Meza,Caneros de los Mochis,False,5.0,1,2024-10-19
+677977,Edgar Robles,Caneros de los Mochis,False,0.0,5,2024-10-19
+703060,Alejandro Urias,Caneros de los Mochis,False,0.666,2,2024-10-19
+540204,Ramon Rios,Tomateros de Culiacan,True,0.554,6,2024-10-19
+652999,Jesus Fabela,Tomateros de Culiacan,True,0.45,5,2024-10-19
+695000,Poncho Ruiz,Tomateros de Culiacan,True,0.73,3,2024-10-19
+455378,Ali Solis,Tomateros de Culiacan,True,0.457,6,2024-10-19
+519068,Efren Navarro,Tomateros de Culiacan,True,0.607,6,2024-10-19
+657675,Rudy Martin,Tomateros de Culiacan,True,0.567,7,2024-10-19
+608841,Joey Meneses,Tomateros de Culiacan,True,0.222,2,2024-10-19
+655996,Cristian Santana,Tomateros de Culiacan,True,1.33,7,2024-10-19
+677605,Luis Verdugo,Tomateros de Culiacan,True,0.8,2,2024-10-19
+687019,Andrés Alvarez,Tomateros de Culiacan,True,0.727,7,2024-10-19
+596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.213,5,2024-10-19
+677690,Diosbel Arias,Tomateros de Culiacan,True,0.655,7,2024-10-19
+606019,Esteban Quiroz,Tomateros de Culiacan,True,1.186,7,2024-10-19
+802560,Ichiro Cano,Tomateros de Culiacan,True,0.0,2,2024-10-19
+807581,Randy Delgado,Algodoneros de Guasave,False,0.0,1,2024-10-12
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.0,1,2024-10-12
+687045,Justin Wylie,Algodoneros de Guasave,False,0.0,1,2024-10-12
+674706,Alan Lopez,Algodoneros de Guasave,False,0.0,1,2024-10-12
+660436,Yadir Drake,Algodoneros de Guasave,False,1.167,1,2024-10-12
+510548,Jose Heberto Felix,Algodoneros de Guasave,False,2.0,1,2024-10-12
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.0,1,2024-10-12
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.0,1,2024-10-12
+477399,Jesse Castillo,Algodoneros de Guasave,False,1.75,1,2024-10-12
+700032,Victor Labrada,Algodoneros de Guasave,False,0.5,1,2024-10-12
+592312,Jorge Flores,Algodoneros de Guasave,False,0.833,1,2024-10-12
+685694,Keven Lamas,Algodoneros de Guasave,False,0.0,1,2024-10-12
+682183,Drew Avans,Algodoneros de Guasave,False,0.2,1,2024-10-12
+540204,Ramon Rios,Tomateros de Culiacan,True,0.0,1,2024-10-12
+652999,Jesus Fabela,Tomateros de Culiacan,True,0.0,1,2024-10-12
+455378,Ali Solis,Tomateros de Culiacan,True,0.0,1,2024-10-12
+519068,Efren Navarro,Tomateros de Culiacan,True,1.25,1,2024-10-12
+657675,Rudy Martin,Tomateros de Culiacan,True,0.0,1,2024-10-12
+655996,Cristian Santana,Tomateros de Culiacan,True,0.25,1,2024-10-12
+687019,Andrés Alvarez,Tomateros de Culiacan,True,0.75,1,2024-10-12
+677690,Diosbel Arias,Tomateros de Culiacan,True,1.667,1,2024-10-12
+606019,Esteban Quiroz,Tomateros de Culiacan,True,0.5,1,2024-10-12
+664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,1,2024-10-18
+661270,Roel Santos,Caneros de los Mochis,False,0.696,6,2024-10-18
+587275,Alan Espinoza,Caneros de los Mochis,False,0.653,5,2024-10-18
+596107,Eric Filia,Caneros de los Mochis,False,0.541,6,2024-10-18
+665455,Isaac Rodriguez,Caneros de los Mochis,False,1.1,6,2024-10-18
+630111,Yasmany Tomás,Caneros de los Mochis,False,0.39,6,2024-10-18
+681909,Justin Dean,Caneros de los Mochis,False,0.316,6,2024-10-18
+668616,Marco Jaime,Caneros de los Mochis,False,0.596,6,2024-10-18
+685474,Felix Stevens,Caneros de los Mochis,False,0.555,6,2024-10-18
+616613,Rodolfo Amador,Caneros de los Mochis,False,0.788,6,2024-10-18
+677977,Edgar Robles,Caneros de los Mochis,False,0.0,4,2024-10-18
+703060,Alejandro Urias,Caneros de los Mochis,False,0.666,1,2024-10-18
+540204,Ramon Rios,Tomateros de Culiacan,True,0.474,5,2024-10-18
+652999,Jesus Fabela,Tomateros de Culiacan,True,0.495,4,2024-10-18
+695000,Poncho Ruiz,Tomateros de Culiacan,True,1.167,2,2024-10-18
+455378,Ali Solis,Tomateros de Culiacan,True,0.517,5,2024-10-18
+519068,Efren Navarro,Tomateros de Culiacan,True,0.607,5,2024-10-18
+657675,Rudy Martin,Tomateros de Culiacan,True,0.681,6,2024-10-18
+608841,Joey Meneses,Tomateros de Culiacan,True,0.0,1,2024-10-18
+655996,Cristian Santana,Tomateros de Culiacan,True,1.098,6,2024-10-18
+677605,Luis Verdugo,Tomateros de Culiacan,True,0.8,2,2024-10-18
+687019,Andrés Alvarez,Tomateros de Culiacan,True,0.696,6,2024-10-18
+596105,Dwight Smith Jr.,Tomateros de Culiacan,True,1.271,4,2024-10-18
+677690,Diosbel Arias,Tomateros de Culiacan,True,0.709,6,2024-10-18
+606019,Esteban Quiroz,Tomateros de Culiacan,True,1.185,6,2024-10-18
+802560,Ichiro Cano,Tomateros de Culiacan,True,0.0,2,2024-10-18
+701033,Jorge Rivera,Algodoneros de Guasave,False,2.0,1,2024-10-20
+807581,Randy Delgado,Algodoneros de Guasave,False,0.666,5,2024-10-20
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.455,5,2024-10-20
+687045,Justin Wylie,Algodoneros de Guasave,False,0.459,7,2024-10-20
+674706,Alan Lopez,Algodoneros de Guasave,False,2.0,3,2024-10-20
+660840,Jose Lizarraga,Algodoneros de Guasave,False,0.0,2,2024-10-20
+660436,Yadir Drake,Algodoneros de Guasave,False,0.776,7,2024-10-20
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.823,5,2024-10-20
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.632,7,2024-10-20
+477399,Jesse Castillo,Algodoneros de Guasave,False,0.962,7,2024-10-20
+652669,Angel Erro,Algodoneros de Guasave,False,1.12,6,2024-10-20
+592312,Jorge Flores,Algodoneros de Guasave,False,0.753,7,2024-10-20
+685694,Keven Lamas,Algodoneros de Guasave,False,0.297,4,2024-10-20
+682183,Drew Avans,Algodoneros de Guasave,False,0.654,7,2024-10-20
+664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,3,2024-10-20
+458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.819,5,2024-10-20
+661313,Asael Sanchez,Mayos de Navojoa,True,0.734,6,2024-10-20
+617918,Marco Chicuate,Mayos de Navojoa,True,0.0,2,2024-10-20
+550492,Luis Juarez,Mayos de Navojoa,True,0.533,7,2024-10-20
+694942,Matt McDermott,Mayos de Navojoa,True,0.947,7,2024-10-20
+668992,Missael Rivera,Mayos de Navojoa,True,0.421,5,2024-10-20
+680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,1,2024-10-20
+634739,Miguel Guzman,Mayos de Navojoa,True,0.457,5,2024-10-20
+686659,Julian Escobedo,Mayos de Navojoa,True,0.831,7,2024-10-20
+547375,Sergio Perez,Mayos de Navojoa,True,1.75,4,2024-10-20
+660842,Juan Uriarte,Mayos de Navojoa,True,0.634,7,2024-10-20
+664009,Brantley Bell,Mayos de Navojoa,True,0.716,7,2024-10-20
+678966,Mike Hart,Mayos de Navojoa,True,0.349,7,2024-10-20
+672361,Agustin Ruiz,Mayos de Navojoa,True,0.488,6,2024-10-20
+701033,Jorge Rivera,Algodoneros de Guasave,False,0.666,2,2024-10-20
+807581,Randy Delgado,Algodoneros de Guasave,False,0.666,5,2024-10-20
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.417,6,2024-10-20
+687045,Justin Wylie,Algodoneros de Guasave,False,0.514,8,2024-10-20
+674706,Alan Lopez,Algodoneros de Guasave,False,2.0,4,2024-10-20
+660840,Jose Lizarraga,Algodoneros de Guasave,False,0.333,3,2024-10-20
+660436,Yadir Drake,Algodoneros de Guasave,False,0.764,8,2024-10-20
+806873,Yael Romero,Algodoneros de Guasave,False,0.0,1,2024-10-20
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.823,5,2024-10-20
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.611,8,2024-10-20
+477399,Jesse Castillo,Algodoneros de Guasave,False,0.962,7,2024-10-20
+652669,Angel Erro,Algodoneros de Guasave,False,1.034,7,2024-10-20
+592312,Jorge Flores,Algodoneros de Guasave,False,0.676,8,2024-10-20
+685694,Keven Lamas,Algodoneros de Guasave,False,0.306,5,2024-10-20
+682183,Drew Avans,Algodoneros de Guasave,False,0.761,8,2024-10-20
+664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,3,2024-10-20
+458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.819,5,2024-10-20
+661313,Asael Sanchez,Mayos de Navojoa,True,0.687,7,2024-10-20
+617918,Marco Chicuate,Mayos de Navojoa,True,2.0,3,2024-10-20
+550492,Luis Juarez,Mayos de Navojoa,True,0.545,8,2024-10-20
+694942,Matt McDermott,Mayos de Navojoa,True,0.974,8,2024-10-20
+668992,Missael Rivera,Mayos de Navojoa,True,0.561,6,2024-10-20
+680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,1,2024-10-20
+634739,Miguel Guzman,Mayos de Navojoa,True,0.39,6,2024-10-20
+686659,Julian Escobedo,Mayos de Navojoa,True,0.797,8,2024-10-20
+547375,Sergio Perez,Mayos de Navojoa,True,1.75,4,2024-10-20
+660842,Juan Uriarte,Mayos de Navojoa,True,0.634,7,2024-10-20
+664009,Brantley Bell,Mayos de Navojoa,True,0.71,8,2024-10-20
+678966,Mike Hart,Mayos de Navojoa,True,0.349,7,2024-10-20
+672361,Agustin Ruiz,Mayos de Navojoa,True,0.425,7,2024-10-20
+661270,Roel Santos,Caneros de los Mochis,False,0.65,1,2024-10-12
+587275,Alan Espinoza,Caneros de los Mochis,False,0.25,1,2024-10-12
+596107,Eric Filia,Caneros de los Mochis,False,0.9,1,2024-10-12
+665455,Isaac Rodriguez,Caneros de los Mochis,False,1.55,1,2024-10-12
+630111,Yasmany Tomás,Caneros de los Mochis,False,0.2,1,2024-10-12
+681909,Justin Dean,Caneros de los Mochis,False,0.8,1,2024-10-12
+668616,Marco Jaime,Caneros de los Mochis,False,0.2,1,2024-10-12
+685474,Felix Stevens,Caneros de los Mochis,False,0.0,1,2024-10-12
+616613,Rodolfo Amador,Caneros de los Mochis,False,0.8,1,2024-10-12
+664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,1,2024-10-12
+458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.0,1,2024-10-12
+814812,Edgar Lugo,Mayos de Navojoa,True,0.0,1,2024-10-12
+550492,Luis Juarez,Mayos de Navojoa,True,0.5,1,2024-10-12
+674496,Daniel Cornejo,Mayos de Navojoa,True,0.0,1,2024-10-12
+694942,Matt McDermott,Mayos de Navojoa,True,0.333,1,2024-10-12
+668992,Missael Rivera,Mayos de Navojoa,True,0.0,1,2024-10-12
+680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,1,2024-10-12
+634739,Miguel Guzman,Mayos de Navojoa,True,0.0,1,2024-10-12
+686659,Julian Escobedo,Mayos de Navojoa,True,1.417,1,2024-10-12
+547375,Sergio Perez,Mayos de Navojoa,True,0.0,1,2024-10-12
+660842,Juan Uriarte,Mayos de Navojoa,True,0.0,1,2024-10-12
+664009,Brantley Bell,Mayos de Navojoa,True,0.5,1,2024-10-12
+678966,Mike Hart,Mayos de Navojoa,True,0.5,1,2024-10-12
+672361,Agustin Ruiz,Mayos de Navojoa,True,0.666,1,2024-10-12
+701033,Jorge Rivera,Algodoneros de Guasave,False,2.0,1,2024-10-19
+807581,Randy Delgado,Algodoneros de Guasave,False,0.666,5,2024-10-19
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.286,4,2024-10-19
+687045,Justin Wylie,Algodoneros de Guasave,False,0.535,6,2024-10-19
+674706,Alan Lopez,Algodoneros de Guasave,False,2.0,3,2024-10-19
+660840,Jose Lizarraga,Algodoneros de Guasave,False,0.0,2,2024-10-19
+660436,Yadir Drake,Algodoneros de Guasave,False,0.671,6,2024-10-19
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.75,4,2024-10-19
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.598,6,2024-10-19
+477399,Jesse Castillo,Algodoneros de Guasave,False,1.006,6,2024-10-19
+652669,Angel Erro,Algodoneros de Guasave,False,1.073,5,2024-10-19
+592312,Jorge Flores,Algodoneros de Guasave,False,0.798,6,2024-10-19
+685694,Keven Lamas,Algodoneros de Guasave,False,0.182,3,2024-10-19
+682183,Drew Avans,Algodoneros de Guasave,False,0.545,6,2024-10-19
+664021,Ciro Norzagaray,Mayos de Navojoa,True,0.0,3,2024-10-19
+458501,Luis Alfonso Cruz,Mayos de Navojoa,True,0.875,4,2024-10-19
+661313,Asael Sanchez,Mayos de Navojoa,True,0.746,5,2024-10-19
+617918,Marco Chicuate,Mayos de Navojoa,True,0.0,1,2024-10-19
+550492,Luis Juarez,Mayos de Navojoa,True,0.538,6,2024-10-19
+694942,Matt McDermott,Mayos de Navojoa,True,0.917,6,2024-10-19
+668992,Missael Rivera,Mayos de Navojoa,True,0.421,5,2024-10-19
+680636,Ramon Mendoza,Mayos de Navojoa,True,0.0,1,2024-10-19
+634739,Miguel Guzman,Mayos de Navojoa,True,0.343,4,2024-10-19
+686659,Julian Escobedo,Mayos de Navojoa,True,0.721,6,2024-10-19
+547375,Sergio Perez,Mayos de Navojoa,True,2.334,3,2024-10-19
+660842,Juan Uriarte,Mayos de Navojoa,True,0.633,6,2024-10-19
+664009,Brantley Bell,Mayos de Navojoa,True,0.558,6,2024-10-19
+678966,Mike Hart,Mayos de Navojoa,True,0.41,6,2024-10-19
+672361,Agustin Ruiz,Mayos de Navojoa,True,0.488,6,2024-10-19
+554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.0,1,2024-10-11
+811361,Joel Flores,Sultanes de Monterrey,False,0.0,1,2024-10-11
+500869,Emmanuel Avila,Sultanes de Monterrey,False,2.5,1,2024-10-11
+661311,Brandon Villarreal,Sultanes de Monterrey,False,0.8,1,2024-10-11
+640460,Dustin Peterson,Sultanes de Monterrey,False,0.4,1,2024-10-11
+666177,Carter Aldrete,Sultanes de Monterrey,False,1.75,1,2024-10-11
+661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.4,1,2024-10-11
+594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.0,1,2024-10-11
+606213,Yermín Mercedes,Sultanes de Monterrey,False,0.0,1,2024-10-11
+673374,Cesar Mendoza,Sultanes de Monterrey,False,0.5,1,2024-10-11
+624645,Julian Leon,Aguilas de Mexicali,True,1.0,1,2024-10-11
+668843,Conner Capel,Aguilas de Mexicali,True,0.0,1,2024-10-11
+687867,Clay Dungan,Aguilas de Mexicali,True,1.25,1,2024-10-11
+642299,Alejandro Flores,Aguilas de Mexicali,True,1.0,1,2024-10-11
+606143,Alejandro Mejia,Aguilas de Mexicali,True,0.0,1,2024-10-11
+605011,Moises Gutierrez,Aguilas de Mexicali,True,1.417,1,2024-10-11
+655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,1,2024-10-11
+622270,Alex D. Mejia,Aguilas de Mexicali,True,0.5,1,2024-10-11
+665745,Javier Salazar,Aguilas de Mexicali,True,0.0,1,2024-10-11
+592144,Wynton Bernard,Aguilas de Mexicali,True,0.0,1,2024-10-11
+650995,Norberto Obeso,Aguilas de Mexicali,True,0.0,1,2024-10-11
+453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.414,5,2024-10-18
+516679,Sebastian Valle,Charros de Jalisco,False,0.334,4,2024-10-18
+641104,Carlos Mendivil,Charros de Jalisco,False,2.0,1,2024-10-18
+681933,Michael Wielansky,Charros de Jalisco,False,0.872,6,2024-10-18
+515189,Japhet Amador,Charros de Jalisco,False,0.497,6,2024-10-18
+608686,Jack Mayfield,Charros de Jalisco,False,0.708,6,2024-10-18
+828390,Carlos Baez,Charros de Jalisco,False,0.0,4,2024-10-18
+829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,1,2024-10-18
+685771,Alfredo Hurtado,Charros de Jalisco,False,1.457,3,2024-10-18
+676140,Julian Ornelas,Charros de Jalisco,False,0.766,6,2024-10-18
+571740,Billy Hamilton,Charros de Jalisco,False,1.003,6,2024-10-18
+591572,Jose Aguilar,Charros de Jalisco,False,0.733,4,2024-10-18
+471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.837,6,2024-10-18
+624645,Julian Leon,Aguilas de Mexicali,True,1.17,5,2024-10-18
+668843,Conner Capel,Aguilas de Mexicali,True,0.515,6,2024-10-18
+687867,Clay Dungan,Aguilas de Mexicali,True,0.718,6,2024-10-18
+642299,Alejandro Flores,Aguilas de Mexicali,True,0.25,3,2024-10-18
+606143,Alejandro Mejia,Aguilas de Mexicali,True,0.36,6,2024-10-18
+605011,Moises Gutierrez,Aguilas de Mexicali,True,0.808,4,2024-10-18
+616569,Diego Madero,Aguilas de Mexicali,True,0.0,1,2024-10-18
+655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,1,2024-10-18
+622270,Alex D. Mejia,Aguilas de Mexicali,True,0.673,6,2024-10-18
+665745,Javier Salazar,Aguilas de Mexicali,True,0.059,5,2024-10-18
+676021,Luis Santos,Aguilas de Mexicali,True,0.666,3,2024-10-18
+592144,Wynton Bernard,Aguilas de Mexicali,True,0.481,6,2024-10-18
+511428,Leo Heras,Aguilas de Mexicali,True,0.834,2,2024-10-18
+650995,Norberto Obeso,Aguilas de Mexicali,True,0.619,5,2024-10-18
+453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.364,6,2024-10-19
+516679,Sebastian Valle,Charros de Jalisco,False,0.313,5,2024-10-19
+641104,Carlos Mendivil,Charros de Jalisco,False,2.0,1,2024-10-19
+681933,Michael Wielansky,Charros de Jalisco,False,0.742,7,2024-10-19
+515189,Japhet Amador,Charros de Jalisco,False,0.426,7,2024-10-19
+608686,Jack Mayfield,Charros de Jalisco,False,0.725,7,2024-10-19
+828390,Carlos Baez,Charros de Jalisco,False,0.0,4,2024-10-19
+829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,1,2024-10-19
+685771,Alfredo Hurtado,Charros de Jalisco,False,1.136,4,2024-10-19
+676140,Julian Ornelas,Charros de Jalisco,False,0.764,7,2024-10-19
+571740,Billy Hamilton,Charros de Jalisco,False,1.003,7,2024-10-19
+591572,Jose Aguilar,Charros de Jalisco,False,0.795,5,2024-10-19
+471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.786,7,2024-10-19
+624645,Julian Leon,Aguilas de Mexicali,True,0.955,6,2024-10-19
+668843,Conner Capel,Aguilas de Mexicali,True,0.643,7,2024-10-19
+687867,Clay Dungan,Aguilas de Mexicali,True,0.783,7,2024-10-19
+642299,Alejandro Flores,Aguilas de Mexicali,True,0.25,3,2024-10-19
+606143,Alejandro Mejia,Aguilas de Mexicali,True,0.466,7,2024-10-19
+605011,Moises Gutierrez,Aguilas de Mexicali,True,0.794,5,2024-10-19
+616569,Diego Madero,Aguilas de Mexicali,True,0.0,1,2024-10-19
+655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,1,2024-10-19
+622270,Alex D. Mejia,Aguilas de Mexicali,True,0.617,7,2024-10-19
+665745,Javier Salazar,Aguilas de Mexicali,True,0.05,6,2024-10-19
+676021,Luis Santos,Aguilas de Mexicali,True,0.666,3,2024-10-19
+592144,Wynton Bernard,Aguilas de Mexicali,True,0.554,7,2024-10-19
+511428,Leo Heras,Aguilas de Mexicali,True,0.834,2,2024-10-19
+650995,Norberto Obeso,Aguilas de Mexicali,True,0.708,6,2024-10-19
+453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.343,7,2024-10-20
+516679,Sebastian Valle,Charros de Jalisco,False,0.313,5,2024-10-20
+641104,Carlos Mendivil,Charros de Jalisco,False,1.25,2,2024-10-20
+681933,Michael Wielansky,Charros de Jalisco,False,0.754,8,2024-10-20
+515189,Japhet Amador,Charros de Jalisco,False,0.362,8,2024-10-20
+608686,Jack Mayfield,Charros de Jalisco,False,0.737,8,2024-10-20
+828390,Carlos Baez,Charros de Jalisco,False,0.0,4,2024-10-20
+829261,Jose Angel Cecena,Charros de Jalisco,False,2.0,1,2024-10-20
+685771,Alfredo Hurtado,Charros de Jalisco,False,1.071,5,2024-10-20
+676140,Julian Ornelas,Charros de Jalisco,False,0.71,8,2024-10-20
+571740,Billy Hamilton,Charros de Jalisco,False,0.944,8,2024-10-20
+591572,Jose Aguilar,Charros de Jalisco,False,0.728,6,2024-10-20
+471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.975,8,2024-10-20
+624645,Julian Leon,Aguilas de Mexicali,True,0.851,7,2024-10-20
+668843,Conner Capel,Aguilas de Mexicali,True,0.595,8,2024-10-20
+687867,Clay Dungan,Aguilas de Mexicali,True,0.902,8,2024-10-20
+642299,Alejandro Flores,Aguilas de Mexicali,True,0.2,4,2024-10-20
+606143,Alejandro Mejia,Aguilas de Mexicali,True,0.408,8,2024-10-20
+605011,Moises Gutierrez,Aguilas de Mexicali,True,0.786,6,2024-10-20
+510548,Jose Heberto Felix,Aguilas de Mexicali,True,0.65,4,2024-10-20
+616569,Diego Madero,Aguilas de Mexicali,True,0.0,1,2024-10-20
+655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,1,2024-10-20
+622270,Alex D. Mejia,Aguilas de Mexicali,True,0.6,8,2024-10-20
+665745,Javier Salazar,Aguilas de Mexicali,True,0.091,7,2024-10-20
+676021,Luis Santos,Aguilas de Mexicali,True,0.546,4,2024-10-20
+592144,Wynton Bernard,Aguilas de Mexicali,True,0.548,8,2024-10-20
+511428,Leo Heras,Aguilas de Mexicali,True,0.953,3,2024-10-20
+650995,Norberto Obeso,Aguilas de Mexicali,True,0.619,7,2024-10-20
+473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.588,4,2024-10-16
+678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2,2024-10-16
+657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.639,4,2024-10-16
+606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2,2024-10-16
+662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.606,4,2024-10-16
+571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,1,2024-10-16
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.962,3,2024-10-16
+807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,2,2024-10-16
+672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.529,4,2024-10-16
+641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.779,4,2024-10-16
+815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,3,2024-10-16
+680023,Daniel Mercado,Naranjeros de Hermosillo,False,0.0,1,2024-10-16
+546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.236,3,2024-10-16
+803376,Angel Camacho,Naranjeros de Hermosillo,False,0.5,4,2024-10-16
+676761,Irving Lopez,Naranjeros de Hermosillo,False,0.646,4,2024-10-16
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.375,3,2024-10-16
+516679,Sebastian Valle,Charros de Jalisco,True,0.416,3,2024-10-16
+570799,Christian Villanueva,Charros de Jalisco,True,0.53,3,2024-10-16
+641104,Carlos Mendivil,Charros de Jalisco,True,2.0,1,2024-10-16
+681933,Michael Wielansky,Charros de Jalisco,True,1.062,4,2024-10-16
+515189,Japhet Amador,Charros de Jalisco,True,0.368,4,2024-10-16
+608686,Jack Mayfield,Charros de Jalisco,True,0.85,4,2024-10-16
+828390,Carlos Baez,Charros de Jalisco,True,0.0,3,2024-10-16
+829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,1,2024-10-16
+685771,Alfredo Hurtado,Charros de Jalisco,True,1.917,2,2024-10-16
+676140,Julian Ornelas,Charros de Jalisco,True,0.686,4,2024-10-16
+571740,Billy Hamilton,Charros de Jalisco,True,1.151,4,2024-10-16
+593495,Daniel Castro,Charros de Jalisco,True,0.25,3,2024-10-16
+591572,Jose Aguilar,Charros de Jalisco,True,0.2,2,2024-10-16
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.953,4,2024-10-16
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.375,4,2024-10-22
+622700,Santiago Chávez,Yaquis de Obregon,False,0.425,8,2024-10-22
+680029,Oziel Flores,Yaquis de Obregon,False,0.0,1,2024-10-22
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.383,9,2024-10-22
+546990,Anthony Alford,Yaquis de Obregon,False,0.481,7,2024-10-22
+642707,Allen Córdoba,Yaquis de Obregon,False,0.78,9,2024-10-22
+616404,Edson Garcia,Yaquis de Obregon,False,0.444,6,2024-10-22
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.349,8,2024-10-22
+679589,Fernando Villegas,Yaquis de Obregon,False,0.782,9,2024-10-22
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.52,9,2024-10-22
+603877,Fernando Flores,Yaquis de Obregon,False,0.237,5,2024-10-22
+628013,Victor Mendoza,Yaquis de Obregon,False,0.609,9,2024-10-22
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,3,2024-10-22
+571685,Anthony García,Yaquis de Obregon,False,1.263,9,2024-10-22
+468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.25,3,2024-10-22
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.401,8,2024-10-22
+641104,Carlos Mendivil,Charros de Jalisco,True,1.0,3,2024-10-22
+681933,Michael Wielansky,Charros de Jalisco,True,0.79,9,2024-10-22
+515189,Japhet Amador,Charros de Jalisco,True,0.362,8,2024-10-22
+608686,Jack Mayfield,Charros de Jalisco,True,0.799,9,2024-10-22
+828390,Carlos Baez,Charros de Jalisco,True,0.0,4,2024-10-22
+829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,2,2024-10-22
+685771,Alfredo Hurtado,Charros de Jalisco,True,1.029,6,2024-10-22
+676140,Julian Ornelas,Charros de Jalisco,True,0.742,9,2024-10-22
+571740,Billy Hamilton,Charros de Jalisco,True,0.859,9,2024-10-22
+591572,Jose Aguilar,Charros de Jalisco,True,0.685,7,2024-10-22
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.91,9,2024-10-22
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.444,5,2024-10-23
+622700,Santiago Chávez,Yaquis de Obregon,False,0.425,8,2024-10-23
+680029,Oziel Flores,Yaquis de Obregon,False,0.0,2,2024-10-23
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.362,10,2024-10-23
+546990,Anthony Alford,Yaquis de Obregon,False,0.41,8,2024-10-23
+642707,Allen Córdoba,Yaquis de Obregon,False,0.764,10,2024-10-23
+616404,Edson Garcia,Yaquis de Obregon,False,0.408,7,2024-10-23
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.462,9,2024-10-23
+679589,Fernando Villegas,Yaquis de Obregon,False,0.919,10,2024-10-23
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.469,10,2024-10-23
+603877,Fernando Flores,Yaquis de Obregon,False,0.204,6,2024-10-23
+628013,Victor Mendoza,Yaquis de Obregon,False,0.614,10,2024-10-23
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,3,2024-10-23
+571685,Anthony García,Yaquis de Obregon,False,1.237,10,2024-10-23
+468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.167,4,2024-10-23
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.401,9,2024-10-23
+570799,Christian Villanueva,Charros de Jalisco,True,0.389,4,2024-10-23
+641104,Carlos Mendivil,Charros de Jalisco,True,0.9,4,2024-10-23
+681933,Michael Wielansky,Charros de Jalisco,True,0.89,10,2024-10-23
+515189,Japhet Amador,Charros de Jalisco,True,0.382,9,2024-10-23
+608686,Jack Mayfield,Charros de Jalisco,True,0.799,10,2024-10-23
+806157,Christian Morales,Charros de Jalisco,True,0.0,1,2024-10-23
+828390,Carlos Baez,Charros de Jalisco,True,0.0,5,2024-10-23
+685771,Alfredo Hurtado,Charros de Jalisco,True,0.89,7,2024-10-23
+703007,Jesus Cordova,Charros de Jalisco,True,0.0,1,2024-10-23
+676140,Julian Ornelas,Charros de Jalisco,True,0.792,10,2024-10-23
+571740,Billy Hamilton,Charros de Jalisco,True,0.852,10,2024-10-23
+591572,Jose Aguilar,Charros de Jalisco,True,0.804,8,2024-10-23
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.846,10,2024-10-23
+473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.75,2,2024-10-12
+678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,1,2024-10-12
+657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.542,2,2024-10-12
+606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2,2024-10-12
+662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.9,2,2024-10-12
+571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,1,2024-10-12
+524648,Alejandro Gonzalez,Naranjeros de Hermosillo,False,0.5,1,2024-10-12
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.75,1,2024-10-12
+672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.5,2,2024-10-12
+641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.929,2,2024-10-12
+815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2,2024-10-12
+546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.0,1,2024-10-12
+803376,Angel Camacho,Naranjeros de Hermosillo,False,0.5,2,2024-10-12
+676761,Irving Lopez,Naranjeros de Hermosillo,False,0.25,2,2024-10-12
+622700,Santiago Chávez,Yaquis de Obregon,True,1.167,2,2024-10-12
+660620,Jonathan Araúz,Yaquis de Obregon,True,0.375,2,2024-10-12
+546990,Anthony Alford,Yaquis de Obregon,True,0.393,2,2024-10-12
+642707,Allen Córdoba,Yaquis de Obregon,True,0.476,2,2024-10-12
+616404,Edson Garcia,Yaquis de Obregon,True,0.5,1,2024-10-12
+692944,Kevin Villavicencio,Yaquis de Obregon,True,0.0,2,2024-10-12
+679589,Fernando Villegas,Yaquis de Obregon,True,0.804,2,2024-10-12
+672438,Roberto Valenzuela,Yaquis de Obregon,True,0.875,2,2024-10-12
+603877,Fernando Flores,Yaquis de Obregon,True,0.0,1,2024-10-12
+628013,Victor Mendoza,Yaquis de Obregon,True,0.25,2,2024-10-12
+802888,Victor Marquez,Yaquis de Obregon,True,0.0,1,2024-10-12
+571685,Anthony García,Yaquis de Obregon,True,1.125,2,2024-10-12
+689161,Carlos Arellano,Venados de Mazatlan,False,0.0,1,2024-10-12
+622603,Carlos Castro,Venados de Mazatlan,False,1.4,1,2024-10-12
+668165,Jose Gaitan,Venados de Mazatlan,False,1.35,1,2024-10-12
+499926,Alex Liddi,Venados de Mazatlan,False,0.9,1,2024-10-12
+675202,Juan Kirk,Venados de Mazatlan,False,0.0,1,2024-10-12
+678499,Randy Romero,Venados de Mazatlan,False,0.8,1,2024-10-12
+671246,Fabricio Macias,Venados de Mazatlan,False,0.2,1,2024-10-12
+455369,Ramiro Pena,Venados de Mazatlan,False,0.8,1,2024-10-12
+678540,Brayan Quintero,Venados de Mazatlan,False,1.467,1,2024-10-12
+593471,Isaias Tejeda,Venados de Mazatlan,False,0.65,1,2024-10-12
+599096,Dilson Herrera,Venados de Mazatlan,False,0.4,1,2024-10-12
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.0,1,2024-10-12
+516679,Sebastian Valle,Charros de Jalisco,True,1.25,1,2024-10-12
+570799,Christian Villanueva,Charros de Jalisco,True,0.5,1,2024-10-12
+681933,Michael Wielansky,Charros de Jalisco,True,0.0,1,2024-10-12
+515189,Japhet Amador,Charros de Jalisco,True,0.0,1,2024-10-12
+608686,Jack Mayfield,Charros de Jalisco,True,0.5,1,2024-10-12
+828390,Carlos Baez,Charros de Jalisco,True,0.0,1,2024-10-12
+676140,Julian Ornelas,Charros de Jalisco,True,1.0,1,2024-10-12
+571740,Billy Hamilton,Charros de Jalisco,True,0.933,1,2024-10-12
+593495,Daniel Castro,Charros de Jalisco,True,0.0,1,2024-10-12
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,1.25,1,2024-10-12
+473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.616,3,2024-10-15
+678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,1,2024-10-15
+657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.322,3,2024-10-15
+606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2,2024-10-15
+662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.733,3,2024-10-15
+571531,Sergio Burruel,Naranjeros de Hermosillo,False,1.25,1,2024-10-15
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.708,2,2024-10-15
+807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,1,2024-10-15
+672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.693,3,2024-10-15
+641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.9,3,2024-10-15
+815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,2,2024-10-15
+546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.45,2,2024-10-15
+803376,Angel Camacho,Naranjeros de Hermosillo,False,0.75,3,2024-10-15
+676761,Irving Lopez,Naranjeros de Hermosillo,False,0.334,3,2024-10-15
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.0,2,2024-10-15
+516679,Sebastian Valle,Charros de Jalisco,True,0.416,3,2024-10-15
+570799,Christian Villanueva,Charros de Jalisco,True,0.53,3,2024-10-15
+681933,Michael Wielansky,Charros de Jalisco,True,1.045,3,2024-10-15
+515189,Japhet Amador,Charros de Jalisco,True,0.154,3,2024-10-15
+608686,Jack Mayfield,Charros de Jalisco,True,0.693,3,2024-10-15
+828390,Carlos Baez,Charros de Jalisco,True,0.0,2,2024-10-15
+685771,Alfredo Hurtado,Charros de Jalisco,True,0.0,1,2024-10-15
+676140,Julian Ornelas,Charros de Jalisco,True,0.693,3,2024-10-15
+571740,Billy Hamilton,Charros de Jalisco,True,0.8,3,2024-10-15
+593495,Daniel Castro,Charros de Jalisco,True,0.25,3,2024-10-15
+591572,Jose Aguilar,Charros de Jalisco,True,0.0,1,2024-10-15
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,1.053,3,2024-10-15
+473242,Agustin Murillo,Naranjeros de Hermosillo,False,0.455,5,2024-10-17
+678706,Reivaj Garcia,Naranjeros de Hermosillo,False,0.0,2,2024-10-17
+657051,Nicholas Torres,Naranjeros de Hermosillo,False,0.777,5,2024-10-17
+606580,Jose Cardona,Naranjeros de Hermosillo,False,0.429,2,2024-10-17
+662962,Jasson Atondo,Naranjeros de Hermosillo,False,0.775,5,2024-10-17
+571531,Sergio Burruel,Naranjeros de Hermosillo,False,0.833,2,2024-10-17
+678218,Brandon Valenzuela,Naranjeros de Hermosillo,False,0.884,4,2024-10-17
+807587,Angel Ramirez,Naranjeros de Hermosillo,False,0.0,3,2024-10-17
+672478,Jordan Diaz,Naranjeros de Hermosillo,False,0.524,5,2024-10-17
+641432,Willie Calhoun,Naranjeros de Hermosillo,False,0.679,5,2024-10-17
+815734,Dylan Jasso,Naranjeros de Hermosillo,False,0.0,3,2024-10-17
+680023,Daniel Mercado,Naranjeros de Hermosillo,False,0.0,1,2024-10-17
+546366,Francisco Lugo,Naranjeros de Hermosillo,False,0.236,3,2024-10-17
+803376,Angel Camacho,Naranjeros de Hermosillo,False,0.661,5,2024-10-17
+676761,Irving Lopez,Naranjeros de Hermosillo,False,0.616,5,2024-10-17
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.523,4,2024-10-17
+516679,Sebastian Valle,Charros de Jalisco,True,0.416,3,2024-10-17
+570799,Christian Villanueva,Charros de Jalisco,True,0.53,3,2024-10-17
+641104,Carlos Mendivil,Charros de Jalisco,True,2.0,1,2024-10-17
+681933,Michael Wielansky,Charros de Jalisco,True,0.85,5,2024-10-17
+515189,Japhet Amador,Charros de Jalisco,True,0.396,5,2024-10-17
+608686,Jack Mayfield,Charros de Jalisco,True,0.781,5,2024-10-17
+829261,Jose Angel Cecena,Charros de Jalisco,True,2.0,1,2024-10-17
+685771,Alfredo Hurtado,Charros de Jalisco,True,1.457,3,2024-10-17
+676140,Julian Ornelas,Charros de Jalisco,True,0.914,5,2024-10-17
+571740,Billy Hamilton,Charros de Jalisco,True,1.101,5,2024-10-17
+593495,Daniel Castro,Charros de Jalisco,True,0.25,3,2024-10-17
+591572,Jose Aguilar,Charros de Jalisco,True,1.015,3,2024-10-17
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.965,5,2024-10-17
+554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.167,3,2024-10-18
+811361,Joel Flores,Sultanes de Monterrey,False,0.0,2,2024-10-18
+500869,Emmanuel Avila,Sultanes de Monterrey,False,0.944,5,2024-10-18
+680643,Juan Mora,Sultanes de Monterrey,False,0.0,1,2024-10-18
+661311,Brandon Villarreal,Sultanes de Monterrey,False,0.634,6,2024-10-18
+697779,Jose Robledo,Sultanes de Monterrey,False,0.0,2,2024-10-18
+640460,Dustin Peterson,Sultanes de Monterrey,False,0.511,6,2024-10-18
+666177,Carter Aldrete,Sultanes de Monterrey,False,0.642,6,2024-10-18
+661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.57,6,2024-10-18
+594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.578,6,2024-10-18
+606213,Yermín Mercedes,Sultanes de Monterrey,False,0.417,6,2024-10-18
+656252,Bobby Bradley,Sultanes de Monterrey,False,0.929,4,2024-10-18
+673374,Cesar Mendoza,Sultanes de Monterrey,False,0.54,6,2024-10-18
+614182,Jose Carlos Urena,Yaquis de Obregon,True,0.0,3,2024-10-18
+622700,Santiago Chávez,Yaquis de Obregon,True,0.594,5,2024-10-18
+660620,Jonathan Araúz,Yaquis de Obregon,True,0.306,6,2024-10-18
+546990,Anthony Alford,Yaquis de Obregon,True,0.277,4,2024-10-18
+642707,Allen Córdoba,Yaquis de Obregon,True,0.594,6,2024-10-18
+616404,Edson Garcia,Yaquis de Obregon,True,0.543,5,2024-10-18
+692944,Kevin Villavicencio,Yaquis de Obregon,True,0.258,5,2024-10-18
+679589,Fernando Villegas,Yaquis de Obregon,True,0.733,6,2024-10-18
+672438,Roberto Valenzuela,Yaquis de Obregon,True,0.565,6,2024-10-18
+603877,Fernando Flores,Yaquis de Obregon,True,0.258,4,2024-10-18
+628013,Victor Mendoza,Yaquis de Obregon,True,0.733,6,2024-10-18
+802888,Victor Marquez,Yaquis de Obregon,True,0.0,2,2024-10-18
+571685,Anthony García,Yaquis de Obregon,True,1.071,6,2024-10-18
+468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,2,2024-10-18
+554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.1,4,2024-10-19
+811361,Joel Flores,Sultanes de Monterrey,False,0.0,3,2024-10-19
+500869,Emmanuel Avila,Sultanes de Monterrey,False,0.802,6,2024-10-19
+680643,Juan Mora,Sultanes de Monterrey,False,0.0,1,2024-10-19
+661311,Brandon Villarreal,Sultanes de Monterrey,False,0.606,7,2024-10-19
+697779,Jose Robledo,Sultanes de Monterrey,False,0.0,2,2024-10-19
+640460,Dustin Peterson,Sultanes de Monterrey,False,0.671,7,2024-10-19
+616570,Daniel Sanchez,Sultanes de Monterrey,False,0.0,1,2024-10-19
+666177,Carter Aldrete,Sultanes de Monterrey,False,0.555,7,2024-10-19
+661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.56,7,2024-10-19
+594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.578,6,2024-10-19
+606213,Yermín Mercedes,Sultanes de Monterrey,False,0.471,7,2024-10-19
+656252,Bobby Bradley,Sultanes de Monterrey,False,0.708,5,2024-10-19
+673374,Cesar Mendoza,Sultanes de Monterrey,False,0.54,6,2024-10-19
+614182,Jose Carlos Urena,Yaquis de Obregon,True,0.375,4,2024-10-19
+622700,Santiago Chávez,Yaquis de Obregon,True,0.485,6,2024-10-19
+680029,Oziel Flores,Yaquis de Obregon,True,0.0,1,2024-10-19
+660620,Jonathan Araúz,Yaquis de Obregon,True,0.328,7,2024-10-19
+546990,Anthony Alford,Yaquis de Obregon,True,0.259,5,2024-10-19
+642707,Allen Córdoba,Yaquis de Obregon,True,0.603,7,2024-10-19
+616404,Edson Garcia,Yaquis de Obregon,True,0.444,6,2024-10-19
+692944,Kevin Villavicencio,Yaquis de Obregon,True,0.22,6,2024-10-19
+679589,Fernando Villegas,Yaquis de Obregon,True,0.747,7,2024-10-19
+672438,Roberto Valenzuela,Yaquis de Obregon,True,0.579,7,2024-10-19
+603877,Fernando Flores,Yaquis de Obregon,True,0.237,5,2024-10-19
+628013,Victor Mendoza,Yaquis de Obregon,True,0.602,7,2024-10-19
+802888,Victor Marquez,Yaquis de Obregon,True,0.0,3,2024-10-19
+571685,Anthony García,Yaquis de Obregon,True,1.14,7,2024-10-19
+468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,3,2024-10-19
+554031,Jose Manuel Orozco,Sultanes de Monterrey,False,0.1,4,2024-10-20
+811361,Joel Flores,Sultanes de Monterrey,False,0.0,3,2024-10-20
+500869,Emmanuel Avila,Sultanes de Monterrey,False,0.809,7,2024-10-20
+680643,Juan Mora,Sultanes de Monterrey,False,0.0,1,2024-10-20
+661311,Brandon Villarreal,Sultanes de Monterrey,False,0.665,8,2024-10-20
+697779,Jose Robledo,Sultanes de Monterrey,False,0.0,3,2024-10-20
+640460,Dustin Peterson,Sultanes de Monterrey,False,0.602,8,2024-10-20
+616570,Daniel Sanchez,Sultanes de Monterrey,False,0.0,1,2024-10-20
+666177,Carter Aldrete,Sultanes de Monterrey,False,0.629,8,2024-10-20
+661148,Carlos Sepulveda,Sultanes de Monterrey,False,0.703,8,2024-10-20
+594020,Ricardo Valenzuela,Sultanes de Monterrey,False,0.53,7,2024-10-20
+606213,Yermín Mercedes,Sultanes de Monterrey,False,0.407,8,2024-10-20
+656252,Bobby Bradley,Sultanes de Monterrey,False,0.547,6,2024-10-20
+673374,Cesar Mendoza,Sultanes de Monterrey,False,0.787,7,2024-10-20
+614182,Jose Carlos Urena,Yaquis de Obregon,True,0.375,4,2024-10-20
+622700,Santiago Chávez,Yaquis de Obregon,True,0.411,7,2024-10-20
+680029,Oziel Flores,Yaquis de Obregon,True,0.0,1,2024-10-20
+660620,Jonathan Araúz,Yaquis de Obregon,True,0.296,8,2024-10-20
+546990,Anthony Alford,Yaquis de Obregon,True,0.583,6,2024-10-20
+642707,Allen Córdoba,Yaquis de Obregon,True,0.667,8,2024-10-20
+616404,Edson Garcia,Yaquis de Obregon,True,0.444,6,2024-10-20
+692944,Kevin Villavicencio,Yaquis de Obregon,True,0.243,7,2024-10-20
+679589,Fernando Villegas,Yaquis de Obregon,True,0.868,8,2024-10-20
+672438,Roberto Valenzuela,Yaquis de Obregon,True,0.506,8,2024-10-20
+603877,Fernando Flores,Yaquis de Obregon,True,0.237,5,2024-10-20
+628013,Victor Mendoza,Yaquis de Obregon,True,0.565,8,2024-10-20
+802888,Victor Marquez,Yaquis de Obregon,True,0.0,3,2024-10-20
+571685,Anthony García,Yaquis de Obregon,True,1.259,8,2024-10-20
+468368,Gabriel Gutierrez,Yaquis de Obregon,True,0.25,3,2024-10-20
+540204,Ramon Rios,Tomateros de Culiacan,False,0.519,8,2024-10-23
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.381,8,2024-10-23
+695000,Poncho Ruiz,Tomateros de Culiacan,False,0.8,5,2024-10-23
+455378,Ali Solis,Tomateros de Culiacan,False,0.49,8,2024-10-23
+519068,Efren Navarro,Tomateros de Culiacan,False,0.913,9,2024-10-23
+657675,Rudy Martin,Tomateros de Culiacan,False,0.73,10,2024-10-23
+608841,Joey Meneses,Tomateros de Culiacan,False,0.604,5,2024-10-23
+655996,Cristian Santana,Tomateros de Culiacan,False,1.099,10,2024-10-23
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.536,3,2024-10-23
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.928,10,2024-10-23
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.141,8,2024-10-23
+677690,Diosbel Arias,Tomateros de Culiacan,False,0.63,9,2024-10-23
+606019,Esteban Quiroz,Tomateros de Culiacan,False,0.984,10,2024-10-23
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,4,2024-10-23
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.1,4,2024-10-23
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,3,2024-10-23
+500869,Emmanuel Avila,Sultanes de Monterrey,True,0.731,9,2024-10-23
+680643,Juan Mora,Sultanes de Monterrey,True,0.0,1,2024-10-23
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.643,10,2024-10-23
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,4,2024-10-23
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.801,10,2024-10-23
+616570,Daniel Sanchez,Sultanes de Monterrey,True,0.0,2,2024-10-23
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.696,10,2024-10-23
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.769,10,2024-10-23
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.688,9,2024-10-23
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.499,10,2024-10-23
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.475,8,2024-10-23
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.877,9,2024-10-23
+624645,Julian Leon,Aguilas de Mexicali,False,1.0,2,2024-10-13
+668843,Conner Capel,Aguilas de Mexicali,False,0.661,2,2024-10-13
+687867,Clay Dungan,Aguilas de Mexicali,False,0.611,2,2024-10-13
+642299,Alejandro Flores,Aguilas de Mexicali,False,1.0,1,2024-10-13
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.0,2,2024-10-13
+605011,Moises Gutierrez,Aguilas de Mexicali,False,1.357,2,2024-10-13
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-13
+622270,Alex D. Mejia,Aguilas de Mexicali,False,1.0,2,2024-10-13
+665745,Javier Salazar,Aguilas de Mexicali,False,0.125,2,2024-10-13
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.333,2,2024-10-13
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.25,2,2024-10-13
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.2,2,2024-10-13
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,1,2024-10-13
+500869,Emmanuel Avila,Sultanes de Monterrey,True,1.417,2,2024-10-13
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.666,2,2024-10-13
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.222,2,2024-10-13
+666177,Carter Aldrete,Sultanes de Monterrey,True,1.25,2,2024-10-13
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.619,2,2024-10-13
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.0,2,2024-10-13
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.25,2,2024-10-13
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.393,2,2024-10-13
+624645,Julian Leon,Aguilas de Mexicali,False,1.1,3,2024-10-15
+668843,Conner Capel,Aguilas de Mexicali,False,0.467,4,2024-10-15
+687867,Clay Dungan,Aguilas de Mexicali,False,0.579,4,2024-10-15
+642299,Alejandro Flores,Aguilas de Mexicali,False,0.25,2,2024-10-15
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.118,4,2024-10-15
+605011,Moises Gutierrez,Aguilas de Mexicali,False,0.878,3,2024-10-15
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-15
+622270,Alex D. Mejia,Aguilas de Mexicali,False,0.813,4,2024-10-15
+665745,Javier Salazar,Aguilas de Mexicali,False,0.091,3,2024-10-15
+676021,Luis Santos,Aguilas de Mexicali,False,0.666,2,2024-10-15
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.343,4,2024-10-15
+511428,Leo Heras,Aguilas de Mexicali,False,1.666,1,2024-10-15
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.308,3,2024-10-15
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,3,2024-10-15
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,1,2024-10-15
+500869,Emmanuel Avila,Sultanes de Monterrey,True,1.083,4,2024-10-15
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.67,4,2024-10-15
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2,2024-10-15
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.627,4,2024-10-15
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.761,4,2024-10-15
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.557,4,2024-10-15
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.69,4,2024-10-15
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.5,4,2024-10-15
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.536,2,2024-10-15
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.48,4,2024-10-15
+540204,Ramon Rios,Tomateros de Culiacan,False,0.491,7,2024-10-22
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.413,7,2024-10-22
+695000,Poncho Ruiz,Tomateros de Culiacan,False,0.8,5,2024-10-22
+455378,Ali Solis,Tomateros de Culiacan,False,0.411,7,2024-10-22
+519068,Efren Navarro,Tomateros de Culiacan,False,0.879,8,2024-10-22
+657675,Rudy Martin,Tomateros de Culiacan,False,0.774,9,2024-10-22
+608841,Joey Meneses,Tomateros de Culiacan,False,0.229,4,2024-10-22
+655996,Cristian Santana,Tomateros de Culiacan,False,1.229,9,2024-10-22
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.536,3,2024-10-22
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.84,9,2024-10-22
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,1.029,7,2024-10-22
+677690,Diosbel Arias,Tomateros de Culiacan,False,0.67,8,2024-10-22
+606019,Esteban Quiroz,Tomateros de Culiacan,False,1.073,9,2024-10-22
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.0,3,2024-10-22
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.1,4,2024-10-22
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,3,2024-10-22
+500869,Emmanuel Avila,Sultanes de Monterrey,True,0.837,8,2024-10-22
+680643,Juan Mora,Sultanes de Monterrey,True,0.0,1,2024-10-22
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.619,9,2024-10-22
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,4,2024-10-22
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.668,9,2024-10-22
+616570,Daniel Sanchez,Sultanes de Monterrey,True,0.0,2,2024-10-22
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.652,9,2024-10-22
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.727,9,2024-10-22
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.637,8,2024-10-22
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.477,9,2024-10-22
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.566,7,2024-10-22
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.933,8,2024-10-22
+624645,Julian Leon,Aguilas de Mexicali,False,1.215,4,2024-10-16
+668843,Conner Capel,Aguilas de Mexicali,False,0.6,5,2024-10-16
+687867,Clay Dungan,Aguilas de Mexicali,False,0.696,5,2024-10-16
+642299,Alejandro Flores,Aguilas de Mexicali,False,0.25,2,2024-10-16
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.428,5,2024-10-16
+605011,Moises Gutierrez,Aguilas de Mexicali,False,0.808,4,2024-10-16
+616569,Diego Madero,Aguilas de Mexicali,False,0.0,1,2024-10-16
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-16
+622270,Alex D. Mejia,Aguilas de Mexicali,False,0.787,5,2024-10-16
+665745,Javier Salazar,Aguilas de Mexicali,False,0.071,4,2024-10-16
+676021,Luis Santos,Aguilas de Mexicali,False,0.666,2,2024-10-16
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.573,5,2024-10-16
+511428,Leo Heras,Aguilas de Mexicali,False,1.666,1,2024-10-16
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.352,4,2024-10-16
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,3,2024-10-16
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,1,2024-10-16
+500869,Emmanuel Avila,Sultanes de Monterrey,True,1.083,4,2024-10-16
+680643,Juan Mora,Sultanes de Monterrey,True,0.0,1,2024-10-16
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.591,5,2024-10-16
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,2,2024-10-16
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.557,5,2024-10-16
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.675,5,2024-10-16
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.564,5,2024-10-16
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.732,5,2024-10-16
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.444,5,2024-10-16
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.633,3,2024-10-16
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.547,5,2024-10-16
+624645,Julian Leon,Aguilas de Mexicali,False,1.1,3,2024-10-14
+668843,Conner Capel,Aguilas de Mexicali,False,0.533,3,2024-10-14
+687867,Clay Dungan,Aguilas de Mexicali,False,0.684,3,2024-10-14
+642299,Alejandro Flores,Aguilas de Mexicali,False,1.0,1,2024-10-14
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.154,3,2024-10-14
+605011,Moises Gutierrez,Aguilas de Mexicali,False,0.878,3,2024-10-14
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-14
+622270,Alex D. Mejia,Aguilas de Mexicali,False,0.833,3,2024-10-14
+665745,Javier Salazar,Aguilas de Mexicali,False,0.125,2,2024-10-14
+676021,Luis Santos,Aguilas de Mexicali,False,0.8,1,2024-10-14
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.357,3,2024-10-14
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.308,3,2024-10-14
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.167,3,2024-10-14
+811361,Joel Flores,Sultanes de Monterrey,True,0.0,1,2024-10-14
+500869,Emmanuel Avila,Sultanes de Monterrey,True,1.225,3,2024-10-14
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.5,3,2024-10-14
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,1,2024-10-14
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.413,3,2024-10-14
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.891,3,2024-10-14
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.774,3,2024-10-14
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.311,3,2024-10-14
+606213,Yermín Mercedes,Sultanes de Monterrey,True,0.334,3,2024-10-14
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.25,1,2024-10-14
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.432,3,2024-10-14
+701033,Jorge Rivera,Algodoneros de Guasave,False,0.666,2,2024-10-23
+807581,Randy Delgado,Algodoneros de Guasave,False,0.666,5,2024-10-23
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.417,6,2024-10-23
+687045,Justin Wylie,Algodoneros de Guasave,False,0.45,10,2024-10-23
+674706,Alan Lopez,Algodoneros de Guasave,False,2.0,4,2024-10-23
+660840,Jose Lizarraga,Algodoneros de Guasave,False,0.833,4,2024-10-23
+660436,Yadir Drake,Algodoneros de Guasave,False,0.682,10,2024-10-23
+806873,Yael Romero,Algodoneros de Guasave,False,0.0,1,2024-10-23
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.703,7,2024-10-23
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.568,10,2024-10-23
+477399,Jesse Castillo,Algodoneros de Guasave,False,0.895,9,2024-10-23
+700032,Victor Labrada,Algodoneros de Guasave,False,0.544,5,2024-10-23
+652669,Angel Erro,Algodoneros de Guasave,False,0.825,9,2024-10-23
+592312,Jorge Flores,Algodoneros de Guasave,False,0.671,10,2024-10-23
+685694,Keven Lamas,Algodoneros de Guasave,False,0.306,5,2024-10-23
+682183,Drew Avans,Algodoneros de Guasave,False,0.611,10,2024-10-23
+814656,Elias Verdugo,Caneros de los Mochis,True,2.0,1,2024-10-23
+664583,Beder Gutierrez,Caneros de los Mochis,True,0.0,2,2024-10-23
+661270,Roel Santos,Caneros de los Mochis,True,0.619,10,2024-10-23
+587275,Alan Espinoza,Caneros de los Mochis,True,0.394,8,2024-10-23
+596107,Eric Filia,Caneros de los Mochis,True,0.877,10,2024-10-23
+665455,Isaac Rodriguez,Caneros de los Mochis,True,1.028,10,2024-10-23
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.35,9,2024-10-23
+681909,Justin Dean,Caneros de los Mochis,True,0.536,10,2024-10-23
+668616,Marco Jaime,Caneros de los Mochis,True,0.636,10,2024-10-23
+685474,Felix Stevens,Caneros de los Mochis,True,0.587,10,2024-10-23
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.671,10,2024-10-23
+654118,Eric Meza,Caneros de los Mochis,True,1.0,2,2024-10-23
+703060,Alejandro Urias,Caneros de los Mochis,True,0.8,3,2024-10-23
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,1,2024-10-15
+622700,Santiago Chávez,Yaquis de Obregon,False,0.944,3,2024-10-15
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.333,3,2024-10-15
+546990,Anthony Alford,Yaquis de Obregon,False,0.282,3,2024-10-15
+642707,Allen Córdoba,Yaquis de Obregon,False,0.408,3,2024-10-15
+616404,Edson Garcia,Yaquis de Obregon,False,0.5,2,2024-10-15
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.347,3,2024-10-15
+679589,Fernando Villegas,Yaquis de Obregon,False,0.944,3,2024-10-15
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.697,3,2024-10-15
+603877,Fernando Flores,Yaquis de Obregon,False,0.0,2,2024-10-15
+628013,Victor Mendoza,Yaquis de Obregon,False,0.583,3,2024-10-15
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,2,2024-10-15
+571685,Anthony García,Yaquis de Obregon,False,0.872,3,2024-10-15
+661270,Roel Santos,Caneros de los Mochis,True,0.972,3,2024-10-15
+587275,Alan Espinoza,Caneros de los Mochis,True,0.473,3,2024-10-15
+596107,Eric Filia,Caneros de los Mochis,True,0.917,3,2024-10-15
+665455,Isaac Rodriguez,Caneros de los Mochis,True,0.993,3,2024-10-15
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.487,3,2024-10-15
+681909,Justin Dean,Caneros de los Mochis,True,0.417,3,2024-10-15
+668616,Marco Jaime,Caneros de los Mochis,True,0.35,3,2024-10-15
+685474,Felix Stevens,Caneros de los Mochis,True,0.267,3,2024-10-15
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.697,3,2024-10-15
+677977,Edgar Robles,Caneros de los Mochis,True,0.0,2,2024-10-15
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,1,2024-10-15
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2,2024-10-15
+661313,Asael Sanchez,Mayos de Navojoa,False,0.0,2,2024-10-15
+550492,Luis Juarez,Mayos de Navojoa,False,0.539,3,2024-10-15
+694942,Matt McDermott,Mayos de Navojoa,False,1.205,3,2024-10-15
+668992,Missael Rivera,Mayos de Navojoa,False,0.282,3,2024-10-15
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,1,2024-10-15
+634739,Miguel Guzman,Mayos de Navojoa,False,0.473,3,2024-10-15
+686659,Julian Escobedo,Mayos de Navojoa,False,0.802,3,2024-10-15
+547375,Sergio Perez,Mayos de Navojoa,False,1.0,2,2024-10-15
+660842,Juan Uriarte,Mayos de Navojoa,False,1.011,3,2024-10-15
+664009,Brantley Bell,Mayos de Navojoa,False,1.117,3,2024-10-15
+678966,Mike Hart,Mayos de Navojoa,False,0.333,3,2024-10-15
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.2,3,2024-10-15
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2,2024-10-15
+622603,Carlos Castro,Venados de Mazatlan,True,0.968,3,2024-10-15
+668165,Jose Gaitan,Venados de Mazatlan,True,0.955,3,2024-10-15
+499926,Alex Liddi,Venados de Mazatlan,True,0.773,3,2024-10-15
+675202,Juan Kirk,Venados de Mazatlan,True,0.0,1,2024-10-15
+678499,Randy Romero,Venados de Mazatlan,True,0.308,3,2024-10-15
+671246,Fabricio Macias,Venados de Mazatlan,True,0.472,2,2024-10-15
+634496,Leo German,Venados de Mazatlan,True,0.0,1,2024-10-15
+455369,Ramiro Pena,Venados de Mazatlan,True,0.462,3,2024-10-15
+678540,Brayan Quintero,Venados de Mazatlan,True,0.899,3,2024-10-15
+593471,Isaias Tejeda,Venados de Mazatlan,True,0.282,3,2024-10-15
+599096,Dilson Herrera,Venados de Mazatlan,True,1.007,3,2024-10-15
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,2,2024-10-17
+622700,Santiago Chávez,Yaquis de Obregon,False,0.697,4,2024-10-17
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,5,2024-10-17
+546990,Anthony Alford,Yaquis de Obregon,False,0.277,4,2024-10-17
+642707,Allen Córdoba,Yaquis de Obregon,False,0.589,5,2024-10-17
+616404,Edson Garcia,Yaquis de Obregon,False,0.629,4,2024-10-17
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.258,5,2024-10-17
+679589,Fernando Villegas,Yaquis de Obregon,False,0.782,5,2024-10-17
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.683,5,2024-10-17
+603877,Fernando Flores,Yaquis de Obregon,False,0.393,3,2024-10-17
+628013,Victor Mendoza,Yaquis de Obregon,False,0.675,5,2024-10-17
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,2,2024-10-17
+571685,Anthony García,Yaquis de Obregon,False,1.087,5,2024-10-17
+468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.25,1,2024-10-17
+661270,Roel Santos,Caneros de los Mochis,True,0.702,5,2024-10-17
+587275,Alan Espinoza,Caneros de los Mochis,True,0.368,4,2024-10-17
+596107,Eric Filia,Caneros de los Mochis,True,0.649,5,2024-10-17
+665455,Isaac Rodriguez,Caneros de los Mochis,True,1.148,5,2024-10-17
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.473,5,2024-10-17
+681909,Justin Dean,Caneros de los Mochis,True,0.316,5,2024-10-17
+668616,Marco Jaime,Caneros de los Mochis,True,0.494,5,2024-10-17
+685474,Felix Stevens,Caneros de los Mochis,True,0.613,5,2024-10-17
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.578,5,2024-10-17
+677977,Edgar Robles,Caneros de los Mochis,True,0.0,3,2024-10-17
+703060,Alejandro Urias,Caneros de los Mochis,True,0.666,1,2024-10-17
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.0,2,2024-10-16
+622700,Santiago Chávez,Yaquis de Obregon,False,0.697,4,2024-10-16
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.25,4,2024-10-16
+546990,Anthony Alford,Yaquis de Obregon,False,0.277,4,2024-10-16
+642707,Allen Córdoba,Yaquis de Obregon,False,0.782,4,2024-10-16
+616404,Edson Garcia,Yaquis de Obregon,False,0.333,3,2024-10-16
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.258,4,2024-10-16
+679589,Fernando Villegas,Yaquis de Obregon,False,0.771,4,2024-10-16
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.785,4,2024-10-16
+603877,Fernando Flores,Yaquis de Obregon,False,0.0,2,2024-10-16
+628013,Victor Mendoza,Yaquis de Obregon,False,0.646,4,2024-10-16
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,2,2024-10-16
+571685,Anthony García,Yaquis de Obregon,False,0.732,4,2024-10-16
+661270,Roel Santos,Caneros de los Mochis,True,0.749,4,2024-10-16
+587275,Alan Espinoza,Caneros de los Mochis,True,0.473,3,2024-10-16
+596107,Eric Filia,Caneros de los Mochis,True,0.686,4,2024-10-16
+665455,Isaac Rodriguez,Caneros de los Mochis,True,0.996,4,2024-10-16
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.521,4,2024-10-16
+681909,Justin Dean,Caneros de los Mochis,True,0.333,4,2024-10-16
+668616,Marco Jaime,Caneros de los Mochis,True,0.453,4,2024-10-16
+685474,Felix Stevens,Caneros de los Mochis,True,0.792,4,2024-10-16
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.732,4,2024-10-16
+677977,Edgar Robles,Caneros de los Mochis,True,0.0,3,2024-10-16
+703060,Alejandro Urias,Caneros de los Mochis,True,0.666,1,2024-10-16
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,1,2024-10-13
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2,2024-10-13
+661313,Asael Sanchez,Mayos de Navojoa,False,0.0,1,2024-10-13
+814812,Edgar Lugo,Mayos de Navojoa,False,0.0,2,2024-10-13
+550492,Luis Juarez,Mayos de Navojoa,False,0.222,2,2024-10-13
+694942,Matt McDermott,Mayos de Navojoa,False,1.482,2,2024-10-13
+668992,Missael Rivera,Mayos de Navojoa,False,0.286,2,2024-10-13
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,1,2024-10-13
+634739,Miguel Guzman,Mayos de Navojoa,False,0.572,2,2024-10-13
+686659,Julian Escobedo,Mayos de Navojoa,False,0.944,2,2024-10-13
+547375,Sergio Perez,Mayos de Navojoa,False,1.0,2,2024-10-13
+660842,Juan Uriarte,Mayos de Navojoa,False,1.371,2,2024-10-13
+664009,Brantley Bell,Mayos de Navojoa,False,0.555,2,2024-10-13
+678966,Mike Hart,Mayos de Navojoa,False,0.375,2,2024-10-13
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.334,2,2024-10-13
+661270,Roel Santos,Caneros de los Mochis,True,1.389,2,2024-10-13
+587275,Alan Espinoza,Caneros de los Mochis,True,0.393,2,2024-10-13
+596107,Eric Filia,Caneros de los Mochis,True,0.873,2,2024-10-13
+665455,Isaac Rodriguez,Caneros de los Mochis,True,1.238,2,2024-10-13
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.722,2,2024-10-13
+681909,Justin Dean,Caneros de los Mochis,True,0.444,2,2024-10-13
+668616,Marco Jaime,Caneros de los Mochis,True,0.476,2,2024-10-13
+685474,Felix Stevens,Caneros de los Mochis,True,0.111,2,2024-10-13
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.777,2,2024-10-13
+677977,Edgar Robles,Caneros de los Mochis,True,0.0,1,2024-10-13
+453575,Jose Guadalupe Chavez,Charros de Jalisco,False,0.0,1,2024-10-13
+516679,Sebastian Valle,Charros de Jalisco,False,0.625,2,2024-10-13
+570799,Christian Villanueva,Charros de Jalisco,False,0.9,2,2024-10-13
+681933,Michael Wielansky,Charros de Jalisco,False,0.393,2,2024-10-13
+515189,Japhet Amador,Charros de Jalisco,False,0.125,2,2024-10-13
+608686,Jack Mayfield,Charros de Jalisco,False,0.5,2,2024-10-13
+828390,Carlos Baez,Charros de Jalisco,False,0.0,2,2024-10-13
+685771,Alfredo Hurtado,Charros de Jalisco,False,0.0,1,2024-10-13
+676140,Julian Ornelas,Charros de Jalisco,False,0.75,2,2024-10-13
+571740,Billy Hamilton,Charros de Jalisco,False,0.543,2,2024-10-13
+593495,Daniel Castro,Charros de Jalisco,False,0.334,2,2024-10-13
+471906,Reynaldo Rodriguez,Charros de Jalisco,False,0.875,2,2024-10-13
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2,2024-10-13
+622603,Carlos Castro,Venados de Mazatlan,True,1.334,2,2024-10-13
+668165,Jose Gaitan,Venados de Mazatlan,True,1.071,2,2024-10-13
+499926,Alex Liddi,Venados de Mazatlan,True,1.042,2,2024-10-13
+675202,Juan Kirk,Venados de Mazatlan,True,0.0,1,2024-10-13
+678499,Randy Romero,Venados de Mazatlan,True,0.444,2,2024-10-13
+671246,Fabricio Macias,Venados de Mazatlan,True,0.2,1,2024-10-13
+634496,Leo German,Venados de Mazatlan,True,0.0,1,2024-10-13
+455369,Ramiro Pena,Venados de Mazatlan,True,0.444,2,2024-10-13
+678540,Brayan Quintero,Venados de Mazatlan,True,1.292,2,2024-10-13
+593471,Isaias Tejeda,Venados de Mazatlan,True,0.393,2,2024-10-13
+599096,Dilson Herrera,Venados de Mazatlan,True,0.873,2,2024-10-13
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,2,2024-10-16
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.0,2,2024-10-16
+661313,Asael Sanchez,Mayos de Navojoa,False,0.971,3,2024-10-16
+617918,Marco Chicuate,Mayos de Navojoa,False,0.0,1,2024-10-16
+550492,Luis Juarez,Mayos de Navojoa,False,0.529,4,2024-10-16
+694942,Matt McDermott,Mayos de Navojoa,False,0.912,4,2024-10-16
+668992,Missael Rivera,Mayos de Navojoa,False,0.368,4,2024-10-16
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,1,2024-10-16
+634739,Miguel Guzman,Mayos de Navojoa,False,0.343,4,2024-10-16
+686659,Julian Escobedo,Mayos de Navojoa,False,0.728,4,2024-10-16
+547375,Sergio Perez,Mayos de Navojoa,False,2.334,3,2024-10-16
+660842,Juan Uriarte,Mayos de Navojoa,False,0.774,4,2024-10-16
+664009,Brantley Bell,Mayos de Navojoa,False,0.913,4,2024-10-16
+678966,Mike Hart,Mayos de Navojoa,False,0.4,4,2024-10-16
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.286,4,2024-10-16
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2,2024-10-16
+622603,Carlos Castro,Venados de Mazatlan,True,0.975,4,2024-10-16
+668165,Jose Gaitan,Venados de Mazatlan,True,1.0,4,2024-10-16
+499926,Alex Liddi,Venados de Mazatlan,True,0.767,4,2024-10-16
+675202,Juan Kirk,Venados de Mazatlan,True,0.0,2,2024-10-16
+608608,Carlos Munoz,Venados de Mazatlan,True,0.0,1,2024-10-16
+678499,Randy Romero,Venados de Mazatlan,True,0.466,4,2024-10-16
+671246,Fabricio Macias,Venados de Mazatlan,True,0.495,3,2024-10-16
+634496,Leo German,Venados de Mazatlan,True,0.0,1,2024-10-16
+455369,Ramiro Pena,Venados de Mazatlan,True,0.444,4,2024-10-16
+678540,Brayan Quintero,Venados de Mazatlan,True,0.733,4,2024-10-16
+593471,Isaias Tejeda,Venados de Mazatlan,True,0.282,3,2024-10-16
+599096,Dilson Herrera,Venados de Mazatlan,True,0.879,4,2024-10-16
+701033,Jorge Rivera,Algodoneros de Guasave,False,0.666,2,2024-10-22
+807581,Randy Delgado,Algodoneros de Guasave,False,0.666,5,2024-10-22
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.417,6,2024-10-22
+687045,Justin Wylie,Algodoneros de Guasave,False,0.469,9,2024-10-22
+674706,Alan Lopez,Algodoneros de Guasave,False,2.0,4,2024-10-22
+660840,Jose Lizarraga,Algodoneros de Guasave,False,0.333,3,2024-10-22
+660436,Yadir Drake,Algodoneros de Guasave,False,0.674,9,2024-10-22
+806873,Yael Romero,Algodoneros de Guasave,False,0.0,1,2024-10-22
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.754,6,2024-10-22
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.538,9,2024-10-22
+477399,Jesse Castillo,Algodoneros de Guasave,False,0.903,8,2024-10-22
+700032,Victor Labrada,Algodoneros de Guasave,False,0.718,4,2024-10-22
+652669,Angel Erro,Algodoneros de Guasave,False,0.874,8,2024-10-22
+592312,Jorge Flores,Algodoneros de Guasave,False,0.653,9,2024-10-22
+685694,Keven Lamas,Algodoneros de Guasave,False,0.306,5,2024-10-22
+682183,Drew Avans,Algodoneros de Guasave,False,0.678,9,2024-10-22
+814656,Elias Verdugo,Caneros de los Mochis,True,2.0,1,2024-10-22
+664583,Beder Gutierrez,Caneros de los Mochis,True,0.0,2,2024-10-22
+694034,Mario Gomez,Caneros de los Mochis,True,0.0,1,2024-10-22
+661270,Roel Santos,Caneros de los Mochis,True,0.633,9,2024-10-22
+587275,Alan Espinoza,Caneros de los Mochis,True,0.461,7,2024-10-22
+596107,Eric Filia,Caneros de los Mochis,True,0.684,9,2024-10-22
+665455,Isaac Rodriguez,Caneros de los Mochis,True,1.084,9,2024-10-22
+630111,Yasmany Tomás,Caneros de los Mochis,True,0.343,8,2024-10-22
+681909,Justin Dean,Caneros de los Mochis,True,0.55,9,2024-10-22
+668616,Marco Jaime,Caneros de los Mochis,True,0.554,9,2024-10-22
+685474,Felix Stevens,Caneros de los Mochis,True,0.483,9,2024-10-22
+616613,Rodolfo Amador,Caneros de los Mochis,True,0.611,9,2024-10-22
+654118,Eric Meza,Caneros de los Mochis,True,1.0,2,2024-10-22
+677977,Edgar Robles,Caneros de los Mochis,True,0.0,7,2024-10-22
+703060,Alejandro Urias,Caneros de los Mochis,True,0.8,3,2024-10-22
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,3,2024-10-17
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.833,3,2024-10-17
+661313,Asael Sanchez,Mayos de Navojoa,False,0.833,4,2024-10-17
+617918,Marco Chicuate,Mayos de Navojoa,False,0.0,1,2024-10-17
+550492,Luis Juarez,Mayos de Navojoa,False,0.5,5,2024-10-17
+694942,Matt McDermott,Mayos de Navojoa,False,0.929,5,2024-10-17
+668992,Missael Rivera,Mayos de Navojoa,False,0.368,4,2024-10-17
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.0,1,2024-10-17
+634739,Miguel Guzman,Mayos de Navojoa,False,0.343,4,2024-10-17
+686659,Julian Escobedo,Mayos de Navojoa,False,0.859,5,2024-10-17
+547375,Sergio Perez,Mayos de Navojoa,False,2.334,3,2024-10-17
+660842,Juan Uriarte,Mayos de Navojoa,False,0.708,5,2024-10-17
+664009,Brantley Bell,Mayos de Navojoa,False,0.675,5,2024-10-17
+678966,Mike Hart,Mayos de Navojoa,False,0.357,5,2024-10-17
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.5,5,2024-10-17
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,2,2024-10-17
+622603,Carlos Castro,Venados de Mazatlan,True,0.783,5,2024-10-17
+668165,Jose Gaitan,Venados de Mazatlan,True,0.764,5,2024-10-17
+499926,Alex Liddi,Venados de Mazatlan,True,0.745,5,2024-10-17
+503429,Walter Ibarra,Venados de Mazatlan,True,0.0,1,2024-10-17
+675202,Juan Kirk,Venados de Mazatlan,True,0.0,3,2024-10-17
+608608,Carlos Munoz,Venados de Mazatlan,True,0.0,1,2024-10-17
+678499,Randy Romero,Venados de Mazatlan,True,0.568,5,2024-10-17
+671246,Fabricio Macias,Venados de Mazatlan,True,0.495,3,2024-10-17
+634496,Leo German,Venados de Mazatlan,True,0.619,2,2024-10-17
+455369,Ramiro Pena,Venados de Mazatlan,True,0.364,5,2024-10-17
+678540,Brayan Quintero,Venados de Mazatlan,True,0.681,5,2024-10-17
+599096,Dilson Herrera,Venados de Mazatlan,True,1.032,5,2024-10-17
+624645,Julian Leon,Aguilas de Mexicali,False,0.851,7,2024-10-22
+668843,Conner Capel,Aguilas de Mexicali,False,0.665,9,2024-10-22
+687867,Clay Dungan,Aguilas de Mexicali,False,0.789,9,2024-10-22
+642299,Alejandro Flores,Aguilas de Mexicali,False,0.222,5,2024-10-22
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.395,9,2024-10-22
+605011,Moises Gutierrez,Aguilas de Mexicali,False,0.738,7,2024-10-22
+510548,Jose Heberto Felix,Aguilas de Mexicali,False,0.65,5,2024-10-22
+616569,Diego Madero,Aguilas de Mexicali,False,0.0,1,2024-10-22
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-22
+622270,Alex D. Mejia,Aguilas de Mexicali,False,0.51,9,2024-10-22
+665745,Javier Salazar,Aguilas de Mexicali,False,0.322,8,2024-10-22
+676021,Luis Santos,Aguilas de Mexicali,False,0.5,5,2024-10-22
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.548,8,2024-10-22
+511428,Leo Heras,Aguilas de Mexicali,False,1.599,4,2024-10-22
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.739,8,2024-10-22
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,6,2024-10-22
+622603,Carlos Castro,Venados de Mazatlan,True,0.668,8,2024-10-22
+668165,Jose Gaitan,Venados de Mazatlan,True,0.765,9,2024-10-22
+499926,Alex Liddi,Venados de Mazatlan,True,0.447,9,2024-10-22
+685736,Cristian Mejia,Venados de Mazatlan,True,0.0,1,2024-10-22
+503429,Walter Ibarra,Venados de Mazatlan,True,0.55,4,2024-10-22
+675202,Juan Kirk,Venados de Mazatlan,True,0.644,4,2024-10-22
+608608,Carlos Munoz,Venados de Mazatlan,True,0.65,4,2024-10-22
+678499,Randy Romero,Venados de Mazatlan,True,0.602,9,2024-10-22
+671246,Fabricio Macias,Venados de Mazatlan,True,0.41,6,2024-10-22
+634496,Leo German,Venados de Mazatlan,True,0.523,5,2024-10-22
+455369,Ramiro Pena,Venados de Mazatlan,True,0.465,9,2024-10-22
+678540,Brayan Quintero,Venados de Mazatlan,True,0.569,8,2024-10-22
+599096,Dilson Herrera,Venados de Mazatlan,True,0.639,9,2024-10-22
+624645,Julian Leon,Aguilas de Mexicali,False,0.84,8,2024-10-23
+668843,Conner Capel,Aguilas de Mexicali,False,0.794,10,2024-10-23
+687867,Clay Dungan,Aguilas de Mexicali,False,0.738,10,2024-10-23
+642299,Alejandro Flores,Aguilas de Mexicali,False,0.222,5,2024-10-23
+606143,Alejandro Mejia,Aguilas de Mexicali,False,0.346,10,2024-10-23
+605011,Moises Gutierrez,Aguilas de Mexicali,False,0.634,8,2024-10-23
+510548,Jose Heberto Felix,Aguilas de Mexicali,False,0.65,5,2024-10-23
+616569,Diego Madero,Aguilas de Mexicali,False,0.0,1,2024-10-23
+655212,Manuel Orduno,Aguilas de Mexicali,False,0.0,1,2024-10-23
+622270,Alex D. Mejia,Aguilas de Mexicali,False,0.651,10,2024-10-23
+665745,Javier Salazar,Aguilas de Mexicali,False,0.399,9,2024-10-23
+676021,Luis Santos,Aguilas de Mexicali,False,0.564,6,2024-10-23
+592144,Wynton Bernard,Aguilas de Mexicali,False,0.548,8,2024-10-23
+511428,Leo Heras,Aguilas de Mexicali,False,1.35,5,2024-10-23
+650995,Norberto Obeso,Aguilas de Mexicali,False,0.731,9,2024-10-23
+689161,Carlos Arellano,Venados de Mazatlan,True,0.0,6,2024-10-23
+622603,Carlos Castro,Venados de Mazatlan,True,0.727,9,2024-10-23
+668165,Jose Gaitan,Venados de Mazatlan,True,0.765,10,2024-10-23
+499926,Alex Liddi,Venados de Mazatlan,True,0.417,10,2024-10-23
+685736,Cristian Mejia,Venados de Mazatlan,True,0.0,1,2024-10-23
+503429,Walter Ibarra,Venados de Mazatlan,True,0.55,4,2024-10-23
+675202,Juan Kirk,Venados de Mazatlan,True,0.644,5,2024-10-23
+608608,Carlos Munoz,Venados de Mazatlan,True,0.65,4,2024-10-23
+671246,Fabricio Macias,Venados de Mazatlan,True,0.427,7,2024-10-23
+634496,Leo German,Venados de Mazatlan,True,0.517,6,2024-10-23
+455369,Ramiro Pena,Venados de Mazatlan,True,0.438,10,2024-10-23
+678540,Brayan Quintero,Venados de Mazatlan,True,0.602,9,2024-10-23
+543875,Niko Vasquez,Venados de Mazatlan,True,1.4,1,2024-10-23
+599096,Dilson Herrera,Venados de Mazatlan,True,0.742,10,2024-10-23
