@@ -173,7 +173,7 @@ with col2:
 # Filter for 2024 season data
 with col4:
     player_ops_data_2024 = filter_2024_season_data(selected_batter, batters_df)  # Filter data for the selected player in 2024
-    league_avg_ops = 0.667  # Replace with the actual calculated league average OPS
+    league_avg_ops = 0.677  # Replace with the actual calculated league average OPS
     plot_player_ops_styled_2024(selected_batter, player_ops_data_2024, league_avg_ops)
 
 with col3:
