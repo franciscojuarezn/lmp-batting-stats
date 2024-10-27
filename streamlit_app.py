@@ -116,7 +116,7 @@ league_averages = pd.DataFrame({
 
 
 # Toggle for selecting Players or Teams view
-view_selection = st.radio("Select View", ["Players", "Teams"], index=0, horizontal=True)
+view_selection = st.radio("", ["Players", "Teams"], index=0, horizontal=True)
 # st.divider()
 if view_selection == "Players":
         
