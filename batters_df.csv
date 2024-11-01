@@ -255,6 +255,37 @@ PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
 678540,Brayan Quintero,Venados de Mazatlan,True,0.653,10,2024-10-24
 543875,Niko Vasquez,Venados de Mazatlan,True,0.8,2,2024-10-24
 599096,Dilson Herrera,Venados de Mazatlan,True,0.718,11,2024-10-24
+540204,Ramon Rios,Tomateros de Culiacan,False,0.507,12,2024-10-31
+652999,Jesus Fabela,Tomateros de Culiacan,False,0.484,15,2024-10-31
+695000,Poncho Ruiz,Tomateros de Culiacan,False,1.022,10,2024-10-31
+455378,Ali Solis,Tomateros de Culiacan,False,0.487,12,2024-10-31
+519068,Efren Navarro,Tomateros de Culiacan,False,0.935,14,2024-10-31
+668665,Stephen Nogosek,Tomateros de Culiacan,False,0.0,1,2024-10-31
+657675,Rudy Martin,Tomateros de Culiacan,False,0.733,17,2024-10-31
+608841,Joey Meneses,Tomateros de Culiacan,False,0.882,12,2024-10-31
+655996,Cristian Santana,Tomateros de Culiacan,False,0.906,17,2024-10-31
+677605,Luis Verdugo,Tomateros de Culiacan,False,0.736,7,2024-10-31
+687019,Andrés Alvarez,Tomateros de Culiacan,False,0.809,16,2024-10-31
+596105,Dwight Smith Jr.,Tomateros de Culiacan,False,0.862,15,2024-10-31
+677690,Diosbel Arias,Tomateros de Culiacan,False,0.654,13,2024-10-31
+606019,Esteban Quiroz,Tomateros de Culiacan,False,1.119,14,2024-10-31
+802560,Ichiro Cano,Tomateros de Culiacan,False,0.4,5,2024-10-31
+677977,Edgar Robles,Tomateros de Culiacan,False,0.667,13,2024-10-31
+689161,Carlos Arellano,Venados de Mazatlan,True,0.2,12,2024-10-31
+622603,Carlos Castro,Venados de Mazatlan,True,0.732,16,2024-10-31
+668165,Jose Gaitan,Venados de Mazatlan,True,0.742,17,2024-10-31
+624221,Carlos Figueroa,Venados de Mazatlan,True,0.0,3,2024-10-31
+685736,Cristian Mejia,Venados de Mazatlan,True,0.0,1,2024-10-31
+503429,Walter Ibarra,Venados de Mazatlan,True,0.725,8,2024-10-31
+675202,Juan Kirk,Venados de Mazatlan,True,0.803,8,2024-10-31
+608608,Carlos Munoz,Venados de Mazatlan,True,0.639,6,2024-10-31
+671246,Fabricio Macias,Venados de Mazatlan,True,0.535,13,2024-10-31
+634496,Leo German,Venados de Mazatlan,True,0.447,12,2024-10-31
+455369,Ramiro Pena,Venados de Mazatlan,True,0.564,17,2024-10-31
+678540,Brayan Quintero,Venados de Mazatlan,True,0.618,16,2024-10-31
+501317,Francisco Peguero,Venados de Mazatlan,True,0.666,1,2024-10-31
+543875,Niko Vasquez,Venados de Mazatlan,True,0.547,8,2024-10-31
+599096,Dilson Herrera,Venados de Mazatlan,True,0.744,17,2024-10-31
 540204,Ramon Rios,Tomateros de Culiacan,False,0.564,11,2024-10-30
 652999,Jesus Fabela,Tomateros de Culiacan,False,0.451,14,2024-10-30
 695000,Poncho Ruiz,Tomateros de Culiacan,False,0.868,9,2024-10-30
@@ -667,6 +698,36 @@ PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
 656252,Bobby Bradley,Sultanes de Monterrey,True,0.538,12,2024-10-30
 702090,Edgar Bravo,Sultanes de Monterrey,True,0.0,1,2024-10-30
 673374,Cesar Mendoza,Sultanes de Monterrey,True,0.745,14,2024-10-30
+814656,Elias Verdugo,Caneros de los Mochis,False,0.5,6,2024-10-31
+664583,Beder Gutierrez,Caneros de los Mochis,False,0.0,8,2024-10-31
+694034,Mario Gomez,Caneros de los Mochis,False,0.0,1,2024-10-31
+661270,Roel Santos,Caneros de los Mochis,False,0.765,17,2024-10-31
+587275,Alan Espinoza,Caneros de los Mochis,False,0.358,12,2024-10-31
+596107,Eric Filia,Caneros de los Mochis,False,1.024,17,2024-10-31
+665455,Isaac Rodriguez,Caneros de los Mochis,False,0.964,17,2024-10-31
+657674,Kyle Martin,Caneros de los Mochis,False,0.455,3,2024-10-31
+630111,Yasmany Tomás,Caneros de los Mochis,False,0.745,16,2024-10-31
+681909,Justin Dean,Caneros de los Mochis,False,0.671,17,2024-10-31
+802580,Roberto Castro,Caneros de los Mochis,False,0.0,2,2024-10-31
+668616,Marco Jaime,Caneros de los Mochis,False,0.859,17,2024-10-31
+616613,Rodolfo Amador,Caneros de los Mochis,False,0.677,16,2024-10-31
+654118,Eric Meza,Caneros de los Mochis,False,0.625,5,2024-10-31
+703060,Alejandro Urias,Caneros de los Mochis,False,0.931,9,2024-10-31
+554031,Jose Manuel Orozco,Sultanes de Monterrey,True,0.442,10,2024-10-31
+811361,Joel Flores,Sultanes de Monterrey,True,0.384,8,2024-10-31
+500869,Emmanuel Avila,Sultanes de Monterrey,True,0.588,15,2024-10-31
+680643,Juan Mora,Sultanes de Monterrey,True,0.0,4,2024-10-31
+661311,Brandon Villarreal,Sultanes de Monterrey,True,0.589,16,2024-10-31
+659253,Aldo Flores,Sultanes de Monterrey,True,0.0,1,2024-10-31
+697779,Jose Robledo,Sultanes de Monterrey,True,0.0,6,2024-10-31
+640460,Dustin Peterson,Sultanes de Monterrey,True,0.689,16,2024-10-31
+616570,Daniel Sanchez,Sultanes de Monterrey,True,0.764,7,2024-10-31
+666177,Carter Aldrete,Sultanes de Monterrey,True,0.551,17,2024-10-31
+661148,Carlos Sepulveda,Sultanes de Monterrey,True,0.85,17,2024-10-31
+661541,Donovan Casey,Sultanes de Monterrey,True,0.8,3,2024-10-31
+594020,Ricardo Valenzuela,Sultanes de Monterrey,True,0.698,15,2024-10-31
+656252,Bobby Bradley,Sultanes de Monterrey,True,0.496,13,2024-10-31
+673374,Cesar Mendoza,Sultanes de Monterrey,True,0.741,15,2024-10-31
 540204,Ramon Rios,Tomateros de Culiacan,False,0.519,8,2024-10-23
 652999,Jesus Fabela,Tomateros de Culiacan,False,0.381,8,2024-10-23
 695000,Poncho Ruiz,Tomateros de Culiacan,False,0.8,5,2024-10-23
@@ -932,6 +993,37 @@ PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
 546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.276,5,2024-10-20
 803376,Angel Camacho,Naranjeros de Hermosillo,True,0.714,7,2024-10-20
 676761,Irving Lopez,Naranjeros de Hermosillo,True,0.511,6,2024-10-20
+614182,Jose Carlos Urena,Yaquis de Obregon,False,0.94,10,2024-10-31
+622700,Santiago Chávez,Yaquis de Obregon,False,0.453,15,2024-10-31
+680029,Oziel Flores,Yaquis de Obregon,False,0.0,7,2024-10-31
+660620,Jonathan Araúz,Yaquis de Obregon,False,0.619,17,2024-10-31
+642707,Allen Córdoba,Yaquis de Obregon,False,0.677,17,2024-10-31
+607752,Sam Travis,Yaquis de Obregon,False,0.265,4,2024-10-31
+616404,Edson Garcia,Yaquis de Obregon,False,0.353,14,2024-10-31
+692944,Kevin Villavicencio,Yaquis de Obregon,False,0.509,16,2024-10-31
+679589,Fernando Villegas,Yaquis de Obregon,False,0.742,17,2024-10-31
+672438,Roberto Valenzuela,Yaquis de Obregon,False,0.675,17,2024-10-31
+603877,Fernando Flores,Yaquis de Obregon,False,0.377,10,2024-10-31
+628013,Victor Mendoza,Yaquis de Obregon,False,0.677,17,2024-10-31
+802888,Victor Marquez,Yaquis de Obregon,False,0.0,4,2024-10-31
+571685,Anthony García,Yaquis de Obregon,False,0.946,17,2024-10-31
+468368,Gabriel Gutierrez,Yaquis de Obregon,False,0.143,6,2024-10-31
+473242,Agustin Murillo,Naranjeros de Hermosillo,True,0.742,15,2024-10-31
+678706,Reivaj Garcia,Naranjeros de Hermosillo,True,0.625,12,2024-10-31
+657051,Nicholas Torres,Naranjeros de Hermosillo,True,0.6,14,2024-10-31
+510612,Francisco Cordoba,Naranjeros de Hermosillo,True,0.5,1,2024-10-31
+606580,Jose Cardona,Naranjeros de Hermosillo,True,0.724,7,2024-10-31
+662962,Jasson Atondo,Naranjeros de Hermosillo,True,1.001,12,2024-10-31
+571531,Sergio Burruel,Naranjeros de Hermosillo,True,0.954,10,2024-10-31
+524648,Alejandro Gonzalez,Naranjeros de Hermosillo,True,0.4,3,2024-10-31
+807587,Angel Ramirez,Naranjeros de Hermosillo,True,0.301,13,2024-10-31
+672478,Jordan Diaz,Naranjeros de Hermosillo,True,0.612,15,2024-10-31
+641432,Willie Calhoun,Naranjeros de Hermosillo,True,0.571,17,2024-10-31
+815734,Dylan Jasso,Naranjeros de Hermosillo,True,0.545,8,2024-10-31
+680023,Daniel Mercado,Naranjeros de Hermosillo,True,5.0,2,2024-10-31
+546366,Francisco Lugo,Naranjeros de Hermosillo,True,0.24,11,2024-10-31
+803376,Angel Camacho,Naranjeros de Hermosillo,True,0.554,17,2024-10-31
+676761,Irving Lopez,Naranjeros de Hermosillo,True,0.661,15,2024-10-31
 664021,Ciro Norzagaray,Mayos de Navojoa,False,0.0,4,2024-10-22
 458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.819,6,2024-10-22
 661313,Asael Sanchez,Mayos de Navojoa,False,0.872,8,2024-10-22
@@ -1325,6 +1417,36 @@ PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
 664009,Brantley Bell,Mayos de Navojoa,True,0.558,6,2024-10-19
 678966,Mike Hart,Mayos de Navojoa,True,0.41,6,2024-10-19
 672361,Agustin Ruiz,Mayos de Navojoa,True,0.488,6,2024-10-19
+701033,Jorge Rivera,Algodoneros de Guasave,False,0.334,3,2024-10-31
+807581,Randy Delgado,Algodoneros de Guasave,False,0.364,8,2024-10-31
+674504,Francisco Hernandez,Algodoneros de Guasave,False,0.385,7,2024-10-31
+687045,Justin Wylie,Algodoneros de Guasave,False,0.696,16,2024-10-31
+674706,Alan Lopez,Algodoneros de Guasave,False,0.666,7,2024-10-31
+669315,Orlando Pina,Algodoneros de Guasave,False,1.357,5,2024-10-31
+660436,Yadir Drake,Algodoneros de Guasave,False,0.915,17,2024-10-31
+656029,Alexis Wilson,Algodoneros de Guasave,False,0.812,13,2024-10-31
+657733,Roberto Ramos,Algodoneros de Guasave,False,0.708,17,2024-10-31
+477399,Jesse Castillo,Algodoneros de Guasave,False,0.844,16,2024-10-31
+700032,Victor Labrada,Algodoneros de Guasave,False,0.689,11,2024-10-31
+652669,Angel Erro,Algodoneros de Guasave,False,0.651,15,2024-10-31
+592312,Jorge Flores,Algodoneros de Guasave,False,0.695,17,2024-10-31
+685694,Keven Lamas,Algodoneros de Guasave,False,0.523,10,2024-10-31
+604996,Carlos Garzon,Algodoneros de Guasave,False,0.333,1,2024-10-31
+682183,Drew Avans,Algodoneros de Guasave,False,0.706,16,2024-10-31
+453575,Jose Guadalupe Chavez,Charros de Jalisco,True,0.422,12,2024-10-31
+570799,Christian Villanueva,Charros de Jalisco,True,0.443,11,2024-10-31
+641104,Carlos Mendivil,Charros de Jalisco,True,0.912,6,2024-10-31
+681933,Michael Wielansky,Charros de Jalisco,True,0.895,17,2024-10-31
+515189,Japhet Amador,Charros de Jalisco,True,0.48,15,2024-10-31
+680771,Mateo Gil,Charros de Jalisco,True,1.0,4,2024-10-31
+806157,Christian Morales,Charros de Jalisco,True,3.0,2,2024-10-31
+672359,Tirso Ornelas,Charros de Jalisco,True,1.115,3,2024-10-31
+685771,Alfredo Hurtado,Charros de Jalisco,True,0.792,13,2024-10-31
+676140,Julian Ornelas,Charros de Jalisco,True,0.721,17,2024-10-31
+571740,Billy Hamilton,Charros de Jalisco,True,0.75,17,2024-10-31
+593495,Daniel Castro,Charros de Jalisco,True,0.182,5,2024-10-31
+591572,Jose Aguilar,Charros de Jalisco,True,0.774,13,2024-10-31
+471906,Reynaldo Rodriguez,Charros de Jalisco,True,0.859,17,2024-10-31
 701033,Jorge Rivera,Algodoneros de Guasave,False,0.334,3,2024-10-30
 807581,Randy Delgado,Algodoneros de Guasave,False,0.5,7,2024-10-30
 674504,Francisco Hernandez,Algodoneros de Guasave,False,0.385,7,2024-10-30
@@ -1989,6 +2111,36 @@ PlayerID,FullName,Team,Home,OPS,GamesPlayed,Date
 592144,Wynton Bernard,Aguilas de Mexicali,True,0.515,13,2024-10-30
 511428,Leo Heras,Aguilas de Mexicali,True,1.193,9,2024-10-30
 650995,Norberto Obeso,Aguilas de Mexicali,True,0.631,15,2024-10-30
+664021,Ciro Norzagaray,Mayos de Navojoa,False,0.5,8,2024-10-31
+458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.856,14,2024-10-31
+661313,Asael Sanchez,Mayos de Navojoa,False,0.701,16,2024-10-31
+617918,Marco Chicuate,Mayos de Navojoa,False,0.895,8,2024-10-31
+550492,Luis Juarez,Mayos de Navojoa,False,0.554,17,2024-10-31
+694942,Matt McDermott,Mayos de Navojoa,False,0.71,17,2024-10-31
+668992,Missael Rivera,Mayos de Navojoa,False,0.511,14,2024-10-31
+680636,Ramon Mendoza,Mayos de Navojoa,False,0.246,8,2024-10-31
+634739,Miguel Guzman,Mayos de Navojoa,False,0.575,12,2024-10-31
+686659,Julian Escobedo,Mayos de Navojoa,False,0.596,17,2024-10-31
+547375,Sergio Perez,Mayos de Navojoa,False,1.333,9,2024-10-31
+660842,Juan Uriarte,Mayos de Navojoa,False,0.494,14,2024-10-31
+664009,Brantley Bell,Mayos de Navojoa,False,0.645,13,2024-10-31
+672361,Agustin Ruiz,Mayos de Navojoa,False,0.649,16,2024-10-31
+624645,Julian Leon,Aguilas de Mexicali,True,0.531,13,2024-10-31
+668843,Conner Capel,Aguilas de Mexicali,True,0.72,16,2024-10-31
+687867,Clay Dungan,Aguilas de Mexicali,True,0.742,17,2024-10-31
+642299,Alejandro Flores,Aguilas de Mexicali,True,0.176,7,2024-10-31
+606143,Alejandro Mejia,Aguilas de Mexicali,True,0.698,16,2024-10-31
+605011,Moises Gutierrez,Aguilas de Mexicali,True,0.777,13,2024-10-31
+510548,Jose Heberto Felix,Aguilas de Mexicali,True,0.311,10,2024-10-31
+616569,Diego Madero,Aguilas de Mexicali,True,0.0,1,2024-10-31
+655212,Manuel Orduno,Aguilas de Mexicali,True,0.0,3,2024-10-31
+680716,Jonathan Ornelas,Aguilas de Mexicali,True,0.214,4,2024-10-31
+622270,Alex D. Mejia,Aguilas de Mexicali,True,0.677,17,2024-10-31
+665745,Javier Salazar,Aguilas de Mexicali,True,0.536,15,2024-10-31
+676021,Luis Santos,Aguilas de Mexicali,True,0.666,9,2024-10-31
+592144,Wynton Bernard,Aguilas de Mexicali,True,0.514,14,2024-10-31
+511428,Leo Heras,Aguilas de Mexicali,True,1.193,9,2024-10-31
+650995,Norberto Obeso,Aguilas de Mexicali,True,0.622,16,2024-10-31
 664021,Ciro Norzagaray,Mayos de Navojoa,False,0.5,8,2024-10-29
 458501,Luis Alfonso Cruz,Mayos de Navojoa,False,0.931,12,2024-10-29
 661313,Asael Sanchez,Mayos de Navojoa,False,0.775,14,2024-10-29
