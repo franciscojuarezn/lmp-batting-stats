@@ -248,7 +248,7 @@ if view_selection == "Players":
     # Filter for 2024 season data
     with col4:
         player_ops_data_2024 = filter_2024_season_data(selected_batter, batters_df)  # Filter data for the selected player in 2024
-        league_avg_ops = 0.672  # Replace with the actual calculated league average OPS
+        league_avg_ops = 0.675  # Replace with the actual calculated league average OPS
         plot_player_ops_styled_2024(selected_batter, player_ops_data_2024, league_avg_ops)
 
     with col3:
@@ -267,7 +267,7 @@ if view_selection == "Players":
     standard_stats.loc[:, 'season'] = standard_stats['season'].astype(int)
 
     # Select specific columns and order for standard stats
-    standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R','TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
+    standard_columns = ['season', 'Name', 'team', 'POS', 'G', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R','TB', 'HBP', 'GIDP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS']
     standard_stats_filtered = standard_stats[standard_columns].copy()
 
     # Sort by season in descending order and by team
@@ -447,7 +447,7 @@ elif view_selection == "Teams":
 
     # Team-Level Stats Dashboard for Standard and Advanced Stats
     st.subheader("Team Standard Stats", divider='gray')
-    standard_columns = ['team', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R', 'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS','1B', 'G', 'season', 'BABIP']
+    standard_columns = ['team', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R', 'TB', 'HBP', 'GIDP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS','1B', 'G', 'season', 'BABIP']
     team_standard_formatted = team_data_std[standard_columns].drop(columns=['season', 'G', '1B', 'BABIP']).style.format({
         'AVG': '{:.3f}',
         'OBP': '{:.3f}',
@@ -499,7 +499,7 @@ elif view_selection == "Teams":
     ops_teams = ops_teams.sort_values(by=['team', 'Date'])
 
     # Calculate league average OPS if needed
-    lgAvgOPS = .672  # Replace with actual league average if provided
+    lgAvgOPS = .675  # Replace with actual league average if provided
 
     # Create the plot using Plotly Express
     fig = px.line(ops_teams, x='Date', y='OPS', color='team', color_discrete_map=team_color_map,
@@ -589,7 +589,7 @@ elif view_selection == "Leaderboard":
     # List of columns to display (excluding 'season' for the final display)
     display_columns = [
         'Name', 'team', 'G', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R',
-        'TB', 'HBP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS', 'K%', 'BB%', 'BABIP'
+        'TB', 'HBP', 'GIDP','SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS', 'K%', 'BB%', 'BABIP'
     ]
 
     # Set up Streamlit layout
