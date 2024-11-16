@@ -571,7 +571,7 @@ elif view_selection == "Leaderboard":
     merged_df = pd.merge(
         standard_stats_df,
         advanced_stats_df,
-        on=['player_id', 'season'],
+        on=['player_id', 'season', 'team'],
         how='outer',
         suffixes=('', '_adv')
     )
