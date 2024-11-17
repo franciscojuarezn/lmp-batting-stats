@@ -48,71 +48,28 @@ def load_headshots():
     conn.close()
     return headshots_df
 
-# Load team data
-team_data_std = pd.read_csv('team_data_std.csv')
-team_data_adv = pd.read_csv('team_data_adv.csv')
+@st.cache_data
+def load_averages():
+    averages_files = glob.glob(os.path.join('stats_data', 'league_avg_*.csv'))
+    average_df_list = [pd.read_csv(file) for file in averages_files]
+    return pd.concat(average_df_list, ignore_index=True)
 
-# --- Calculate League Averages ---
-# Aggregate data for standard stats
-total_hits = team_data_std['H'].sum()
-total_walks = team_data_std['BB'].sum()
-total_hbp = team_data_std['HBP'].sum()
-total_ab = team_data_std['AB'].sum()
-total_sf = team_data_std['SF'].sum()
-total_pa = team_data_std['PA'].sum()
-total_hr = team_data_std['HR'].sum()
-total_2b = team_data_std['2B'].sum()
-total_3b = team_data_std['3B'].sum()
-total_k = team_data_std['K'].sum()
+@st.cache_data
+def load_std_team_stats():
+    team_std_files = glob.glob(os.path.join('stats_data', 'team_data_std_*.csv'))
+    team_std_df_list = [pd.read_csv(file) for file in team_std_files]
+    return pd.concat(team_std_df_list, ignore_index=True)
 
-# Standard Stats Calculations
-league_avg = round(total_hits / total_ab, 3)
-league_obp = round((total_hits + total_walks + total_hbp) / (total_ab + total_walks + total_hbp + total_sf), 3)
-league_slg = round((total_hits - total_2b - total_3b - total_hr + (total_2b * 2) + (total_3b * 3) + (total_hr * 4)) / total_ab, 3)
-league_ops = round(league_obp + league_slg, 3)
-league_babip = round((total_hits - total_hr) / (total_ab - total_k - total_hr + total_sf), 3)
+@st.cache_data
+def load_adv_team_stats():
+    team_adv_files = glob.glob(os.path.join('stats_data', 'team_data_adv_*.csv'))
+    team_adv_df_list = [pd.read_csv(file) for file in team_adv_files]
+    return pd.concat(team_adv_df_list, ignore_index=True)
 
-# Aggregate data for advanced stats
-total_swing_misses = team_data_adv['swingAndMisses'].sum()
-total_pitches = team_data_adv['numP'].sum()
-total_swings = team_data_adv['totalSwings'].sum()
-total_fb = team_data_adv['FO'].sum() + team_data_adv['flyHits'].sum()
-total_bip = team_data_adv['BIP'].sum()
-total_gb = team_data_adv['GO'].sum() + team_data_adv['groundHits'].sum()
-total_ld = team_data_adv['lineOuts'].sum() + team_data_adv['lineHits'].sum()
-total_pop_up = team_data_adv['popOuts'].sum() + team_data_adv['popHits'].sum()
-total_hr_fb = team_data_adv['HR'].sum()
 
-# Advanced Stats Calculations
-league_k_percent = round((total_k / total_pa) * 100, 1)
-league_bb_percent = round((total_walks / total_pa) * 100, 1)
-league_bb_k = round(total_walks / total_k, 3)
-league_swstr_percent = round((total_swing_misses / total_pitches) * 100, 1)
-league_whiff_percent = round((total_swing_misses / total_swings) * 100, 1)
-league_fb_percent = round((total_fb / total_bip) * 100, 1)
-league_gb_percent = round((total_gb / total_bip) * 100, 1)
-league_ld_percent = round((total_ld / total_bip) * 100, 1)
-league_popup_percent = round((total_pop_up / total_bip) * 100, 1)
-league_hr_fb_percent = round((total_hr_fb / total_fb) * 100, 1)
-
-# Combined League Averages DataFrame
-league_averages = pd.DataFrame({
-    'AVG': [league_avg],
-    'OBP': [league_obp],
-    'SLG': [league_slg],
-    'OPS': [league_ops],
-    'BABIP': [league_babip],
-    'K%': [league_k_percent],
-    'BB%': [league_bb_percent],
-    'BB/K': [league_bb_k],
-    'SwStr%': [league_swstr_percent],
-    'Whiff%': [league_whiff_percent],
-    'FB%': [league_fb_percent],
-    'GB%': [league_gb_percent],
-    'LD%': [league_ld_percent],
-    'PopUp%': [league_popup_percent],
-    'HR/FB%': [league_hr_fb_percent]
-})
+# # Load team data
+# team_data_std = pd.read_csv('team_data_std.csv')
+# team_data_adv = pd.read_csv('team_data_adv.csv')
 
 
 # Toggle for selecting Players or Teams view
@@ -297,7 +254,7 @@ if view_selection == "Players":
     advanced_stats.loc[:, 'season'] = advanced_stats['season'].astype(int)
 
     # Select specific columns and order for advanced stats
-    advanced_columns = ['season', 'Name', 'team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
+    advanced_columns = ['season', 'Name', 'team', 'wOBA', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'HR/FB%', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%']
     advanced_stats_filtered = advanced_stats[advanced_columns].copy()
 
     # Sort by season in descending order and by team
@@ -320,7 +277,8 @@ if view_selection == "Players":
         'FB%': '{:.1f}',
         'GB%': '{:.1f}',
         'LD%': '{:.1f}',
-        'PopUp%': '{:.1f}'
+        'PopUp%': '{:.1f}',
+        'wOBA': '{:.3f}'
     }).apply(highlight_two_teams, axis=1)
 
     # Display Advanced Stats table
@@ -421,13 +379,49 @@ if view_selection == "Players":
 
 elif view_selection == "Teams":
     # Teams view for League Averages and Team Stats Dashboard
+    league_avg_df = load_averages()
+    team_std_df = load_std_team_stats()
+    team_adv_df = load_adv_team_stats()
+    
     # st.markdown("<h1>League & Teams</h1>", unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center;'>League & Teams</h1>", unsafe_allow_html=True)
-
     
+    col1, col2, col3, col4 = st.columns([1,1,1,1])
+
+    available_years_teams = league_avg_df['season'].unique()
+    with col1:
+        selected_year = st.selectbox("Year", sorted(available_years_teams, reverse=True))
+
     # Display Combined League Averages
     st.subheader("League Averages", divider='gray')
-    st.dataframe(league_averages, use_container_width=True, hide_index=True)
+
+    league_columns = ['AVG', 'OBP', 'SLG', 'OPS', 'wOBA', 'BABIP', 'K%', 'BB%', 'BB/K', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%', 'HR/FB%']
+
+    filtered_league = league_avg_df[league_avg_df['season'] == selected_year]
+
+    league_formatted = filtered_league[league_columns].style.format({
+        'AVG': '{:.3f}',
+        'OBP': '{:.3f}',
+        'SLG': '{:.3f}',
+        'OPS': '{:.3f}',
+        'BABIP': '{:.3f}',
+        'K%': '{:.1f}',
+        'BB%': '{:.1f}',
+        'HR/PA': '{:.3f}',
+        'BB/K': '{:.3f}',
+        'HR/FB%': '{:.1f}',
+        'SwStr%': '{:.1f}',
+        'Whiff%': '{:.1f}',
+        'FB%': '{:.1f}',
+        'GB%': '{:.1f}',
+        'LD%': '{:.1f}',
+        'PopUp%': '{:.1f}',
+        'wOBA': '{:.3f}'       
+
+    })
+
+    st.dataframe(league_formatted, use_container_width=True, hide_index=True)
+
     team_abbreviations = {
     'MXC': 'Aguilas de Mexicali',
     'JAL': 'Charros de Jalisco',
@@ -442,13 +436,14 @@ elif view_selection == "Teams":
 }
 
     # Replace team abbreviations with full team names in both DataFrames
-    team_data_std['team'] = team_data_std['team'].replace(team_abbreviations)
-    team_data_adv['team'] = team_data_adv['team'].replace(team_abbreviations)
+    team_std_df['team'] = team_std_df['team'].replace(team_abbreviations)
+    team_adv_df['team'] = team_adv_df['team'].replace(team_abbreviations)
 
     # Team-Level Stats Dashboard for Standard and Advanced Stats
     st.subheader("Team Standard Stats", divider='gray')
     standard_columns = ['team', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R', 'TB', 'HBP', 'GIDP', 'SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS','1B', 'G', 'season', 'BABIP']
-    team_standard_formatted = team_data_std[standard_columns].drop(columns=['season', 'G', '1B', 'BABIP']).style.format({
+    filtered_std_teams = team_std_df[team_std_df['season'] == selected_year]
+    team_standard_formatted = filtered_std_teams[standard_columns].drop(columns=['season', 'G', '1B', 'BABIP']).style.format({
         'AVG': '{:.3f}',
         'OBP': '{:.3f}',
         'SLG': '{:.3f}',
@@ -457,8 +452,9 @@ elif view_selection == "Teams":
     st.dataframe(team_standard_formatted, use_container_width=True, hide_index=True)
 
     st.subheader("Team Advanced Stats", divider='gray')
-    advanced_columns = ['team', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%', 'HR/FB%']
-    team_advanced_formatted = team_data_adv[advanced_columns].style.format({
+    advanced_columns = ['team', 'wOBA', 'BABIP', 'K%', 'BB%', 'HR/PA', 'BB/K', 'SwStr%', 'Whiff%', 'FB%', 'GB%', 'LD%', 'PopUp%', 'HR/FB%']
+    filtered_adv_teams = team_adv_df[team_adv_df['season'] == selected_year]
+    team_advanced_formatted = filtered_adv_teams[advanced_columns].style.format({
         'BABIP': '{:.3f}',
         'K%': '{:.1f}',
         'BB%': '{:.1f}',
@@ -470,85 +466,87 @@ elif view_selection == "Teams":
         'FB%': '{:.1f}',
         'GB%': '{:.1f}',
         'LD%': '{:.1f}',
-        'PopUp%': '{:.1f}'
+        'PopUp%': '{:.1f}',
+        'wOBA': '{:.3f}'
     })
     st.dataframe(team_advanced_formatted, use_container_width=True, hide_index=True)
 
-    import matplotlib.dates as mdates
+    if selected_year == 2024:
+        import matplotlib.dates as mdates
 
-    # Load the OPS data for teams
-    ops_teams = pd.read_csv('ops_teams.csv').rename(columns={'date':'Date', 'team_name':'team','ops':'OPS'})
+        # Load the OPS data for teams
+        ops_teams = pd.read_csv('ops_teams.csv').rename(columns={'date':'Date', 'team_name':'team','ops':'OPS'})
 
-    # Define team colors
-    team_color_map = {
-        'MXC': '#19255b',
-        'HER': '#fc8708',
-        'OBR': '#134489',
-        'NAV': '#fcef04',
-        'CUL': '#701d45',
-        'MAZ': '#ea0a2a',
-        'JAL': '#b99823',
-        'MTY': '#1f2344',
-        'MOC': '#10964c',
-        'GSV': '#85a8e2'
-    }
+        # Define team colors
+        team_color_map = {
+            'MXC': '#19255b',
+            'HER': '#fc8708',
+            'OBR': '#134489',
+            'NAV': '#fcef04',
+            'CUL': '#701d45',
+            'MAZ': '#ea0a2a',
+            'JAL': '#b99823',
+            'MTY': '#1f2344',
+            'MOC': '#10964c',
+            'GSV': '#85a8e2'
+        }
 
-    # Convert the 'Date' column to datetime format for proper plotting
-    ops_teams['Date'] = pd.to_datetime(ops_teams['Date'])
+        # Convert the 'Date' column to datetime format for proper plotting
+        ops_teams['Date'] = pd.to_datetime(ops_teams['Date'])
 
-    ops_teams = ops_teams.sort_values(by=['team', 'Date'])
+        ops_teams = ops_teams.sort_values(by=['team', 'Date'])
 
-    # Calculate league average OPS if needed
-    lgAvgOPS = .676  # Replace with actual league average if provided
+        # Calculate league average OPS if needed
+        lgAvgOPS = .676  # Replace with actual league average if provided
 
-    # Create the plot using Plotly Express
-    fig = px.line(ops_teams, x='Date', y='OPS', color='team', color_discrete_map=team_color_map,
-                line_shape='spline', labels={'OPS': 'OPS', 'Date': 'Fecha'}, title="Rolling OPS por equipo")
+        # Create the plot using Plotly Express
+        fig = px.line(ops_teams, x='Date', y='OPS', color='team', color_discrete_map=team_color_map,
+                    line_shape='spline', labels={'OPS': 'OPS', 'Date': 'Fecha'}, title="Rolling OPS por equipo")
 
-    # Modify the hover mode to show all values on vertical line
-    fig.update_traces(mode='lines+markers')  # Shows points on the line
-    # fig.update_layout(hovermode='x unified')
-    plot_bgcolor='lightgray',  # Set plot area background color to gray
-    paper_bgcolor='lightgray',
-
-    # Customize the layout for better readability and aspect ratio
-    fig.update_layout(
-        width=1700,
-        height=800,
+        # Modify the hover mode to show all values on vertical line
+        fig.update_traces(mode='lines+markers')  # Shows points on the line
+        # fig.update_layout(hovermode='x unified')
         plot_bgcolor='lightgray',  # Set plot area background color to gray
-        paper_bgcolor='lightgray',  # Set the overall background color to gray
-        font=dict(color='black'),
-        legend=dict(
-            title=dict(text='Equipos', font=dict(size=14, color='black')),
-            font=dict(size=12, color='black'),
-            yanchor="bottom",
-            y=0.01,
-            xanchor="left",
-            x=0.95
-        ),
-        title=dict(font=dict(size=18, color='black')),
-        yaxis_title='OPS',
-        yaxis_tickformat='.3f'
-    )
+        paper_bgcolor='lightgray',
 
-    # Add the league average line
-    fig.add_hline(y=lgAvgOPS, line_dash="dash",
-                annotation_text="OPS promedio de la Liga",
-                annotation_position="bottom right",
-                annotation_font_size=12, 
-                annotation_font_color = 'black')
+        # Customize the layout for better readability and aspect ratio
+        fig.update_layout(
+            width=1700,
+            height=800,
+            plot_bgcolor='lightgray',  # Set plot area background color to gray
+            paper_bgcolor='lightgray',  # Set the overall background color to gray
+            font=dict(color='black'),
+            legend=dict(
+                title=dict(text='Equipos', font=dict(size=14, color='black')),
+                font=dict(size=12, color='black'),
+                yanchor="bottom",
+                y=0.01,
+                xanchor="left",
+                x=0.95
+            ),
+            title=dict(font=dict(size=18, color='black')),
+            yaxis_title='OPS',
+            yaxis_tickformat='.3f'
+        )
 
-    # Improve the y-axis readability and range
-    fig.update_yaxes(tickformat='.3f', title_font=dict(size=14, color='black'), tickfont=dict(color='black'), range=[ops_teams['OPS'].min() - 0.05, ops_teams['OPS'].max() + 0.05])
-    fig.update_xaxes(title_font=dict(size=14, color='black'), tickfont=dict(color='black'), showgrid=False, gridwidth=1, gridcolor='white')
+        # Add the league average line
+        fig.add_hline(y=lgAvgOPS, line_dash="dash",
+                    annotation_text="OPS promedio de la Liga",
+                    annotation_position="bottom right",
+                    annotation_font_size=12, 
+                    annotation_font_color = 'black')
+
+        # Improve the y-axis readability and range
+        fig.update_yaxes(tickformat='.3f', title_font=dict(size=14, color='black'), tickfont=dict(color='black'), range=[ops_teams['OPS'].min() - 0.05, ops_teams['OPS'].max() + 0.05])
+        fig.update_xaxes(title_font=dict(size=14, color='black'), tickfont=dict(color='black'), showgrid=False, gridwidth=1, gridcolor='white')
 
 
-    # Soften the gridlines
-    # fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='black')
-    fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='black')
+        # Soften the gridlines
+        # fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='black')
+        fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='black')
 
-    # Display the plot in Streamlit
-    st.plotly_chart(fig)
+        # Display the plot in Streamlit
+        st.plotly_chart(fig)
 
 elif view_selection == "Leaderboard":
     @st.cache_data
@@ -589,7 +587,7 @@ elif view_selection == "Leaderboard":
     # List of columns to display (excluding 'season' for the final display)
     display_columns = [
         'Name', 'team', 'G', 'PA', 'AB', 'H', 'RBI', 'SB', '2B', '3B', 'HR', 'R',
-        'TB', 'HBP', 'GIDP','SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS', 'K%', 'BB%', 'BABIP'
+        'TB', 'HBP', 'GIDP','SF', 'K', 'BB', 'IBB', 'AVG', 'OBP', 'SLG', 'OPS', 'wOBA', 'K%', 'BB%', 'BABIP'
     ]
 
     # Set up Streamlit layout
@@ -634,7 +632,8 @@ elif view_selection == "Leaderboard":
         'OPS': '{:.3f}',
         'BABIP': '{:.3f}',
         'K%': '{:.1f}',
-        'BB%': '{:.1f}'
+        'BB%': '{:.1f}',
+        'wOBA': '{:.3f}'
     }
     filtered_df = filtered_df.style.format(format_dict)
 
