@@ -205,7 +205,7 @@ if view_selection == "Players":
     # Filter for 2024 season data
     with col4:
         player_ops_data_2024 = filter_2024_season_data(selected_batter, batters_df)  # Filter data for the selected player in 2024
-        league_avg_ops = 0.673  # Replace with the actual calculated league average OPS
+        league_avg_ops = 0.675  # Replace with the actual calculated league average OPS
         plot_player_ops_styled_2024(selected_batter, player_ops_data_2024, league_avg_ops)
 
     with col3:
@@ -497,7 +497,7 @@ elif view_selection == "Teams":
         ops_teams = ops_teams.sort_values(by=['team', 'Date'])
 
         # Calculate league average OPS if needed
-        lgAvgOPS = .673  # Replace with actual league average if provided
+        lgAvgOPS = .675  # Replace with actual league average if provided
 
         # Create the plot using Plotly Express
         fig = px.line(ops_teams, x='Date', y='OPS', color='team', color_discrete_map=team_color_map,
